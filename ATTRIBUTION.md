@@ -313,7 +313,7 @@ The `texturecraft.tsv` catalogs for ar, de, es, fr, it, ja, ko, pt-br and zh-han
 
 ## AniCraft stereo-stage partial catalogs
 
-The three stereo-stage view strings in `locales/{pl,pt-br,fr,de,es,ja,ko,zh-hans,zh-hant}/anicraft.tsv` were written from their English meaning by Daniel Campos Ramos with GPT-6 via Codex assistance (2026-11-12), under MIT OR Apache-2.0.
+The seven stereo-stage view strings in `locales/{pl,pt-br,fr,de,es,ja,ko,zh-hans,zh-hant}/anicraft.tsv` were written from their English meaning by Daniel Campos Ramos with GPT-6 via Codex assistance (2026-11-12), under MIT OR Apache-2.0.
 No other product's translations were consulted or copied.
 Native-speaker review has not been performed.
 These are new, partial AniCraft catalogs, not migrations of another app's catalog.

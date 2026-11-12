@@ -7,3 +7,7 @@
 	Stereo View	Vue stéréoscopique
 	Stereo depth is unavailable on this desktop; showing the flat stage.	La profondeur stéréoscopique est indisponible sur ce bureau ; la scène est affichée à plat.
 	Could not show the stereo view: {error}	Impossible d’afficher la vue stéréoscopique : {error}
+	The stereo view supports at most {pixels} stage pixels; reduce the stage dimensions.	La vue stéréoscopique prend en charge au plus {pixels} pixels de scène ; réduisez les dimensions de la scène.
+	The compositor returned invalid depth limits.	Le compositeur a renvoyé des limites de profondeur invalides.
+	The stereo views have invalid dimensions.	Les vues stéréoscopiques ont des dimensions invalides.
+	The stereo views do not match the requested frame and native size.	Les vues stéréoscopiques ne correspondent pas à l’image et à la taille native demandées.

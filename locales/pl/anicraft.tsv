@@ -7,3 +7,7 @@
 	Stereo View	Widok stereoskopowy
 	Stereo depth is unavailable on this desktop; showing the flat stage.	Głębia stereoskopowa jest niedostępna w tym środowisku graficznym; scena jest wyświetlana płasko.
 	Could not show the stereo view: {error}	Nie można wyświetlić widoku stereoskopowego: {error}
+	The stereo view supports at most {pixels} stage pixels; reduce the stage dimensions.	Widok stereoskopowy obsługuje maksymalnie {pixels} pikseli sceny; zmniejsz jej wymiary.
+	The compositor returned invalid depth limits.	Kompozytor zwrócił nieprawidłowe limity głębi.
+	The stereo views have invalid dimensions.	Widoki stereoskopowe mają nieprawidłowe wymiary.
+	The stereo views do not match the requested frame and native size.	Widoki stereoskopowe nie odpowiadają żądanej klatce i rozmiarowi natywnemu.

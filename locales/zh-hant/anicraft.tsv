@@ -7,3 +7,7 @@
 	Stereo View	立體檢視
 	Stereo depth is unavailable on this desktop; showing the flat stage.	此桌面不支援立體景深；舞台將以平面形式顯示。
 	Could not show the stereo view: {error}	無法顯示立體檢視：{error}
+	The stereo view supports at most {pixels} stage pixels; reduce the stage dimensions.	立體檢視最多支援 {pixels} 個舞台像素；請縮小舞台尺寸。
+	The compositor returned invalid depth limits.	合成器傳回了無效的深度限制。
+	The stereo views have invalid dimensions.	立體檢視的尺寸無效。
+	The stereo views do not match the requested frame and native size.	立體檢視與要求的影格和原始尺寸不符。

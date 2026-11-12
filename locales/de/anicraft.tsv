@@ -7,3 +7,7 @@
 	Stereo View	Stereoansicht
 	Stereo depth is unavailable on this desktop; showing the flat stage.	Auf diesem Desktop ist keine Stereotiefe verfügbar; die Bühne wird flach angezeigt.
 	Could not show the stereo view: {error}	Die Stereoansicht konnte nicht angezeigt werden: {error}
+	The stereo view supports at most {pixels} stage pixels; reduce the stage dimensions.	Die Stereoansicht unterstützt höchstens {pixels} Bühnenpixel; verkleinern Sie die Bühne.
+	The compositor returned invalid depth limits.	Der Compositor hat ungültige Tiefengrenzen zurückgegeben.
+	The stereo views have invalid dimensions.	Die Stereoansichten haben ungültige Abmessungen.
+	The stereo views do not match the requested frame and native size.	Die Stereoansichten entsprechen nicht dem angeforderten Bild und der nativen Größe.

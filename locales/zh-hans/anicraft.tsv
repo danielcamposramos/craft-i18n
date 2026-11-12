@@ -7,3 +7,7 @@
 	Stereo View	立体视图
 	Stereo depth is unavailable on this desktop; showing the flat stage.	此桌面不支持立体景深；舞台将以平面形式显示。
 	Could not show the stereo view: {error}	无法显示立体视图：{error}
+	The stereo view supports at most {pixels} stage pixels; reduce the stage dimensions.	立体视图最多支持 {pixels} 个舞台像素；请减小舞台尺寸。
+	The compositor returned invalid depth limits.	合成器返回了无效的深度限制。
+	The stereo views have invalid dimensions.	立体视图的尺寸无效。
+	The stereo views do not match the requested frame and native size.	立体视图与请求的帧和原始尺寸不匹配。

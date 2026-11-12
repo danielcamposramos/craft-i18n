@@ -7,3 +7,7 @@
 	Stereo View	Vista estereoscópica
 	Stereo depth is unavailable on this desktop; showing the flat stage.	La profundidad estereoscópica no está disponible en este escritorio; se muestra el escenario plano.
 	Could not show the stereo view: {error}	No se pudo mostrar la vista estereoscópica: {error}
+	The stereo view supports at most {pixels} stage pixels; reduce the stage dimensions.	La vista estereoscópica admite como máximo {pixels} píxeles en el escenario; reduzca sus dimensiones.
+	The compositor returned invalid depth limits.	El compositor devolvió límites de profundidad no válidos.
+	The stereo views have invalid dimensions.	Las vistas estereoscópicas tienen dimensiones no válidas.
+	The stereo views do not match the requested frame and native size.	Las vistas estereoscópicas no coinciden con el fotograma y el tamaño nativo solicitados.

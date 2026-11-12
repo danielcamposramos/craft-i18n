@@ -7,3 +7,7 @@
 	Stereo View	ステレオ表示
 	Stereo depth is unavailable on this desktop; showing the flat stage.	このデスクトップでは立体的な奥行きを表示できないため、ステージを平面で表示します。
 	Could not show the stereo view: {error}	ステレオ表示ができませんでした: {error}
+	The stereo view supports at most {pixels} stage pixels; reduce the stage dimensions.	ステレオ表示で扱えるステージは最大 {pixels} ピクセルです。ステージの寸法を小さくしてください。
+	The compositor returned invalid depth limits.	コンポジターが無効な奥行き制限を返しました。
+	The stereo views have invalid dimensions.	ステレオ画像の寸法が無効です。
+	The stereo views do not match the requested frame and native size.	ステレオ画像が指定されたフレームおよびネイティブサイズと一致しません。

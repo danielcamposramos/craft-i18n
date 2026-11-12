@@ -7,3 +7,7 @@
 	Stereo View	스테레오 보기
 	Stereo depth is unavailable on this desktop; showing the flat stage.	이 데스크톱에서는 입체 깊이를 사용할 수 없어 스테이지를 평면으로 표시합니다.
 	Could not show the stereo view: {error}	스테레오 보기를 표시할 수 없습니다: {error}
+	The stereo view supports at most {pixels} stage pixels; reduce the stage dimensions.	스테레오 보기는 스테이지 픽셀을 최대 {pixels}개까지 지원합니다. 스테이지 크기를 줄이세요.
+	The compositor returned invalid depth limits.	컴포지터가 잘못된 깊이 제한을 반환했습니다.
+	The stereo views have invalid dimensions.	스테레오 보기의 크기가 잘못되었습니다.
+	The stereo views do not match the requested frame and native size.	스테레오 보기가 요청한 프레임 및 원본 크기와 일치하지 않습니다.
