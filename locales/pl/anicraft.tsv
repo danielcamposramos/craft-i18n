@@ -11,3 +11,9 @@
 	The compositor returned invalid depth limits.	Kompozytor zwrócił nieprawidłowe limity głębi.
 	The stereo views have invalid dimensions.	Widoki stereoskopowe mają nieprawidłowe wymiary.
 	The stereo views do not match the requested frame and native size.	Widoki stereoskopowe nie odpowiadają żądanej klatce i rozmiarowi natywnemu.
+	Render resolution per eye	Rozdzielczość renderowania na oko
+	The document stage size preserves its original sampling; the desktop scales once.	Rozmiar sceny dokumentu zachowuje jej oryginalne próbkowanie; pulpit skaluje obraz tylko raz.
+	Use document stage size	Użyj rozmiaru sceny dokumentu
+	Display Settings	Ustawienia ekranu
+	Could not open Display Settings: {error}	Nie można otworzyć ustawień ekranu: {error}
+	The stereo view supports at most {pixels} render pixels per eye; reduce the render resolution.	Widok stereoskopowy obsługuje najwyżej {pixels} pikseli renderowania na oko; zmniejsz rozdzielczość renderowania.

@@ -11,3 +11,9 @@
 	The compositor returned invalid depth limits.	合成器返回了无效的深度限制。
 	The stereo views have invalid dimensions.	立体视图的尺寸无效。
 	The stereo views do not match the requested frame and native size.	立体视图与请求的帧和原始尺寸不匹配。
+	Render resolution per eye	每眼渲染分辨率
+	The document stage size preserves its original sampling; the desktop scales once.	文档舞台尺寸保留原始采样，桌面只对视图进行一次缩放。
+	Use document stage size	使用文档舞台尺寸
+	Display Settings	显示设置
+	Could not open Display Settings: {error}	无法打开显示设置：{error}
+	The stereo view supports at most {pixels} render pixels per eye; reduce the render resolution.	立体视图每眼最多支持 {pixels} 个渲染像素，请降低渲染分辨率。

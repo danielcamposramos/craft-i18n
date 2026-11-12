@@ -319,3 +319,12 @@ Native-speaker review has not been performed.
 These are new, partial AniCraft catalogs, not migrations of another app's catalog.
 English remains AniCraft's source text, as the catalog format requires.
 AniCraft's current UI offers only scripts its `READY` list supports; adding Japanese, Korean and Chinese text here does not assert that its fonts and shaping support those interfaces yet.
+
+## AniCraft stereo resolution and desktop shortcut additions
+
+The six additional app-specific keys in each of the nine partial AniCraft catalogs were written from the English meanings by Daniel Campos Ramos with AI assistance.
+Width and Height use the existing common catalog rows unchanged.
+They cover the per-eye render resolution, its document-size default, desktop display shortcut and local diagnostics.
+No other product’s translations were consulted or copied.
+Native-speaker review: not yet completed.
+The data does not change AniCraft’s supported-script READY list.

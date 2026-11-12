@@ -11,3 +11,9 @@
 	The compositor returned invalid depth limits.	コンポジターが無効な奥行き制限を返しました。
 	The stereo views have invalid dimensions.	ステレオ画像の寸法が無効です。
 	The stereo views do not match the requested frame and native size.	ステレオ画像が指定されたフレームおよびネイティブサイズと一致しません。
+	Render resolution per eye	片目ごとの描画解像度
+	The document stage size preserves its original sampling; the desktop scales once.	ドキュメントのステージサイズは元のサンプリングを維持し、デスクトップが表示を一度だけ拡大縮小します。
+	Use document stage size	ドキュメントのステージサイズを使用
+	Display Settings	ディスプレイ設定
+	Could not open Display Settings: {error}	ディスプレイ設定を開けませんでした: {error}
+	The stereo view supports at most {pixels} render pixels per eye; reduce the render resolution.	ステレオ表示では片目につき最大 {pixels} ピクセルを描画できます。描画解像度を下げてください。

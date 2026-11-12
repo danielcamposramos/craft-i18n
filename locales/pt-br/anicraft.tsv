@@ -11,3 +11,9 @@
 	The compositor returned invalid depth limits.	O compositor retornou limites de profundidade inválidos.
 	The stereo views have invalid dimensions.	As vistas estereoscópicas têm dimensões inválidas.
 	The stereo views do not match the requested frame and native size.	As vistas estereoscópicas não correspondem ao quadro e ao tamanho nativo solicitados.
+	Render resolution per eye	Resolução de renderização por olho
+	The document stage size preserves its original sampling; the desktop scales once.	O tamanho do palco do documento preserva sua amostragem original; a área de trabalho redimensiona a imagem uma só vez.
+	Use document stage size	Usar o tamanho do palco do documento
+	Display Settings	Configurações de tela
+	Could not open Display Settings: {error}	Não foi possível abrir as configurações de tela: {error}
+	The stereo view supports at most {pixels} render pixels per eye; reduce the render resolution.	A visualização estéreo permite até {pixels} pixels de renderização por olho; reduza a resolução de renderização.
