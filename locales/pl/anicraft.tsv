@@ -1,0 +1,9 @@
+# Polski (pl) interface catalog for AniCraft.
+# Partial catalog: stereo stage view only; other missing entries remain English.
+# Columns, separated by a TAB: context <TAB> English source text <TAB> translation
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+	Stereo View	Widok stereoskopowy
+	Stereo depth is unavailable on this desktop; showing the flat stage.	Głębia stereoskopowa jest niedostępna w tym środowisku graficznym; scena jest wyświetlana płasko.
+	Could not show the stereo view: {error}	Nie można wyświetlić widoku stereoskopowego: {error}

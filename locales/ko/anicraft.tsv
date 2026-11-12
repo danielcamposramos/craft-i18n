@@ -1,0 +1,9 @@
+# 한국어 (ko) interface catalog for AniCraft.
+# Partial catalog: stereo stage view only; other missing entries remain English.
+# Columns, separated by a TAB: context <TAB> English source text <TAB> translation
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+	Stereo View	스테레오 보기
+	Stereo depth is unavailable on this desktop; showing the flat stage.	이 데스크톱에서는 입체 깊이를 사용할 수 없어 스테이지를 평면으로 표시합니다.
+	Could not show the stereo view: {error}	스테레오 보기를 표시할 수 없습니다: {error}

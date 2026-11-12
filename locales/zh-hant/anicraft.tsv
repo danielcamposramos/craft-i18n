@@ -1,0 +1,9 @@
+# 繁體中文 (zh-hant) interface catalog for AniCraft.
+# Partial catalog: stereo stage view only; other missing entries remain English.
+# Columns, separated by a TAB: context <TAB> English source text <TAB> translation
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+	Stereo View	立體檢視
+	Stereo depth is unavailable on this desktop; showing the flat stage.	此桌面不支援立體景深；舞台將以平面形式顯示。
+	Could not show the stereo view: {error}	無法顯示立體檢視：{error}
