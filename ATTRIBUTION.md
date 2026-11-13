@@ -315,3 +315,12 @@ Synced from `photocraft@7c64653` to `photocraft@2772ac1` with
 ## TextureCraft initial migration
 
 The `texturecraft.tsv` catalogs for ar, de, es, fr, it, ja, ko, pt-br and zh-hans were migrated from [TextureCraft `21856d778347e13857f65c8f1107170797bd070f`](https://github.com/storytold/texturecraft/tree/21856d778347e13857f65c8f1107170797bd070f/crates/ui-egui/src/i18n), MIT OR Apache-2.0. Original wording and contributor credits remain in the upstream history. Migration tooling was AI-assisted; no new translations were authored and no additional native-speaker review was performed. Every original row was checked against the resolved app and shared catalogs. Tracked in storytold/texturecraft#419.
+
+## LightCraft native checked-format catalogs
+
+The 34 JSON files in `app-catalogs/lightcraft/locales` were imported byte for byte from [LightCraft `02d1982de96dfa44cec16deee8ebd354e2e648d3`](https://github.com/danielcamposramos/lightcraft/tree/02d1982de96dfa44cec16deee8ebd354e2e648d3/crates/ui-egui/locales), MIT OR Apache-2.0.
+Copyright (c) 2026 ArtCraft Team and the LightCraft contributors.
+Original wording and contributor credits remain in the LightCraft source history.
+No translations were newly authored or changed, and no additional native-speaker review was performed.
+The migration tooling and checker were AI-assisted; the original translations are unchanged.
+The native JSON format retains LightCraft’s compile-time-checked Rust format templates and its existing localized prose; these are not TSV catalogs.

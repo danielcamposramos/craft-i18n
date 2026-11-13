@@ -119,3 +119,11 @@ identical shared rows and verifies that every original translation still resolve
 `ATTRIBUTION.md`. This is an initial import, not an incremental merge: do not run
 write mode over independently edited catalogs. After cutover, edit the TSV files
 here directly. Coordination: storytold/texturecraft#419.
+
+## LightCraft native JSON input
+
+The edition's LightCraft build reads `app-catalogs/lightcraft/locales` below the same `CRAFT_I18N_DIR` as the TSV consumers.
+These original JSON maps retain LightCraft’s checked Rust format templates; the native app's receiving build compiles them with their actual arguments.
+The data gate checks their JSON shape and language/file pairing.
+This does not change the TSV grammar or its placeholder and ellipsis checks.
+See [the native input](../app-catalogs/lightcraft/README.md) and ATTRIBUTION.md for source and licensing.
