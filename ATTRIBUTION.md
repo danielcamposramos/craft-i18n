@@ -328,3 +328,12 @@ They cover the per-eye render resolution, its document-size default, desktop dis
 No other product’s translations were consulted or copied.
 Native-speaker review: not yet completed.
 The data does not change AniCraft’s supported-script READY list.
+
+## TextureCraft stereo-model view additions
+
+The stereo-model view strings in `locales/{pl,pt-br,fr,de,es,ja,ko,zh-hans,zh-hant}/texturecraft.tsv` were written from the plain English meanings by Daniel Campos Ramos with AI assistance, under MIT OR Apache-2.0.
+No other product’s translations were consulted or copied.
+Native-speaker review has not been performed.
+The Polish and Traditional Chinese TextureCraft catalogs are new partial catalogs, not a migration from another app.
+Existing common rows and existing app wording are retained.
+English is the source language; no English catalog is introduced.

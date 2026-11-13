@@ -906,3 +906,18 @@
 	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	{n} 个控制点。单击网格（或 2D 视图）添加控制点，拖动可调整；单击第一个点可闭合路径。按 Enter 用笔刷绘制路径（闭合且填充的路径会填充内部），按 Esc 取消。
 	{n} items share a shortcut; the first one listed wins.	{n} 个项目共用一个快捷键；列表中第一个生效。
 	{pattern} (scale {scale}, seed {seed})	{pattern}（缩放 {scale}，种子 {seed}）
+
+# Stereo model view, original partial additions (2026-11-12).
+	Enable 3D	启用 3D
+	Render resolution per eye	每眼渲染分辨率
+	Desktop Display Settings	桌面显示设置
+	Stereo View	立体视图
+	The model viewport size preserves its current sampling; the desktop scales once.	模型视图大小保留当前采样；桌面只缩放一次。
+	Use model viewport size	使用模型视图大小
+	Could not show the stereo view: {error}	无法显示立体视图：{error}
+	Could not open Display Settings: {error}	无法打开显示设置：{error}
+	Could not read the stereo views from the GPU.	无法从 GPU 读取立体视图。
+	The stereo views have different native dimensions.	立体视图的原生尺寸不同。
+	The stereo window closed before the pair was shown.	显示图像对之前，立体窗口已关闭。
+	The stereo view has invalid native dimensions.	立体视图的原生尺寸无效。
+	Stereo depth is unavailable on this desktop; showing the flat model.	此桌面不支持立体深度；将以平面显示模型。

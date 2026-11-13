@@ -892,3 +892,18 @@
 	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	{n} puntos de control. Haz clic en la malla (o en la vista 2D) para añadir puntos y arrástralos para ajustarlos; haz clic en el primer punto para cerrar el trazado. Intro lo pinta con el pincel (un trazado cerrado y relleno rellena su interior), Esc cancela.
 	{n} items share a shortcut; the first one listed wins.	{n} elementos comparten un atajo; prevalece el primero de la lista.
 	{pattern} (scale {scale}, seed {seed})	{pattern} (escala {scale}, semilla {seed})
+
+# Stereo model view, original partial additions (2026-11-12).
+	Enable 3D	Activar 3D
+	Render resolution per eye	Resolución de renderizado por ojo
+	Desktop Display Settings	Configuración de pantalla del escritorio
+	Stereo View	Vista estéreo
+	The model viewport size preserves its current sampling; the desktop scales once.	El tamaño de la vista del modelo conserva el muestreo actual; el escritorio escala una sola vez.
+	Use model viewport size	Usar el tamaño de la vista del modelo
+	Could not show the stereo view: {error}	No se pudo mostrar la vista estéreo: {error}
+	Could not open Display Settings: {error}	No se pudo abrir la configuración de pantalla: {error}
+	Could not read the stereo views from the GPU.	No se pudieron leer las vistas estéreo de la GPU.
+	The stereo views have different native dimensions.	Las vistas estéreo tienen dimensiones nativas diferentes.
+	The stereo window closed before the pair was shown.	La ventana estéreo se cerró antes de mostrar el par.
+	The stereo view has invalid native dimensions.	La vista estéreo tiene dimensiones nativas no válidas.
+	Stereo depth is unavailable on this desktop; showing the flat model.	La profundidad estéreo no está disponible en este escritorio; se muestra el modelo plano.

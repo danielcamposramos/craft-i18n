@@ -907,3 +907,18 @@
 	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	コントロールポイント {n} 個。メッシュ (または 2D ビュー) をクリックしてポイントを追加し、ドラッグして調整します。最初のポイントをクリックするとパスが閉じます。Enter でブラシを使ってペイントし (閉じて塗りつぶすパスは内側を塗りつぶします)、Esc でキャンセルします。
 	{n} items share a shortcut; the first one listed wins.	{n} 個の項目が同じショートカットを共有しています。一覧の最初の項目が優先されます。
 	{pattern} (scale {scale}, seed {seed})	{pattern} (スケール {scale}、シード {seed})
+
+# Stereo model view, original partial additions (2026-11-12).
+	Enable 3D	3Dを有効にする
+	Render resolution per eye	片眼あたりの描画解像度
+	Desktop Display Settings	デスクトップのディスプレイ設定
+	Stereo View	ステレオ表示
+	The model viewport size preserves its current sampling; the desktop scales once.	モデル表示のサイズは現在のサンプリングを保持します。拡大縮小はデスクトップで一度だけ行います。
+	Use model viewport size	モデル表示のサイズを使用
+	Could not show the stereo view: {error}	ステレオ表示を表示できませんでした: {error}
+	Could not open Display Settings: {error}	ディスプレイ設定を開けませんでした: {error}
+	Could not read the stereo views from the GPU.	GPUからステレオ画像を読み出せませんでした。
+	The stereo views have different native dimensions.	左右のステレオ画像のネイティブ寸法が異なります。
+	The stereo window closed before the pair was shown.	画像ペアを表示する前にステレオウィンドウが閉じられました。
+	The stereo view has invalid native dimensions.	ステレオ表示のネイティブ寸法が無効です。
+	Stereo depth is unavailable on this desktop; showing the flat model.	このデスクトップではステレオ深度を利用できないため、モデルを平面表示します。
