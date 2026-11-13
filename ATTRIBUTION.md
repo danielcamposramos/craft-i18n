@@ -330,3 +330,48 @@ The native JSON format retains LightCraft’s compile-time-checked Rust format t
 The twelve `Stereo View` rows were migrated from [PhotoCraft `5fbc36429856ed30ef9f2fe63e68dcc10cbac2ff`](https://github.com/danielcamposramos/photocraft/tree/5fbc36429856ed30ef9f2fe63e68dcc10cbac2ff/crates/ui-egui/src/i18n), MIT OR Apache-2.0.
 Daniel Campos Ramos’s existing translations and their wording are unchanged; the migration was AI-assisted and no additional native-speaker review was performed.
 The sync applies only the edition delta from `de7e1eec45eddbb434df2fdd27abba12aac24949`; newer shared catalog corrections remain intact.
+
+## AniCraft stereo-stage partial catalogs
+
+The seven stereo-stage view strings in `locales/{pl,pt-br,fr,de,es,ja,ko,zh-hans,zh-hant}/anicraft.tsv` were written from their English meaning by Daniel Campos Ramos with GPT-6 via Codex assistance (2026-11-12), under MIT OR Apache-2.0.
+No other product's translations were consulted or copied.
+Native-speaker review has not been performed.
+These are new, partial AniCraft catalogs, not migrations of another app's catalog.
+English remains AniCraft's source text, as the catalog format requires.
+AniCraft's current UI offers only scripts its `READY` list supports; adding Japanese, Korean and Chinese text here does not assert that its fonts and shaping support those interfaces yet.
+
+## AniCraft stereo resolution and desktop shortcut additions
+
+The six additional app-specific keys in each of the nine partial AniCraft catalogs were written from the English meanings by Daniel Campos Ramos with AI assistance.
+Width and Height use the existing common catalog rows unchanged.
+They cover the per-eye render resolution, its document-size default, desktop display shortcut and local diagnostics.
+No other product’s translations were consulted or copied.
+Native-speaker review: not yet completed.
+The data does not change AniCraft’s supported-script READY list.
+
+## TextureCraft stereo-model view additions
+
+The stereo-model view strings in `locales/{pl,pt-br,fr,de,es,ja,ko,zh-hans,zh-hant}/texturecraft.tsv` were written from the plain English meanings by Daniel Campos Ramos with AI assistance, under MIT OR Apache-2.0.
+No other product’s translations were consulted or copied.
+Native-speaker review has not been performed.
+The Polish and Traditional Chinese TextureCraft catalogs are new partial catalogs, not a migration from another app.
+Existing common rows and existing app wording are retained.
+English is the source language; no English catalog is introduced.
+
+
+## MaterialCraft stereo preview catalogs (2026-11-13)
+
+`locales/{ar,de,es,fr,ja,ko,pl,pt-br,zh-hans,zh-hant}/materialcraft.tsv` are new, explicitly partial catalogs for MaterialCraft, not additions to another app’s source.
+Shared common rows remain in `common.tsv`; the original MaterialCraft Arabic table stays in its app and retains priority for its existing keys.
+The stereo labels common with TextureCraft reuse Daniel Campos Ramos’s previously contributed catalog rows at ada1c658; the sampling explanation, reset and first-view instruction are original translations from their English meaning.
+Arabic stereo rows are original translations from their English meaning.
+Prepared by Daniel Campos Ramos with AI assistance; no native-speaker review is claimed.
+These rows use this repository’s MIT OR Apache-2.0 license; no commercial localization or external asset was consulted.
+
+## FilmCraft receiving-catalog migration
+
+Synced from `filmcraft@48088e3a8e50bd4a7a71d1ebdfde0835b01a3051` to [FilmCraft `cbb5574dfcee6c2cc7aaed4c3e2104e72650140b`](https://github.com/danielcamposramos/filmcraft/tree/cbb5574dfcee6c2cc7aaed4c3e2104e72650140b/crates/ui-egui/src/i18n), MIT OR Apache-2.0.
+The original wording and contributor credits remain in FilmCraft’s source history and catalog headers.
+The official sync applies only the app delta and leaves untouched shared corrections intact; all 55,697 eligible source rows are reproduced.
+This includes the previously absent Czech, Polish, Swedish and Turkish app catalogs.
+Migration tooling was AI-assisted; no new translations were authored and no additional native-speaker review was performed.

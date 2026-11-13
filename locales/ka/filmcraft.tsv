@@ -106,10 +106,8 @@
 	Add Guide	დამხმარე ხაზის დამატება
 	Add Guide…	დამხმარე ხაზის დამატება…
 	Add keyframe	საკვანძო კადრის დამატება
-	Add Lumetri Color to clip	Lumetri Color-ის დამატება კლიპზე
 	Add Marker	მარკერის დამატება
 	Add Marker (M)	მარკერის დამატება (M)
-	Add media to your project. Drop files anywhere in the window, or choose a source below.	დაამატეთ მედია პროექტში. ჩააგდეთ ფაილები ფანჯრის ნებისმიერ ადგილას ან აირჩიეთ წყარო ქვემოთ.
 	Add New Caption Track…	სუბტიტრების ახალი ტრეკის დამატება…
 	Add Property…	თვისების დამატება…
 	Add Range Marker	დიაპაზონის მარკერის დამატება
@@ -278,7 +276,9 @@
 	Audio Out	აუდიოს გამოსვლა
 	Audio Out Point	აუდიოს გამოსვლის წერტილი
 	Audio output failed: playing without sound (check Settings > Audio Hardware)	აუდიოს გამოტანა ვერ მოხერხდა: დაკვრა ხმის გარეშე (შეამოწმეთ პარამეტრები > აუდიოაპარატურა)
+	Audio output failed: playing without sound (check Settings ▸ Audio Hardware)	აუდიოს გამოტანა ვერ მოხერხდა: დაკვრა ხმის გარეშე (შეამოწმეთ პარამეტრები ▸ აუდიოაპარატურა)
 	Audio output is not responding: playing without sound (check Settings > Audio Hardware)	აუდიოს გამოტანა არ პასუხობს: დაკვრა ხმის გარეშე (შეამოწმეთ პარამეტრები > აუდიოაპარატურა)
+	Audio output is not responding: playing without sound (check Settings ▸ Audio Hardware)	აუდიოს გამოტანა არ პასუხობს: დაკვრა ხმის გარეშე (შეამოწმეთ პარამეტრები ▸ აუდიოაპარატურა)
 	Audio Previews:	აუდიოს წინასწარი რენდერები:
 	Audio Samples	აუდიოს სემპლები
 	Audio Time Units	აუდიოს დროის ერთეულები
@@ -1039,7 +1039,6 @@
 	Enable hardware accelerated decoding (requires restart)	აპარატურულად დაჩქარებული დეკოდირების ჩართვა (საჭიროა გადატვირთვა)
 	Enable HSL Secondary	HSL მეორადის ჩართვა
 	Enable language auto-detection	ენის ავტომატური ამოცნობის ჩართვა
-	Enable Mercury Transmit	Mercury Transmit-ის ჩართვა
 	Enable ProRes hardware accelerated encoding, if available	ProRes-ის აპარატურულად დაჩქარებული კოდირების ჩართვა, თუ ხელმისაწვდომია
 	Enable proxies	პროქსების ჩართვა
 	Enable Remix	რემიქსის ჩართვა
@@ -1230,7 +1229,6 @@
 	Font Size	შრიფტის ზომა
 	Font Style	შრიფტის სტილი
 	Fonts used in the project:	პროექტში გამოყენებული შრიფტები:
-	For color management parameters, go to the Settings tab in the Lumetri Color panel.	ფერთა მართვის პარამეტრებისთვის გადადით Lumetri Color პანელის პარამეტრების ჩანართზე.
 	Forest	ტყისფერი
 	Format	ფორმატი
 	Format and size	ფორმატი და ზომა
@@ -1415,6 +1413,7 @@
 	Hardware (AV1 has no software encoder)	აპარატული (AV1-ს პროგრამული კოდერი არ აქვს)
 	Hardware (H.265 has no software encoder)	აპარატული (H.265-ს პროგრამული კოდერი არ აქვს)
 	Hardware decoding	აპარატული დეკოდირება
+	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	აპარატული დეკოდირება: „ავტომატური“ რეჟიმი იყენებს სისტემის ვიდეოდეკოდერს (VideoToolbox macOS-ზე, Media Foundation Windows-ზე, VA-API H.264-ისა და HEVC-ისთვის Linux-ზე) მის მიერ მხარდაჭერილი ნაკადებისთვის, ხოლო FilmCraft-ის საკუთარ დეკოდერს — დანარჩენი ყველაფრისთვის ან აპარატურის შეფერხებისას. უკვე გახსნილი მედია ინარჩუნებს თავის დეკოდერს, სანამ ხელახლა არ გაიხსნება.
 	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API or NVDEC for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	აპარატული დეკოდირება: „ავტომატური“ რეჟიმი იყენებს სისტემის ვიდეოდეკოდერს (VideoToolbox macOS-ზე, Media Foundation Windows-ზე, VA-API ან NVDEC H.264-ისა და HEVC-ისთვის Linux-ზე) მის მიერ მხარდაჭერილი ნაკადებისთვის, ხოლო FilmCraft-ის საკუთარ დეკოდერს — დანარჩენი ყველაფრისთვის ან აპარატურის შეფერხებისას. უკვე გახსნილი მედია ინარჩუნებს თავის დეკოდერს, სანამ ხელახლა არ გაიხსნება.
 	HD Anamorphic 1080 (1.333)	HD ანამორფული 1080 (1.333)
 	HDR	HDR
@@ -1765,10 +1764,6 @@
 	Luma Min / Max	სიკაშკაშის მინ. / მაქს.
 	Luma Source	სიკაშკაშის წყარო
 	Luma vs Sat	ლუმა / გაჯერება
-	Lumetri	Lumetri
-	Lumetri Color	Lumetri Color
-	Lumetri Presets	Lumetri-ის პრესეტები
-	Lumetri Scopes	Lumetri Scopes
 	Luminance	სიკაშკაშე
 	Luminance Threshold	სიკაშკაშის ზღვარი
 	Luminosity	ნათება
@@ -3623,6 +3618,3 @@
 	✔ matches	✔ ემთხვევა
 	✔ same file	✔ იგივე ფაილი
 	✖ different file	✖ სხვა ფაილი
-	Audio output failed: playing without sound (check Settings ▸ Audio Hardware)	აუდიოს გამოტანა ვერ მოხერხდა: დაკვრა ხმის გარეშე (შეამოწმეთ პარამეტრები ▸ აუდიოაპარატურა)
-	Audio output is not responding: playing without sound (check Settings ▸ Audio Hardware)	აუდიოს გამოტანა არ პასუხობს: დაკვრა ხმის გარეშე (შეამოწმეთ პარამეტრები ▸ აუდიოაპარატურა)
-	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	აპარატული დეკოდირება: „ავტომატური“ რეჟიმი იყენებს სისტემის ვიდეოდეკოდერს (VideoToolbox macOS-ზე, Media Foundation Windows-ზე, VA-API H.264-ისა და HEVC-ისთვის Linux-ზე) მის მიერ მხარდაჭერილი ნაკადებისთვის, ხოლო FilmCraft-ის საკუთარ დეკოდერს — დანარჩენი ყველაფრისთვის ან აპარატურის შეფერხებისას. უკვე გახსნილი მედია ინარჩუნებს თავის დეკოდერს, სანამ ხელახლა არ გაიხსნება.

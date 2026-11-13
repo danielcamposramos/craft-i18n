@@ -43,6 +43,7 @@
 	+ Opt	+ Opt
 	10 Bit Black Point	Titik Hitam 10 Bit
 	10 Bit White Point	Titik Putih 10 Bit
+	10-bit color	Warna 10-bit
 	105mm Prime	Lensa Prime 105mm
 	29.97 fps Drop-Frame	29,97 fps Drop-Frame
 	29.97 fps Non Drop-Frame	29,97 fps Non Drop-Frame
@@ -63,6 +64,7 @@
 	A clean-room, pure-Rust non-linear video editor. Part of the ArtCraft family.	Editor video non-linear clean-room berbahasa Rust murni. Bagian dari keluarga ArtCraft.
 	A cut sequence with transitions, effects and music	Sekuens yang sudah dipotong dengan transisi, efek, dan musik
 	A news-style line that crawls in from the right and leaves at the left.	Baris bergaya berita yang merayap masuk dari kanan dan keluar di kiri.
+	A range marker needs a positive duration	Penanda rentang memerlukan durasi positif
 	A rounded tag that fits its text, with a status dot.	Tag membulat yang menyesuaikan teksnya, dengan titik status.
 	A title on a rounded card with a soft shadow.	Judul pada kartu membulat dengan bayangan lembut.
 	AAC Audio	Audio AAC
@@ -79,6 +81,7 @@
 	Active Monitor	Monitor Aktif
 	Adaptive ({bpp} bits per pixel)	Adaptif ({bpp} bit per piksel)
 	Add a timecode row	Tambah baris kode waktu
+	Add and apply	Tambah dan terapkan
 	Add another shortcut	Tambah pintasan lain
 	Add Audio Submix Track	Tambah Trek Submix Audio
 	Add audio submix tracks	Tambah trek submix audio
@@ -87,6 +90,11 @@
 	Add caption at playhead	Tambah takarir di kepala putar
 	Add captions	Tambah takarir
 	Add Chapter Marker…	Tambah Penanda Bab…
+	Add color	Tambah warna
+	Add Color Grading to clip	Tambahkan Gradasi Warna ke klip
+	Add Custom Color	Tambah Warna Kustom
+	Add custom color	Tambah warna kustom
+	Add custom color…	Tambah warna kustom…
 	Add Edit	Tambah Titik Edit
 	Add Edit to All Tracks	Tambah Titik Edit ke Semua Trek
 	Add Flash Cue Marker…	Tambah Penanda Isyarat Flash…
@@ -94,10 +102,9 @@
 	Add Guide	Tambah Garis Bantu
 	Add Guide…	Tambah Garis Bantu…
 	Add keyframe	Tambah bingkai kunci
-	Add Lumetri Color to clip	Tambahkan Lumetri Color ke klip
 	Add Marker	Tambah Penanda
 	Add Marker (M)	Tambah Penanda (M)
-	Add media to your project. Drop files anywhere in the window, or choose a source below.	Tambahkan media ke proyek Anda. Letakkan berkas di mana saja di jendela, atau pilih sumber di bawah.
+	Add media to your project. Drop files or folders anywhere in the window, or choose a source below.	Tambahkan media ke proyek Anda. Letakkan berkas atau folder di mana saja di jendela, atau pilih sumber di bawah.
 	Add New Caption Track…	Tambah Trek Takarir Baru…
 	Add Property…	Tambah Properti…
 	Add Range Marker	Tambah Penanda Rentang
@@ -138,6 +145,7 @@
 	All Categories	Semua Kategori
 	All Empty Tracks	Semua Trek Kosong
 	All Events	Semua Peristiwa
+	All Intra	Semua intra
 	All lines	Semua baris
 	All markers are hidden by the colour filter.	Semua penanda disembunyikan oleh filter warna.
 	All media is online.	Semua media online.
@@ -174,6 +182,7 @@
 	Anchor point	Titik jangkar
 	Anchor to In Point	Jangkarkan ke Titik Masuk
 	Anchor to Out Point	Jangkarkan ke Titik Keluar
+	Animate zoom, scrolling and menus	Animasikan zoom, gulir, dan menu
 	Animated GIF	GIF Animasi
 	Animated GIF 640×360	GIF Animasi 640×360
 	Anti-aliasing Quality	Kualitas Anti-aliasing
@@ -193,6 +202,7 @@
 	Application shortcuts work whatever panel has focus	Pintasan aplikasi berfungsi di panel mana pun yang sedang fokus
 	Apply a cut at each detected cut point	Terapkan potongan di setiap titik potong yang terdeteksi
 	Apply Audio Transition	Terapkan Transisi Audio
+	Apply Color Grading Preset	Terapkan Preset Gradasi Warna
 	Apply Default Audio Transition	Terapkan Transisi Audio Bawaan
 	Apply Default Transitions	Terapkan Transisi Bawaan
 	Apply Default Transitions to Selection	Terapkan Transisi Bawaan ke Pilihan
@@ -238,14 +248,15 @@
 	Audio In Point	Titik Masuk Audio
 	Audio Info	Info Audio
 	Audio Meters	Meter Audio
+	Audio Names	Nama Audio
 	Audio on track {t}	Audio di trek {t}
 	Audio Only	Hanya Audio
 	Audio only	Hanya audio
 	Audio Options	Opsi Audio
 	Audio Out	Audio Keluar
 	Audio Out Point	Titik Keluar Audio
-	Audio output failed: playing without sound (check Settings ▸ Audio Hardware)	Output audio gagal: memutar tanpa suara (periksa Pengaturan ▸ Perangkat Keras Audio)
-	Audio output is not responding: playing without sound (check Settings ▸ Audio Hardware)	Output audio tidak merespons: memutar tanpa suara (periksa Pengaturan ▸ Perangkat Keras Audio)
+	Audio output failed: playing without sound (check Settings > Audio Hardware)	Output audio gagal: memutar tanpa suara (periksa Pengaturan > Perangkat Keras Audio)
+	Audio output is not responding: playing without sound (check Settings > Audio Hardware)	Output audio tidak merespons: memutar tanpa suara (periksa Pengaturan > Perangkat Keras Audio)
 	Audio Previews:	Pratinjau Audio:
 	Audio Samples	Sampel Audio
 	Audio Time Units	Satuan Waktu Audio
@@ -260,6 +271,7 @@
 	Audio {n}:	Audio {n}:
 	Audio:	Audio:
 	Audio…	Audio…
+	Author	Pembuat
 	Auto (system)	Otomatis (sistem)
 	Auto Align	Perataan Otomatis
 	Auto Bezier	Bezier Otomatis
@@ -448,6 +460,7 @@
 	Cell Pattern	Pola Sel
 	Center Align Text	Rata Tengah Teks
 	Center align text	Rata tengah teks
+	Center at Cut	Tengah di Titik Potong
 	Center Channel Pan	Pan Kanal Tengah
 	Center Gradient	Gradien Tengah
 	Center Horizontally	Tengahkan Secara Horizontal
@@ -474,10 +487,14 @@
 	Channel Volume	Volume Kanal
 	Channel {n}	Kanal {n}
 	Chaos	Kekacauan
+	Chapter	Bab
+	Chapter Marker	Penanda Bab
 	Chebyshev	Chebyshev
 	Checker Wipe	Sapuan Kotak-kotak
 	Chinese	Tionghoa
 	Choke	Choke
+	Choose color with system picker	Pilih warna dengan pemilih sistem
+	Choose Color…	Pilih Warna…
 	Chorus	Chorus
 	Chorus/Flanger	Chorus/Flanger
 	Chroma	Kroma
@@ -564,6 +581,10 @@
 	Color Distortion	Distorsi Warna
 	Color Dodge	Dodge Warna
 	Color Emboss	Emboss Warna
+	Color Grading	Gradasi Warna
+	Color Grading Preset Thumbnails	Gambar Mini Preset Gradasi Warna
+	Color Grading Presets	Preset Gradasi Warna
+	Color Grading Section	Bagian Gradasi Warna
 	Color Key	Key Warna
 	Color Management · {n} item	Manajemen Warna · {n} item
 	Color Management · {n} items	Manajemen Warna · {n} item
@@ -572,7 +593,9 @@
 	Color Matte Color	Warna Matte Warna
 	Color Matte…	Matte Warna…
 	Color Pass	Lolos Warna
+	Color picker	Pemilih warna
 	Color Replace	Ganti Warna
+	Color selected markers	Ubah warna penanda terpilih
 	Color Space	Ruang Warna
 	Color Theme	Tema Warna
 	Color To Leave	Warna yang Dipertahankan
@@ -582,6 +605,7 @@
 	Color/Gray	Warna/Abu-abu
 	Colour Space	Ruang Warna
 	Column order	Urutan kolom
+	Comment Marker	Penanda Komentar
 	Comments:	Komentar:
 	Comparison View	Tampilan Perbandingan
 	Complexity	Kompleksitas
@@ -662,7 +686,9 @@
 	Custom ({n} points)	Kustom ({n} titik)
 	Custom ({ratio})	Kustom ({ratio})
 	Custom Color	Warna Kustom
+	Custom Color…	Warna Kustom…
 	Custom Setup	Penyiapan Kustom
+	Custom Start	Awal Kustom
 	Cut to Camera 1	Potong ke Kamera 1
 	Cut to Camera 2	Potong ke Kamera 2
 	Cut to Camera 3	Potong ke Kamera 3
@@ -731,6 +757,8 @@
 	Delete Graphic Layer	Hapus Lapisan Grafis
 	Delete Guide Template	Hapus Templat Garis Bantu
 	Delete Layer	Hapus Lapisan
+	Delete Marker	Hapus Penanda
+	Delete Markers	Hapus Penanda
 	Delete Media Cache Files	Hapus Berkas Cache Media
 	Delete oldest files when the cache exceeds	Hapus berkas terlama saat cache melebihi
 	Delete Preset	Hapus Preset
@@ -738,6 +766,7 @@
 	Delete Render Files In to Out	Hapus Berkas Render dari Masuk ke Keluar
 	Delete Search Bin	Hapus Bin Pencarian
 	Delete selected captions	Hapus takarir terpilih
+	Delete selected markers	Hapus penanda terpilih
 	Delete Tracks	Hapus Trek
 	Delete Tracks…	Hapus Trek…
 	Delete Transcript	Hapus Transkrip
@@ -852,8 +881,13 @@
 	Edit Cameras	Edit Kamera
 	Edit Cameras…	Edit Kamera…
 	Edit Caption Text	Edit Teks Takarir
+	Edit color	Edit warna
 	Edit Columns	Edit Kolom
 	Edit Columns…	Edit Kolom…
+	Edit Custom Color	Edit Warna Kustom
+	Edit Marker	Edit Penanda
+	Edit Markers	Edit Penanda
+	Edit Marker…	Edit Penanda…
 	Edit Narration	Edit Narasi
 	Edit Offline File	Edit Berkas Offline
 	Edit Offline…	Edit Offline…
@@ -865,6 +899,7 @@
 	Edit Workspaces…	Edit Ruang Kerja…
 	Editable properties:	Properti yang dapat diedit:
 	Editing Mode:	Mode Penyuntingan:
+	Editing or removing a swatch leaves assigned colors unchanged.	Mengedit atau menghapus contoh warna tidak mengubah warna yang sudah diterapkan.
 	EDL…	EDL…
 	Effect Controls	Kontrol Efek
 	Effect presets	Preset efek
@@ -873,10 +908,10 @@
 	Empty tracks	Trek kosong
 	Enable clip and XMP metadata linking	Aktifkan penautan metadata klip dan XMP
 	Enable developer mode	Aktifkan mode pengembang
+	Enable External Video Output	Aktifkan Output Video Eksternal
 	Enable hardware accelerated decoding (requires restart)	Aktifkan dekode dengan akselerasi perangkat keras (perlu mulai ulang)
 	Enable HSL Secondary	Aktifkan HSL Sekunder
 	Enable language auto-detection	Aktifkan deteksi bahasa otomatis
-	Enable Mercury Transmit	Aktifkan Mercury Transmit
 	Enable ProRes hardware accelerated encoding, if available	Aktifkan enkode ProRes dengan akselerasi perangkat keras, jika tersedia
 	Enable proxies	Aktifkan proksi
 	Enable Remix	Aktifkan Remix
@@ -884,6 +919,7 @@
 	Encapsulate	Enkapsulasi
 	Encoder	Enkoder
 	Encoding {n}%	Mengenkode {n}%
+	End at Cut	Akhir di Titik Potong
 	End Color	Warna Akhir
 	End Credits	Kredit Penutup
 	End Credits – Roll	Kredit Penutup – Gulung
@@ -893,6 +929,10 @@
 	End:	Akhir:
 	Ends With	Diakhiri Dengan
 	Enhance Speech	Tingkatkan Ucapan
+	Enter a positive duration within the supported speed range.	Masukkan durasi positif dalam rentang kecepatan yang didukung.
+	Enter a valid HH:MM:SS:FF timecode	Masukkan kode waktu HH:MM:SS:FF yang valid
+	Enter a valid HTTP or HTTPS URL without credentials	Masukkan URL HTTP atau HTTPS yang valid tanpa kredensial
+	Enter six hex digits, for example FF80C0.	Masukkan enam digit heksadesimal, misalnya FF80C0.
 	Entire Source	Seluruh Sumber
 	Enumerate Cameras	Nomori Kamera
 	EQ	EQ
@@ -902,6 +942,7 @@
 	EssentialSound	EssentialSound
 	Estimated file size: {size}	Perkiraan ukuran berkas: {size}
 	Events	Peristiwa
+	Every frame a keyframe (edit-friendly, larger files)	Setiap bingkai adalah bingkai kunci (mudah disunting, file lebih besar)
 	Evolution	Evolusi
 	Evolution Options	Opsi Evolusi
 	Exact name matches only	Hanya nama yang sama persis
@@ -1018,6 +1059,7 @@
 	Flare Center	Pusat Suar
 	Flare Color	Warna Suar
 	Flash Cue Marker	Penanda Isyarat Flash
+	Flash Cue Point	Titik Isyarat Flash
 	Flicker	Kedip
 	Flicker Removal	Penghilangan Kedip
 	Flickers	Kedipan
@@ -1034,7 +1076,7 @@
 	Font Size	Ukuran Font
 	Font Style	Gaya Font
 	Fonts used in the project:	Font yang dipakai di proyek:
-	For color management parameters, go to the Settings tab in the Lumetri Color panel.	Untuk parameter manajemen warna, buka tab Pengaturan di panel Lumetri Color.
+	For color management parameters, go to the Settings tab in the Color Grading panel.	Untuk parameter manajemen warna, buka tab Pengaturan di panel Gradasi Warna.
 	Forest	Hijau Hutan
 	Format and size	Format dan ukuran
 	Four Scopes (RGB, 8 bit)	Empat Skop (RGB, 8 bit)
@@ -1182,6 +1224,10 @@
 	H.264 at the sequence's frame size and rate; 0.05 bits per pixel	H.264 pada ukuran dan laju bingkai sekuens; 0,05 bit per piksel
 	H.264 at the sequence's frame size and rate; 0.1 bits per pixel	H.264 pada ukuran dan laju bingkai sekuens; 0,1 bit per piksel
 	H.264 at the sequence's frame size and rate; bitrate adapts to the frame size (0.2 bits per pixel)	H.264 pada ukuran dan laju bingkai sekuens; bitrate menyesuaikan ukuran bingkai (0,2 bit per piksel)
+	H.264 High 10 (10-bit 4:2:0) at the sequence's size, constant quality CRF 16, AAC 320 kbps; a 10-bit master	H.264 High 10 (10-bit 4:2:0) pada ukuran sekuens, kualitas konstan CRF 16, AAC 320 kbps; master 10-bit
+	H.264 High 10 Intra	H.264 High 10 Intra
+	H.264 High 10 Intra (10-bit 4:2:0, every frame a keyframe), CRF 12, AAC 320 kbps; an edit-friendly intermediate	H.264 High 10 Intra (10-bit 4:2:0, setiap bingkai adalah bingkai kunci), CRF 12, AAC 320 kbps; intermediate yang mudah disunting
+	H.264 High 10 Master	H.264 High 10 Master
 	H.265 (HEVC)	H.265 (HEVC)
 	Half Saturation	Setengah Saturasi
 	Hand Tool	Alat Tangan
@@ -1205,9 +1251,12 @@
 	Head and Tail	Awal dan Akhir
 	Head Size	Ukuran Kepala
 	Heading	Judul Utama
+	Hex	Heksadesimal
+	Hex color	Warna heksadesimal
 	Hexagon	Segi Enam
 	Hide All Caption Tracks	Sembunyikan Semua Trek Takarir
 	Hide Back Face	Sembunyikan Sisi Belakang
+	High 10	High 10
 	High contrast with held highlights and deep shadows	Kontras tinggi dengan sorotan terjaga dan bayangan pekat
 	High Cutoff	Batas Atas
 	High Frequency Cut	Potong Frekuensi Tinggi
@@ -1284,6 +1333,7 @@
 	In the Media Cache	Di Cache Media
 	In the project	Di proyek
 	In/Out Duration	Durasi Masuk/Keluar
+	In:	Masuk:
 	In: {name}	Masuk: {name}
 	Include Alpha Channel	Sertakan Kanal Alfa
 	Include captions on import	Sertakan takarir saat impor
@@ -1326,6 +1376,7 @@
 	Interpret Footage…	Interpretasikan Rekaman…
 	Intersect	Perpotongan
 	Intro Duration	Durasi Intro
+	Invalid duration: {error}	Durasi tidak valid: {error}
 	Inverse Falloff	Penurunan Terbalik
 	Invert Alpha	Balikkan Alfa
 	Invert Blur	Balikkan Buram
@@ -1430,6 +1481,7 @@
 	Linked Selection	Pilihan Tertaut
 	Linked {n} clip(s)	{n} klip ditautkan
 	Liquid Distortion	Distorsi Cair
+	List Color Grading Presets	Daftar Preset Gradasi Warna
 	List View	Tampilan Daftar
 	Loaded “{name}”	“{name}” dimuat
 	Local Drives	Drive Lokal
@@ -1476,10 +1528,6 @@
 	Luma Min / Max	Luma Min / Maks
 	Luma Source	Sumber Luma
 	Luma vs Sat	Luma vs Sat
-	Lumetri	Lumetri
-	Lumetri Color	Lumetri Color
-	Lumetri Presets	Preset Lumetri
-	Lumetri Scopes	Lumetri Scopes
 	Luminance Threshold	Ambang Luminans
 	LUT	LUT
 	Magnify	Pembesar
@@ -1488,6 +1536,7 @@
 	Main (8-bit)	Main (8-bit)
 	Main (8-bit; Main 10 for HDR sequences)	Main (8-bit; Main 10 untuk sekuens HDR)
 	Main 10 (10-bit, HDR)	Main 10 (10-bit, HDR)
+	Maintain Audio Pitch	Pertahankan Nada Audio
 	Maintain pitch while shuttling	Pertahankan nada saat shuttle
 	Major Radius	Radius Mayor
 	Make Offline	Jadikan Offline
@@ -1498,6 +1547,8 @@
 	Make {n} selected clip(s) offline. Their clips show the offline slate until you link them again.	Jadikan {n} klip terpilih offline. Klip tersebut menampilkan slate offline sampai Anda menautkannya lagi.
 	Makeup	Makeup
 	Male	Laki-laki
+	Manage Colors	Kelola Warna
+	Manage Colors…	Kelola Warna…
 	Manage Guides	Kelola Garis Bantu
 	Manage Guides…	Kelola Garis Bantu…
 	Manage Saved View Presets	Kelola Preset Tampilan Tersimpan
@@ -1515,6 +1566,9 @@
 	Mark Selection	Tandai Pilihan
 	Mark Split	Tandai Split
 	Marker	Penanda
+	Marker changed or was removed. Reopen it to continue.	Penanda telah diubah atau dihapus. Buka kembali untuk melanjutkan.
+	Marker Color:	Warna Penanda:
+	Marker owner is unavailable	Pemilik penanda tidak tersedia
 	Markers	Penanda
 	Mask Only	Hanya Masker
 	Master Amplitude	Amplitudo Master
@@ -1745,15 +1799,22 @@
 	no GPU adapter: the CPU compositor is used	tidak ada adaptor GPU: kompositor CPU digunakan
 	no Japanese font is installed on this system; the interface stays in English	tidak ada font Jepang yang terpasang di sistem ini; antarmuka tetap dalam bahasa Inggris
 	no Korean font is installed on this system; the interface stays in English	tidak ada font Korea yang terpasang di sistem ini; antarmuka tetap dalam bahasa Inggris
+	No markers	Tidak ada penanda
 	No markers. Press M to add one.	Tidak ada penanda. Tekan M untuk menambahkan.
 	No matching captions.	Tidak ada takarir yang cocok.
+	No matching markers	Tidak ada penanda yang cocok
+	No matching text.	Tidak ada teks yang cocok.
 	No model credits were built into this copy.	Tidak ada kredit model yang disertakan dalam salinan ini.
 	No Motion	Tanpa Gerak
 	No multi-camera clip at the playhead	Tidak ada klip multi-kamera di kepala putar
 	No plugins are installed. Changes will take effect the next time you start FilmCraft.	Tidak ada plugin yang terpasang. Perubahan akan berlaku saat Anda memulai FilmCraft berikutnya.
+	No saved colors	Tidak ada warna tersimpan
 	No saved guide templates.	Tidak ada templat garis bantu tersimpan.
 	No Scroll	Tanpa Gulir
+	No sequence open	Tidak ada sekuens yang terbuka
+	No source clip open	Tidak ada klip sumber yang terbuka
 	No templates match.	Tidak ada templat yang cocok.
+	No text graphics in this sequence. Add text with the Type tool.	Tidak ada grafis teks di sekuens ini. Tambahkan teks dengan alat Teks.
 	Noise & Grain	Derau & Butiran
 	Noise (Legacy)	Derau (Lama)
 	Noise Level	Level Derau
@@ -1778,6 +1839,7 @@
 	Notch 6	Notch 6
 	Notch Filter	Filter Notch
 	Notch Width	Lebar Notch
+	Notes	Catatan
 	Notes for this project: to-dos, instructions, frame numbers… Saved with the project.	Catatan untuk proyek ini: daftar tugas, instruksi, nomor bingkai… Disimpan bersama proyek.
 	Nothing found with that name.	Tidak ditemukan apa pun dengan nama itu.
 	Nothing is assigned to this key	Tidak ada yang ditetapkan ke tombol ini
@@ -1827,6 +1889,7 @@
 	Opacity 0 → 100 % over the first second	Opasitas 0 → 100 % selama detik pertama
 	Opacity 100 → 0 % over the last second	Opasitas 100 → 0 % selama detik terakhir
 	Open a sequence to export	Buka sekuens untuk mengekspor
+	Open a sequence to search its graphics	Buka sekuens untuk mencari di grafisnya
 	Open a sequence to see its transcript	Buka sekuens untuk melihat transkripnya
 	Open a sequence to work with captions	Buka sekuens untuk bekerja dengan takarir
 	Open Air	Udara Terbuka
@@ -1841,6 +1904,7 @@
 	Open in Source Monitor	Buka di Monitor Sumber
 	Open in Timeline	Buka di Linimasa
 	Open Ingest Settings	Buka Pengaturan Ingest
+	Open Link	Buka Tautan
 	Open Most Recent	Buka yang Terbaru
 	Open new tab	Buka tab baru
 	Open Project…	Buka Proyek…
@@ -1848,9 +1912,11 @@
 	Opened {url}	Membuka {url}
 	OpenEXR	OpenEXR
 	OpenEXR Sequence	Urutan OpenEXR
+	Opens this address in your web browser	Membuka alamat ini di peramban web
 	Opens up the shadows	Membuka bayangan
 	OpenTimelineIO…	OpenTimelineIO…
 	Optical Flow	Aliran Optik
+	Options:	Opsi:
 	Order	Urutan
 	Ordering:	Pengurutan:
 	Out	Keluar
@@ -2011,6 +2077,7 @@
 	Progress	Kemajuan
 	Project	Proyek
 	Project Auto Save:	Simpan Otomatis Proyek:
+	Project Colors	Warna Proyek
 	Project Manager	Manajer Proyek
 	Project Manager: writing {path}	Manajer Proyek: menulis {path}
 	Project Manager…	Manajer Proyek…
@@ -2061,6 +2128,7 @@
 	Ramp	Gradasi
 	Ramp Shape	Bentuk Gradasi
 	Random Seed	Benih Acak
+	Range marker	Penanda rentang
 	Rate Stretch Tool	Alat Regang Laju
 	Ray	Sinar
 	Ray Color	Warna Sinar
@@ -2068,6 +2136,7 @@
 	Rays Only	Hanya Sinar
 	Razor Tool	Alat Silet
 	Read	Baca
+	Read Video Scopes	Baca Skop Video
 	Rec. 2100	Rec. 2100
 	Rec. 601	Rec. 601
 	Rec. 709	Rec. 709
@@ -2126,6 +2195,7 @@
 	Remove Attributes	Hapus Atribut
 	Remove Attributes…	Hapus Atribut…
 	Remove Audio from AV Clip	Hapus Audio dari Klip AV
+	Remove Custom Color	Hapus Warna Kustom
 	Remove Effect	Hapus Efek
 	Remove Filler Words	Hapus Kata Pengisi
 	Remove filler words	Hapus kata pengisi
@@ -2135,6 +2205,7 @@
 	Remove Media Cache Files	Hapus Berkas Cache Media
 	Remove Pauses	Hapus Jeda
 	Remove Row	Hapus Baris
+	Remove saved color	Hapus warna tersimpan
 	Remove Send	Hapus Send
 	Remove Unused	Hapus yang Tidak Dipakai
 	Render at Maximum Depth	Render pada Kedalaman Maksimum
@@ -2151,6 +2222,7 @@
 	Repair	Perbaikan
 	Repeat Edge Pixels	Ulangi Piksel Tepi
 	Replace Color	Ganti Warna
+	Replace File	Ganti Berkas
 	Replace Fonts in Projects	Ganti Font di Proyek
 	Replace Fonts in Projects…	Ganti Font di Proyek…
 	Replace With Clip	Ganti dengan Klip
@@ -2162,6 +2234,7 @@
 	Reset All Parameters	Atur Ulang Semua Parameter
 	Reset Duration	Atur Ulang Durasi
 	Reset Effect	Atur Ulang Efek
+	Reset Interface Zoom	Atur Ulang Zoom Antarmuka
 	Reset Parameter	Atur Ulang Parameter
 	Reset to Grid	Atur Ulang ke Kisi
 	Reset to Saved Layout	Kembalikan ke Tata Letak Tersimpan
@@ -2243,6 +2316,7 @@
 	Save as Template…	Simpan sebagai Templat…
 	Save Changes to this Workspace	Simpan Perubahan pada Ruang Kerja Ini
 	Save changes to “{project_name}” before closing?	Simpan perubahan pada “{project_name}” sebelum menutup?
+	Save color	Simpan warna
 	Save current settings as:	Simpan pengaturan saat ini sebagai:
 	Save Current View Preset	Simpan Preset Tampilan Saat Ini
 	Save Guides as Template	Simpan Garis Bantu sebagai Templat
@@ -2281,12 +2355,15 @@
 	Search effects	Cari efek
 	Search fields	Bidang pencarian
 	Search in:	Cari di:
+	Search markers	Cari penanda
+	Search name, notes, author	Cari nama, catatan, pembuat
 	Search presets	Cari preset
 	Search templates	Cari templat
 	Search:	Cari:
 	second(s)	detik
 	Seconds	Detik
 	seconds	detik
+	Segmentation Marker	Penanda Segmentasi
 	Segments:	Segmen:
 	Select	Pilih
 	Select a clip to grade	Pilih klip untuk di-grading
@@ -2294,8 +2371,10 @@
 	Select a clip to view its metadata.	Pilih klip untuk melihat metadatanya.
 	Select a graphic clip, or use the Type tool (T) on the Program monitor	Pilih klip grafis, atau gunakan alat Teks (T) di monitor Program
 	Select a layer to edit its properties.	Pilih lapisan untuk mengedit propertinya.
+	Select all	Pilih semua
 	Select All Matching	Pilih Semua yang Cocok
 	Select All Project Items	Pilih Semua Item Proyek
+	Select all visible markers	Pilih semua penanda yang terlihat
 	Select an item to preview it	Pilih item untuk melihat pratinjaunya
 	Select audio clips to edit them here	Pilih klip audio untuk mengeditnya di sini
 	Select audio clips, then click a preset to apply it.	Pilih klip audio, lalu klik preset untuk menerapkannya.
@@ -2316,6 +2395,7 @@
 	Select Next Graphic	Pilih Grafis Berikutnya
 	Select Next Layer	Pilih Lapisan Berikutnya
 	Select Next Panel	Pilih Panel Berikutnya
+	Select one clip (or a linked clip) in the Timeline, or one item in the Project panel, to rename	Pilih satu klip (atau klip yang ditautkan) di Linimasa, atau satu item di panel Proyek, untuk mengganti namanya
 	Select Previous Clip	Pilih Klip Sebelumnya
 	Select Previous Graphic	Pilih Grafis Sebelumnya
 	Select Previous Layer	Pilih Lapisan Sebelumnya
@@ -2352,6 +2432,7 @@
 	Sequence Time	Waktu Sekuens
 	Sequence Timecode	Kode Waktu Sekuens
 	Sequence, {w}x{h}, {fps} fps, {rate} Hz	Sekuens, {w}x{h}, {fps} fps, {rate} Hz
+	Sequence: {name}	Sekuens: {name}
 	Sequences	Sekuens
 	Sequence…	Sekuens…
 	Sequentially	Berurutan
@@ -2397,10 +2478,12 @@
 	Show All	Tampilkan Semua
 	Show All Caption Tracks	Tampilkan Semua Trek Takarir
 	Show All Marker Colors	Tampilkan Semua Warna Penanda
+	Show Audio Names	Tampilkan Nama Audio
 	Show Audio Waveform	Tampilkan Bentuk Gelombang Audio
 	Show Clip Mismatch Warning dialog	Tampilkan dialog Peringatan Ketidakcocokan Klip
 	Show clip names	Tampilkan nama klip
 	Show Dot	Tampilkan Titik
+	Show Duplicate Frame Markers	Tampilkan Penanda Bingkai Duplikat
 	Show durations	Tampilkan durasi
 	Show Event Indicator	Tampilkan Indikator Peristiwa
 	Show finished jobs	Tampilkan tugas yang selesai
@@ -2426,6 +2509,7 @@
 	Show Through Edits	Tampilkan Edit Tembus
 	Show Tool Tips	Tampilkan Tooltip
 	Show Transport Controls	Tampilkan Kontrol Transport
+	Show Video Names	Tampilkan Nama Video
 	Show Video Thumbnails	Tampilkan Gambar Mini Video
 	Show Workspace Reset Warning dialog on double click	Tampilkan dialog Peringatan Atur Ulang Ruang Kerja saat klik ganda
 	Show {n}	Tampilkan {n}
@@ -2509,6 +2593,8 @@
 	Source Timecode	Kode Waktu Sumber
 	Source · {name}	Sumber · {name}
 	Source:	Sumber:
+	Source: {name}	Sumber: {name}
+	Source: {name} (shared source markers)	Sumber: {name} (penanda sumber bersama)
 	Spacer	Pengatur Jarak
 	Speaker	Pembicara
 	Speaker Angle	Sudut Speaker
@@ -2546,6 +2632,7 @@
 	Start Angle	Sudut Awal
 	Start at 0	Mulai dari 0
 	Start at 1	Mulai dari 1
+	Start at Cut	Mulai di Titik Potong
 	Start Color	Warna Awal
 	Start Export Queue	Mulai Antrean Ekspor
 	Start of Ramp	Awal Gradasi
@@ -2635,6 +2722,7 @@
 	Synchronized {n} clip group(s)	{n} grup klip disinkronkan
 	Synchronize…	Sinkronkan…
 	Synthetic	Sintetis
+	System color picker unavailable: {error}	Pemilih warna sistem tidak tersedia: {error}
 	System Compatibility Report	Laporan Kompatibilitas Sistem
 	System Compatibility Report…	Laporan Kompatibilitas Sistem…
 	System Default	Bawaan Sistem
@@ -2672,6 +2760,7 @@
 	Text Styling	Gaya Teks
 	Text to Speech	Teks ke Ucapan
 	TextPanel	TextPanel
+	The control server is disabled: FILMCRAFT_CONTROL_TOKEN must contain 64 random hex characters (see docs/control-protocol.md)	Server kontrol dinonaktifkan: FILMCRAFT_CONTROL_TOKEN harus berisi 64 karakter heksadesimal acak (lihat docs/control-protocol.md)
 	The language changed but could not be saved: {e}	Bahasa telah diubah tetapi tidak dapat disimpan: {e}
 	The media cache holds render previews of unsaved projects and other files FilmCraft can recreate. Deleting them is always safe; FilmCraft rebuilds them as needed.	Cache media menyimpan pratinjau render dari proyek yang belum disimpan dan berkas lain yang dapat dibuat ulang oleh FilmCraft. Menghapusnya selalu aman; FilmCraft membangunnya kembali bila diperlukan.
 	The project had not been saved yet.	Proyek ini belum pernah disimpan.
@@ -2692,6 +2781,7 @@
 	Tilt (X Axis)	Miringkan (Sumbu X)
 	Time and Pitch	Waktu dan Nada
 	Time Interpolation	Interpolasi Waktu
+	Time is outside the supported range	Waktu di luar rentang yang didukung
 	Time Remapping	Pemetaan Ulang Waktu
 	Timebase:	Basis Waktu:
 	Timecode Conversion	Konversi Kode Waktu
@@ -2717,6 +2807,7 @@
 	Toggle All Video Targets	Alihkan Semua Target Video
 	Toggle animation	Alihkan animasi
 	Toggle Audio During Scrubbing	Alihkan Audio Saat Scrub
+	Toggle Color Grading Section	Aktifkan/Nonaktifkan Bagian Gradasi Warna
 	Toggle Full Screen	Alihkan Layar Penuh
 	Toggle Mute for All Targeted Audio Tracks	Alihkan Bisu untuk Semua Trek Audio Target
 	Toggle Proxies	Alihkan Proksi
@@ -2747,6 +2838,7 @@
 	Top Right	Kanan Atas
 	Total Duration	Durasi Total
 	Touch	Touch
+	Track Color	Warna Trek
 	Track Fx Editor	Editor Fx Trek
 	Track Keyframes	Bingkai Kunci Trek
 	Track Matte Key	Key Matte Trek
@@ -2840,6 +2932,7 @@
 	Upper Frequency	Frekuensi Atas
 	Upper Left	Kiri Atas
 	Upper Right	Kanan Atas
+	URL	URL
 	Use Color Noise	Gunakan Derau Warna
 	Use Effect Shutter Angle	Gunakan Sudut Rana Efek
 	Use End Color	Gunakan Warna Akhir
@@ -2896,6 +2989,7 @@
 	Video In Point	Titik Masuk Video
 	Video Info	Info Video
 	Video Limiter	Limiter Video
+	Video Names	Nama Video
 	Video Only	Hanya Video
 	Video Options	Opsi Video
 	Video Out	Video Keluar
@@ -2903,6 +2997,7 @@
 	Video Previews	Pratinjau Video
 	Video Previews:	Pratinjau Video:
 	Video Rendering and Playback	Rendering dan Pemutaran Video
+	Video Scopes	Skop Video
 	Video Thumbnails	Gambar Mini Video
 	Video Tracks	Trek Video
 	Video Transition Default Duration	Durasi Bawaan Transisi Video
@@ -2974,6 +3069,7 @@
 	Waveform Type	Jenis Bentuk Gelombang
 	Wavelength	Panjang Gelombang
 	Web & Social	Web & Sosial
+	Web Link	Tautan Web
 	WebVTT (.vtt)	WebVTT (.vtt)
 	Wet Out	Output Basah
 	When Opening a Project	Saat Membuka Proyek
@@ -3025,6 +3121,7 @@
 	{active} (modified)	{active} (diubah)
 	{category} · My Template	{category} · Templat Saya
 	{codec} · {rate} Hz · {n} channel(s)	{codec} · {rate} Hz · {n} kanal
+	{count} selected	{count} dipilih
 	{first} - Merged	{first} - Digabung
 	{first} Multicam	{first} Multikamera
 	{fps} fps · {n} frames queued	{fps} fps · {n} bingkai dalam antrean
@@ -3059,6 +3156,7 @@
 	{sel} of {total} items selected	{sel} dari {total} item dipilih
 	{tc}  Chapter	{tc}  Bab
 	{total} items	{total} item
+	“{file}” already exists in “{folder}”. Do you want to replace it?	“{file}” sudah ada di “{folder}”. Ingin menggantinya?
 	✓ Enable	✓ Aktifkan
 	✔ matches	✔ cocok
 	✔ same file	✔ berkas sama

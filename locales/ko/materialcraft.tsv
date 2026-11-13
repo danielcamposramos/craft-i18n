@@ -1,0 +1,28 @@
+# 한국어 (ko) interface catalog for MaterialCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+# Partial: stereo preview labels only; ordinary Arabic remains in MaterialCraft’s original table.
+
+	Could not open Display Settings: {error}	디스플레이 설정을 열 수 없습니다: {error}
+	Could not show the stereo view: {error}	스테레오 보기를 표시할 수 없습니다: {error}
+	Desktop Display Settings	데스크톱 디스플레이 설정
+	Enable 3D	3D 활성화
+	Open the 3D View first.	먼저 3D 보기를 여세요.
+	Render resolution per eye	눈별 렌더링 해상도
+	Stereo View	스테레오 보기
+	Stereo depth is unavailable on this desktop; showing the flat model.	이 데스크톱에서는 스테레오 깊이를 사용할 수 없어 모델을 평면으로 표시합니다.
+	The 3D view size preserves its current sampling; the desktop scales once.	3D 보기 크기는 현재 샘플링을 유지하며, 데스크톱에서 한 번만 크기를 조정합니다.
+	The stereo view has invalid native dimensions.	스테레오 보기의 기본 크기가 잘못되었습니다.
+	The stereo window closed before the pair was shown.	이미지 쌍이 표시되기 전에 스테레오 창이 닫혔습니다.
+	Use 3D view size	3D 보기 크기 사용
+	Could not prepare the material scene.	재질 장면을 준비할 수 없습니다.
+	The stereo renderer stopped before completing its pair.	스테레오 렌더러가 한 쌍의 영상을 완성하기 전에 중지되었습니다.

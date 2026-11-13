@@ -904,3 +904,18 @@
 	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	컨트롤 포인트 {n}개. 메시(또는 2D 뷰)를 클릭해 포인트를 추가하고 드래그해 조정합니다. 첫 포인트를 클릭하면 패스가 닫힙니다. Enter는 브러시로 패스를 페인트하고(닫히고 채워진 패스는 내부를 채움), Esc는 취소합니다.
 	{n} items share a shortcut; the first one listed wins.	항목 {n}개가 같은 단축키를 사용합니다. 목록의 첫 번째 항목이 우선합니다.
 	{pattern} (scale {scale}, seed {seed})	{pattern} (스케일 {scale}, 시드 {seed})
+
+# Stereo model view, original partial additions (2026-11-12).
+	Enable 3D	3D 활성화
+	Render resolution per eye	눈별 렌더링 해상도
+	Desktop Display Settings	데스크톱 디스플레이 설정
+	Stereo View	스테레오 보기
+	The model viewport size preserves its current sampling; the desktop scales once.	모델 보기 크기는 현재 샘플링을 유지하며 데스크톱에서 한 번만 크기를 조정합니다.
+	Use model viewport size	모델 보기 크기 사용
+	Could not show the stereo view: {error}	스테레오 보기를 표시할 수 없습니다: {error}
+	Could not open Display Settings: {error}	디스플레이 설정을 열 수 없습니다: {error}
+	Could not read the stereo views from the GPU.	GPU에서 스테레오 보기를 읽을 수 없습니다.
+	The stereo views have different native dimensions.	스테레오 보기의 기본 크기가 서로 다릅니다.
+	The stereo window closed before the pair was shown.	이미지 쌍이 표시되기 전에 스테레오 창이 닫혔습니다.
+	The stereo view has invalid native dimensions.	스테레오 보기의 기본 크기가 잘못되었습니다.
+	Stereo depth is unavailable on this desktop; showing the flat model.	이 데스크톱에서는 스테레오 깊이를 사용할 수 없어 모델을 평면으로 표시합니다.

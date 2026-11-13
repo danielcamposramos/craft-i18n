@@ -10,6 +10,7 @@
 # Clean room: every entry was written from the plain meaning of the English text in ordinary
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
+
 	   Angle	   Γωνία
 	   Blur	   Θόλωμα
 	   Corner Radius	   Ακτίνα γωνίας
@@ -88,10 +89,8 @@
 	Add Frame Hold	Προσθήκη πάγωσης καρέ
 	Add Guide…	Προσθήκη οδηγού…
 	Add keyframe	Προσθήκη καρέ-κλειδιού
-	Add Lumetri Color to clip	Προσθήκη Lumetri Color στο κλιπ
 	Add Marker	Προσθήκη δείκτη
 	Add Marker (M)	Προσθήκη δείκτη (M)
-	Add media to your project. Drop files anywhere in the window, or choose a source below.	Προσθέστε πολυμέσα στο έργο σας. Αφήστε αρχεία οπουδήποτε στο παράθυρο ή επιλέξτε μια πηγή παρακάτω.
 	Add New Caption Track…	Προσθήκη νέας τροχιάς υποτίτλων…
 	Add Property…	Προσθήκη ιδιότητας…
 	Add Range Marker	Προσθήκη δείκτη διαστήματος
@@ -826,7 +825,6 @@
 	Enable hardware accelerated decoding (requires restart)	Ενεργοποίηση αποκωδικοποίησης με επιτάχυνση υλικού (απαιτεί επανεκκίνηση)
 	Enable HSL Secondary	Ενεργοποίηση δευτερεύουσας διόρθωσης HSL
 	Enable language auto-detection	Ενεργοποίηση αυτόματου εντοπισμού γλώσσας
-	Enable Mercury Transmit	Ενεργοποίηση Mercury Transmit
 	Enable ProRes hardware accelerated encoding, if available	Ενεργοποίηση κωδικοποίησης ProRes με επιτάχυνση υλικού, αν είναι διαθέσιμη
 	Enable proxies	Ενεργοποίηση αρχείων proxy
 	Enable Remix	Ενεργοποίηση επανάμειξης
@@ -982,7 +980,6 @@
 	Font family	Οικογένεια γραμματοσειράς
 	Font Style	Στυλ γραμματοσειράς
 	Fonts used in the project:	Γραμματοσειρές που χρησιμοποιούνται στο έργο:
-	For color management parameters, go to the Settings tab in the Lumetri Color panel.	Για τις παραμέτρους διαχείρισης χρώματος, μεταβείτε στην καρτέλα Ρυθμίσεις του πλαισίου Lumetri Color.
 	Forest	Δάσος
 	Format and size	Μορφή και μέγεθος
 	Four Scopes (RGB, 8 bit)	Τέσσερα όργανα μέτρησης (RGB, 8 bit)
@@ -1404,8 +1401,6 @@
 	Luma Min / Max	Ελάχιστη / μέγιστη φωτεινότητα
 	Luma Source	Πηγή φωτεινότητας
 	Luma vs Sat	Φωτεινότητα προς κορεσμό
-	Lumetri Presets	Προκαθορισμένες ρυθμίσεις Lumetri
-	Lumetri Scopes	Όργανα μέτρησης Lumetri
 	Luminance Threshold	Κατώφλι φωτεινότητας
 	Magnify	Μεγεθυντικός φακός
 	Magnify (Legacy)	Μεγεθυντικός φακός (παλαιού τύπου)

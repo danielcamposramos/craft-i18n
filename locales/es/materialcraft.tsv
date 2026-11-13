@@ -1,0 +1,29 @@
+# Español (es) interface catalog for MaterialCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+# Partial: stereo preview labels only; ordinary Arabic remains in MaterialCraft’s original table.
+
+	Could not open Display Settings: {error}	No se pudo abrir la configuración de pantalla: {error}
+	Could not show the stereo view: {error}	No se pudo mostrar la vista estéreo: {error}
+	Desktop Display Settings	Configuración de pantalla del escritorio
+	Enable 3D	Activar 3D
+	Open the 3D View first.	Abre primero la vista 3D.
+	Render resolution per eye	Resolución de renderizado por ojo
+	Stereo View	Vista estéreo
+	Stereo depth is unavailable on this desktop; showing the flat model.	La profundidad estéreo no está disponible en este escritorio; se muestra el modelo plano.
+	The 3D view size preserves its current sampling; the desktop scales once.	El tamaño de la vista 3D conserva el muestreo actual; el escritorio escala una sola vez.
+	The stereo view has invalid native dimensions.	La vista estéreo tiene dimensiones nativas no válidas.
+	The stereo window closed before the pair was shown.	La ventana estéreo se cerró antes de mostrar el par.
+	Use 3D view size	Usar el tamaño de la vista 3D
+	Width	Ancho
+	Could not prepare the material scene.	No se pudo preparar la escena de materiales.
+	The stereo renderer stopped before completing its pair.	El renderizador estéreo se detuvo antes de completar el par.

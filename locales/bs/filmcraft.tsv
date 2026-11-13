@@ -44,6 +44,7 @@
 	0 fastest, 8 smallest	0 najbrže, 8 najmanje
 	10 Bit Black Point	10-bitna crna tačka
 	10 Bit White Point	10-bitna bijela tačka
+	10-bit color	10-bitna boja
 	105mm Prime	105 mm prime
 	29.97 fps Drop-Frame	29,97 fps s preskakanjem sličica
 	29.97 fps Non Drop-Frame	29,97 fps bez preskakanja sličica
@@ -89,16 +90,16 @@
 	Add caption at playhead	Dodaj titl na glavu za reprodukciju
 	Add captions	Dodaj titlove
 	Add Chapter Marker…	Dodaj marker poglavlja…
+	Add Color Grading to clip	Dodaj gradaciju boja isječku
 	Add Edit	Dodaj rez
 	Add Edit to All Tracks	Dodaj rez na sve trake
 	Add Flash Cue Marker…	Dodaj marker Flash znaka…
 	Add Frame Hold	Dodaj zadržavanje sličice
 	Add Guide…	Dodaj vodilicu…
 	Add keyframe	Dodaj ključnu sličicu
-	Add Lumetri Color to clip	Dodaj Lumetri boju na klip
 	Add Marker	Dodaj marker
 	Add Marker (M)	Dodaj marker (M)
-	Add media to your project. Drop files anywhere in the window, or choose a source below.	Dodajte medije u projekat. Ispustite datoteke bilo gdje u prozoru ili odaberite izvor ispod.
+	Add media to your project. Drop files or folders anywhere in the window, or choose a source below.	Dodajte medije u projekat. Ispustite datoteke ili foldere bilo gdje u prozoru ili odaberite izvor ispod.
 	Add New Caption Track…	Dodaj novu traku titlova…
 	Add Property…	Dodaj svojstvo…
 	Add Range Marker	Dodaj marker raspona
@@ -132,6 +133,7 @@
 	All Cameras	Sve kamere
 	All Empty Tracks	Sve prazne trake
 	All Events	Svi događaji
+	All Intra	Samo intra
 	All lines	Sve linije
 	All markers are hidden by the colour filter.	Svi markeri su skriveni filterom boja.
 	All media is online.	Svi mediji su dostupni.
@@ -169,6 +171,7 @@
 	Anchor point	Sidrena tačka
 	Anchor to In Point	Usidri na ulaznu tačku
 	Anchor to Out Point	Usidri na izlaznu tačku
+	Animate zoom, scrolling and menus	Animiraj zumiranje, pomicanje i menije
 	Animated GIF	Animirani GIF
 	Animated GIF 640×360	Animirani GIF 640×360
 	Anti-aliasing Quality	Kvalitet zaglađivanja ivica
@@ -187,6 +190,7 @@
 	Application shortcuts work whatever panel has focus	Prečice aplikacije rade bez obzira na to koji panel ima fokus
 	Apply a cut at each detected cut point	Primijeni rez na svakoj otkrivenoj tački reza
 	Apply Audio Transition	Primijeni audio prijelaz
+	Apply Color Grading Preset	Primijeni predložak gradacije boja
 	Apply Default Audio Transition	Primijeni zadani audio prijelaz
 	Apply Default Transitions	Primijeni zadane prijelaze
 	Apply Default Transitions to Selection	Primijeni zadane prijelaze na odabir
@@ -238,7 +242,9 @@
 	Audio Options	Audio opcije
 	Audio Out	Audio izlaz
 	Audio Out Point	Audio izlazna tačka
+	Audio output failed: playing without sound (check Settings > Audio Hardware)	Audio izlaz nije uspio: reprodukcija bez zvuka (provjerite Postavke > Audio hardver)
 	Audio output failed: playing without sound (check Settings ▸ Audio Hardware)	Audio izlaz nije uspio: reprodukcija bez zvuka (provjerite Postavke ▸ Audio hardver)
+	Audio output is not responding: playing without sound (check Settings > Audio Hardware)	Audio izlaz ne odgovara: reprodukcija bez zvuka (provjerite Postavke > Audio hardver)
 	Audio output is not responding: playing without sound (check Settings ▸ Audio Hardware)	Audio izlaz ne odgovara: reprodukcija bez zvuka (provjerite Postavke ▸ Audio hardver)
 	Audio Previews:	Audio pregledi:
 	Audio Samples	Audio uzorci
@@ -288,6 +294,7 @@
 	Automatically transcribe clips	Automatski transkribuj klipove
 	Automation Keyframe Optimization	Optimizacija ključnih sličica automatizacije
 	AV1	AV1
+	AV1 needs a hardware encoder; none was found on this machine, and FilmCraft has no software AV1 encoder yet.	AV1 zahtijeva hardverski enkoder; na ovom računaru nije pronađen nijedan, a FilmCraft još nema softverski AV1 enkoder.
 	Average Data Rate	Prosječna brzina podataka
 	Avid DNxHR	Avid DNxHR
 	Avid DNxHR HQ	Avid DNxHR HQ
@@ -546,6 +553,10 @@
 	Color Correction	Korekcija boja
 	Color Distortion	Izobličenje boja
 	Color Emboss	Reljef u boji
+	Color Grading	Gradacija boja
+	Color Grading Preset Thumbnails	Sličice predložaka gradacije boja
+	Color Grading Presets	Predlošci gradacije boja
+	Color Grading Section	Odjeljak gradacije boja
 	Color Key	Ključ boje
 	Color Management · {n} item	Upravljanje bojama · stavki: {n}
 	Color Management · {n} items	Upravljanje bojama · stavki: {n}
@@ -714,10 +725,12 @@
 	Delete Media Cache Files	Izbriši keš datoteke medija
 	Delete oldest files when the cache exceeds	Briši najstarije datoteke kad keš premaši
 	Delete Preset	Izbriši predložak
+	Delete Redoable Actions	Izbriši radnje koje se mogu ponoviti
 	Delete Render Files	Izbriši datoteke iscrtavanja
 	Delete Render Files In to Out	Izbriši datoteke iscrtavanja od ulaza do izlaza
 	Delete Search Bin	Izbriši korpu pretrage
 	Delete selected captions	Izbriši odabrane titlove
+	Delete the dimmed actions after the current state? They cannot be redone.	Izbrisati zatamnjene radnje nakon trenutnog stanja? Neće se moći ponoviti.
 	Delete this preset	Izbriši ovaj predložak
 	Delete Tracks	Izbriši trake
 	Delete Tracks…	Izbriši trake…
@@ -806,6 +819,7 @@
 	Duck Under Voice and Effects	Utišavanje ispod glasa i efekata
 	Ducking	Utišavanje
 	Duration:	Trajanje:
+	Duration: {tc}	Trajanje: {tc}
 	DVCPRO HD (1.5)	DVCPRO HD (1,5)
 	Dynamic Audio Waveforms	Dinamički audio talasni oblici
 	Dynamic Link	Dinamička veza
@@ -852,10 +866,10 @@
 	Empty tracks	Prazne trake
 	Enable clip and XMP metadata linking	Omogući povezivanje metapodataka klipa i XMP-a
 	Enable developer mode	Omogući razvojni način
+	Enable External Video Output	Omogući vanjski video izlaz
 	Enable hardware accelerated decoding (requires restart)	Omogući hardverski ubrzano dekodiranje (zahtijeva ponovno pokretanje)
 	Enable HSL Secondary	Omogući HSL sekundarno
 	Enable language auto-detection	Omogući automatsko otkrivanje jezika
-	Enable Mercury Transmit	Omogući Mercury Transmit
 	Enable ProRes hardware accelerated encoding, if available	Omogući hardverski ubrzano ProRes kodiranje, ako je dostupno
 	Enable proxies	Omogući proksije
 	Enable Remix	Omogući remiks
@@ -870,6 +884,7 @@
 	End Off Screen	Završi van ekrana
 	End Point	Krajnja tačka
 	End:	Kraj:
+	End: {tc}	Kraj: {tc}
 	Ends With	Završava sa
 	Enhance Speech	Poboljšaj govor
 	Entire Source	Cijeli izvor
@@ -881,6 +896,7 @@
 	EssentialSound	Osnovni zvuk
 	Estimated file size: {size}	Procijenjena veličina datoteke: {size}
 	Events	Događaji
+	Every frame a keyframe (edit-friendly, larger files)	Svaka sličica je ključna (pogodno za montažu, veće datoteke)
 	Evolution	Evolucija
 	Evolution Options	Opcije evolucije
 	Exact name matches only	Samo tačna podudaranja naziva
@@ -1013,7 +1029,7 @@
 	Font family	Porodica fonta
 	Font Style	Stil fonta
 	Fonts used in the project:	Fontovi korišteni u projektu:
-	For color management parameters, go to the Settings tab in the Lumetri Color panel.	Za parametre upravljanja bojama idite na karticu Postavke u panelu Lumetri boja.
+	For color management parameters, go to the Settings tab in the Color Grading panel.	Za parametre upravljanja bojama otvorite karticu Postavke na panelu Gradacija boja.
 	Forest	Šuma
 	Format and size	Format i veličina
 	Four Scopes (RGB, 8 bit)	Četiri skopa (RGB, 8-bitno)
@@ -1159,7 +1175,12 @@
 	H.264 at the sequence's frame size and rate; 0.05 bits per pixel	H.264 u veličini i brzini sličica sekvence; 0,05 bita po pikselu
 	H.264 at the sequence's frame size and rate; 0.1 bits per pixel	H.264 u veličini i brzini sličica sekvence; 0,1 bita po pikselu
 	H.264 at the sequence's frame size and rate; bitrate adapts to the frame size (0.2 bits per pixel)	H.264 u veličini i brzini sličica sekvence; brzina prijenosa se prilagođava veličini kadra (0,2 bita po pikselu)
+	H.264 High 10 (10-bit 4:2:0) at the sequence's size, constant quality CRF 16, AAC 320 kbps; a 10-bit master	H.264 High 10 (10-bitno 4:2:0) u veličini sekvence, konstantan kvalitet CRF 16, AAC 320 kbps; 10-bitni master
+	H.264 High 10 Intra	H.264 High 10 Intra
+	H.264 High 10 Intra (10-bit 4:2:0, every frame a keyframe), CRF 12, AAC 320 kbps; an edit-friendly intermediate	H.264 High 10 Intra (10-bitno 4:2:0, svaka sličica je ključna), CRF 12, AAC 320 kbps; međuformat pogodan za montažu
+	H.264 High 10 Master	H.264 High 10 Master
 	H.265 (HEVC)	H.265 (HEVC)
+	H.265 (HEVC) needs a hardware encoder (NVENC on NVIDIA GPUs, VideoToolbox on macOS); none was found on this machine, and FilmCraft has no software H.265 encoder yet. Choose H.264 or ProRes instead.	H.265 (HEVC) zahtijeva hardverski enkoder (NVENC na NVIDIA GPU-ovima, VideoToolbox na macOS-u); na ovom računaru nije pronađen nijedan, a FilmCraft još nema softverski H.265 enkoder. Umjesto toga odaberite H.264 ili ProRes.
 	Half Saturation	Pola zasićenja
 	Handle Frames:	Rezervne sličice:
 	Hard Clip	Tvrdo odsijecanje
@@ -1184,6 +1205,7 @@
 	Hide All Caption Tracks	Sakrij sve trake titlova
 	Hide Back Face	Sakrij stražnje lice
 	Hide FilmCraft	Sakrij FilmCraft
+	High 10	High 10
 	High contrast with held highlights and deep shadows	Visok kontrast sa zadržanim svijetlim tonovima i dubokim sjenama
 	High Cutoff	Visoka granična frekvencija
 	High Frequency Cut	Rez visokih frekvencija
@@ -1292,6 +1314,7 @@
 	Install Motion Graphics Template (.fcgt)	Instaliraj predložak animirane grafike (.fcgt)
 	Install Motion Graphics Template…	Instaliraj predložak animirane grafike…
 	Install…	Instaliraj…
+	integrated GPU	integrisani GPU
 	Inter	Inter
 	Interior Room Tone	Ton unutrašnje prostorije
 	Internal Black Point	Unutrašnja crna tačka
@@ -1395,6 +1418,7 @@
 	Linked Selection	Povezani odabir
 	Linked {n} clip(s)	Povezano klipova: {n}
 	Liquid Distortion	Tečno izobličenje
+	List Color Grading Presets	Prikaži predloške gradacije boja
 	Loaded “{name}”	Učitano „{name}”
 	Local Drives	Lokalni diskovi
 	Local Projects	Lokalni projekti
@@ -1439,10 +1463,6 @@
 	Luma Min / Max	Luma min. / maks.
 	Luma Source	Izvor lume
 	Luma vs Sat	Luma prema zasićenju
-	Lumetri	Lumetri
-	Lumetri Color	Lumetri boja
-	Lumetri Presets	Lumetri predlošci
-	Lumetri Scopes	Lumetri skopovi
 	Luminance Threshold	Prag luminanse
 	LUT	LUT
 	Magnify	Uvećaj
@@ -1451,6 +1471,7 @@
 	Main (8-bit)	Main (8-bitno)
 	Main (8-bit; Main 10 for HDR sequences)	Main (8-bitno; Main 10 za HDR sekvence)
 	Main 10 (10-bit, HDR)	Main 10 (10-bitno, HDR)
+	Maintain Audio Pitch	Zadrži visinu tona
 	Maintain pitch while shuttling	Zadrži visinu tona pri premotavanju
 	Major Radius	Veliki poluprečnik
 	Make Offline	Učini nedostupnim
@@ -1710,6 +1731,7 @@
 	no Korean font is installed on this system; the interface stays in English	na ovom sistemu nije instaliran korejski font; interfejs ostaje na engleskom
 	No markers. Press M to add one.	Nema markera. Pritisnite M da dodate jedan.
 	No matching captions.	Nema odgovarajućih titlova.
+	No matching text.	Nema odgovarajućeg teksta.
 	No model credits were built into this copy.	U ovu kopiju nisu ugrađene zasluge za modele.
 	No Motion	Bez pokreta
 	No multi-camera clip at the playhead	Nema klipa s više kamera na glavi za reprodukciju
@@ -1717,6 +1739,7 @@
 	No saved guide templates.	Nema sačuvanih predložaka vodilica.
 	No Scroll	Bez pomjeranja
 	No templates match.	Nijedan predložak ne odgovara.
+	No text graphics in this sequence. Add text with the Type tool.	U ovoj sekvenci nema tekstualnih grafika. Dodajte tekst alatom za tekst.
 	Noise & Grain	Šum i zrno
 	Noise (Legacy)	Šum (naslijeđeno)
 	Noise Level	Nivo šuma
@@ -1789,6 +1812,7 @@
 	Opacity 0 → 100 % over the first second	Neprozirnost 0 → 100 % tokom prve sekunde
 	Opacity 100 → 0 % over the last second	Neprozirnost 100 → 0 % tokom posljednje sekunde
 	Open a sequence to export	Otvorite sekvencu za izvoz
+	Open a sequence to search its graphics	Otvorite sekvencu da pretražite njene grafike
 	Open a sequence to see its transcript	Otvorite sekvencu da vidite njen transkript
 	Open a sequence to work with captions	Otvorite sekvencu da radite s titlovima
 	Open Air	Otvoreni prostor
@@ -2029,6 +2053,7 @@
 	Rays Only	Samo zrake
 	Razor Tool	Alat žilet
 	Read	Čitaj
+	Read Video Scopes	Očitaj video skopove
 	Rec. 2100	Rec. 2100
 	Rec. 601	Rec. 601
 	Rec. 709	Rec. 709
@@ -2121,6 +2146,7 @@
 	Reset All Parameters	Vrati sve parametre na početno
 	Reset Duration	Vrati trajanje na početno
 	Reset Effect	Vrati efekat na početno
+	Reset Interface Zoom	Vrati zumiranje interfejsa
 	Reset Parameter	Vrati parametar na početno
 	Reset to Grid	Vrati na mrežu
 	Reset to Saved Layout	Vrati na sačuvani raspored
@@ -2356,6 +2382,7 @@
 	Show Clip Mismatch Warning dialog	Prikaži dijalog upozorenja o neusklađenosti klipa
 	Show clip names	Prikaži nazive klipova
 	Show Dot	Prikaži tačku
+	Show Duplicate Frame Markers	Prikaži oznake dupliranih kadrova
 	Show durations	Prikaži trajanja
 	Show Event Indicator	Prikaži indikator događaja
 	Show finished jobs	Prikaži završene zadatke
@@ -2508,6 +2535,7 @@
 	Start Voice-over Recording	Pokreni snimanje naracije
 	Start with an Empty Project	Počni s praznim projektom
 	Start:	Početak:
+	Start: {tc}	Početak: {tc}
 	Starting Intensity	Početni intenzitet
 	Static Plates	Statične ploče
 	Steel Blue	Čelično plava
@@ -2622,6 +2650,7 @@
 	Text Styling	Stilizovanje teksta
 	Text to Speech	Tekst u govor
 	TextPanel	Panel teksta
+	The control server is disabled: FILMCRAFT_CONTROL_TOKEN must contain 64 random hex characters (see docs/control-protocol.md)	Kontrolni server je onemogućen: FILMCRAFT_CONTROL_TOKEN mora sadržavati 64 nasumična heksadecimalna znaka (pogledajte docs/control-protocol.md)
 	The default graphics are used from the next start.	Zadana grafika koristi se od sljedećeg pokretanja.
 	The language changed but could not be saved: {e}	Jezik je promijenjen, ali nije ga moguće sačuvati: {e}
 	The media cache holds render previews of unsaved projects and other files FilmCraft can recreate. Deleting them is always safe; FilmCraft rebuilds them as needed.	Keš medija sadrži preglede iscrtavanja nesačuvanih projekata i druge datoteke koje FilmCraft može ponovo kreirati. Njihovo brisanje je uvijek sigurno; FilmCraft ih ponovo gradi po potrebi.
@@ -2666,6 +2695,7 @@
 	Toggle All Video Targets	Uključi/isključi sve video ciljeve
 	Toggle animation	Uključi/isključi animaciju
 	Toggle Audio During Scrubbing	Uključi/isključi zvuk pri prelasku
+	Toggle Color Grading Section	Uključi/isključi odjeljak gradacije boja
 	Toggle Full Screen	Uključi/isključi cijeli ekran
 	Toggle Mute for All Targeted Audio Tracks	Uključi/isključi utišavanje za sve ciljane audio trake
 	Toggle Proxies	Uključi/isključi proksije
@@ -2694,6 +2724,7 @@
 	Top Center	Gore po sredini
 	Total Duration	Ukupno trajanje
 	Touch	Dodir
+	Track Color	Boja trake
 	Track Fx Editor	Uređivač efekata trake
 	Track Keyframes	Ključne sličice trake
 	Track Matte Key	Ključ matte trake
@@ -2723,6 +2754,7 @@
 	Transition Softness	Mekoća prijelaza
 	Transitions	Prijelazi
 	Transmit Multi-Camera View	Prenesi prikaz više kamera
+	Transparency Grid	Mreža prozirnosti
 	Transparent Video…	Prozirni video…
 	Trash	Smeće
 	Travel Motion	Putujući pokret
@@ -2847,6 +2879,7 @@
 	Video Previews	Video pregledi
 	Video Previews:	Video pregledi:
 	Video Rendering and Playback	Iscrtavanje i reprodukcija videa
+	Video Scopes	Video skopovi
 	Video Thumbnails	Video sličice
 	Video Tracks	Video trake
 	Video Transition Default Duration	Zadano trajanje video prijelaza
@@ -2938,6 +2971,7 @@
 	Without keyframes	Bez ključnih sličica
 	Wonder Glow	Čudesni sjaj
 	Work Area	Radno područje
+	Work Area Bar	Traka radnog područja
 	Working Color Space	Radni prostor boja
 	Working Color Space:	Radni prostor boja:
 	Wrap Back	Omotavanje unazad

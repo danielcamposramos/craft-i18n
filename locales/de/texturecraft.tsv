@@ -904,3 +904,18 @@
 	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	{n} Kontrollpunkte. Klicken Sie auf das Mesh (oder die 2D-Ansicht), um Punkte hinzuzufügen, und ziehen Sie sie zum Anpassen; ein Klick auf den ersten Punkt schließt den Pfad. Eingabe malt ihn mit dem Pinsel (ein geschlossener, gefüllter Pfad füllt sein Inneres), Esc bricht ab.
 	{n} items share a shortcut; the first one listed wins.	{n} Einträge teilen sich ein Tastenkürzel; der erste in der Liste hat Vorrang.
 	{pattern} (scale {scale}, seed {seed})	{pattern} (Skalierung {scale}, Startwert {seed})
+
+# Stereo model view, original partial additions (2026-11-12).
+	Enable 3D	3D aktivieren
+	Render resolution per eye	Renderauflösung pro Auge
+	Desktop Display Settings	Anzeigeeinstellungen des Desktops
+	Stereo View	Stereoansicht
+	The model viewport size preserves its current sampling; the desktop scales once.	Die Größe der Modellansicht erhält die aktuelle Abtastung; der Desktop skaliert nur einmal.
+	Use model viewport size	Größe der Modellansicht verwenden
+	Could not show the stereo view: {error}	Die Stereoansicht konnte nicht angezeigt werden: {error}
+	Could not open Display Settings: {error}	Die Anzeigeeinstellungen konnten nicht geöffnet werden: {error}
+	Could not read the stereo views from the GPU.	Die Stereoansichten konnten nicht von der GPU gelesen werden.
+	The stereo views have different native dimensions.	Die Stereoansichten haben unterschiedliche native Abmessungen.
+	The stereo window closed before the pair was shown.	Das Stereofenster wurde vor der Anzeige des Bildpaars geschlossen.
+	The stereo view has invalid native dimensions.	Die Stereoansicht hat ungültige native Abmessungen.
+	Stereo depth is unavailable on this desktop; showing the flat model.	Auf diesem Desktop ist keine Stereotiefe verfügbar; das Modell wird flach angezeigt.

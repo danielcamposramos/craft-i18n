@@ -11,11 +11,18 @@
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
 
+	A range marker needs a positive duration	Тривалість маркера діапазону має бути додатною
 	About	About
 	About FilmCraft	Про FilmCraft
+	Add and apply	Додати й застосувати
 	Add Audio Submix Track	Додати доріжку підміксу аудіо
 	Add Caption at Playhead	Додати субтитр у позиції курсора відтворення
 	Add Chapter Marker…	Додати маркер розділу…
+	Add color	Додати колір
+	Add Color Grading to clip	Додати кольорокорекцію до кліпу
+	Add Custom Color	Додати власний колір
+	Add custom color	Додати власний колір
+	Add custom color…	Додати власний колір…
 	Add Edit	Додати розріз
 	Add Edit to All Tracks	Додати розріз на всіх доріжках
 	Add Flash Cue Marker…	Додати маркер сигналу Flash…
@@ -33,6 +40,7 @@
 	All Panels	Усі панелі
 	Appearance…	Вигляд…
 	Apply Audio Transition	Застосувати аудіоперехід
+	Apply Color Grading Preset	Застосувати пресет кольорокорекції
 	Apply Default Transitions to Selection	Застосувати типові переходи до виділення
 	Apply Video Transition	Застосувати відеоперехід
 	Assembly	Компонування
@@ -65,6 +73,10 @@
 	Center Horizontally	По центру горизонтально
 	Center Vertically	По центру вертикально
 	Cerulean	Лазурний
+	Chapter	Розділ
+	Chapter Marker	Маркер розділу
+	Choose color with system picker	Вибрати колір у системному вікні
+	Choose Color…	Вибрати колір…
 	Clear	Видалити
 	Clear In	Прибрати початкову позначку
 	Clear In and Out	Прибрати початкову та кінцеву позначки
@@ -76,8 +88,15 @@
 	Close All Projects	Закрити всі проєкти
 	Close Gap	Прибрати проміжок
 	Close Project	Закрити проєкт
+	Color Grading	Кольорокорекція
+	Color Grading Preset Thumbnails	Мініатюри пресетів кольорокорекції
+	Color Grading Presets	Пресети кольорокорекції
+	Color Grading Section	Розділ кольорокорекції
 	Color Management…	Керування кольором…
 	Color Matte…	Кольорова підкладка…
+	Color picker	Вибір кольору
+	Color selected markers	Змінити колір вибраних маркерів
+	Comment Marker	Маркер коментаря
 	Comparison View	Режим порівняння
 	Composite Video	Композитне відео
 	Consolidate Duplicates	Об’єднати дублікати
@@ -86,9 +105,14 @@
 	Create Multi-Camera Source Sequence…	Створити вихідну мультикамерну секвенцію…
 	Create Proxies…	Створити проксі…
 	Custom	Custom
+	Custom Color	Власний колір
+	Custom Color…	Власний колір…
 	Darkest	Найтемніший
+	Delete Marker	Видалити маркер
+	Delete Markers	Видалити маркери
 	Delete Render Files	Видалити файли рендерингу
 	Delete Render Files In to Out	Видалити файли рендерингу між початковою та кінцевою позначками
+	Delete selected markers	Видалити вибрані маркери
 	Delete Tracks…	Видалити доріжки…
 	Delete Transcript	Видалити транскрипцію
 	Demo Footage	Демонстраційні матеріали
@@ -103,11 +127,21 @@
 	Distribute Vertically	Розподілити вертикально
 	Dock Panel	Dock Panel
 	Dynamic Audio Waveforms	Динамічні осцилограми аудіо
+	Edit color	Змінити колір
+	Edit Custom Color	Змінити власний колір
+	Edit Marker	Редагувати маркер
+	Edit Markers	Редагувати маркери
+	Edit Marker…	Редагувати маркер…
 	Edit Offline…	Редагувати автономно…
 	Edit Subclip…	Редагувати підкліп…
 	Editing	Монтаж
+	Editing or removing a swatch leaves assigned colors unchanged.	Зміна або видалення зразка не змінює призначені кольори.
 	Effect Controls	Керування ефектами
+	Enable External Video Output	Увімкнути зовнішній відеовихід
 	Enable Remix	Увімкнути ремікс
+	Enter a valid HH:MM:SS:FF timecode	Введіть коректний таймкод ГГ:ХХ:СС:КК (HH:MM:SS:FF)
+	Enter a valid HTTP or HTTPS URL without credentials	Введіть дійсну URL-адресу HTTP або HTTPS без облікових даних
+	Enter six hex digits, for example FF80C0.	Введіть шість шістнадцяткових цифр, наприклад FF80C0.
 	Essential Graphics	Основна графіка
 	Essential Sound	Основний звук
 	Events	Події
@@ -123,6 +157,8 @@
 	FilmCraft on getartcraft.com	FilmCraft на getartcraft.com
 	FilmCraft on GitHub	FilmCraft на GitHub
 	Fit to frame	Умістити в кадр
+	Flash Cue Point	Точка сигналу Flash
+	For color management parameters, go to the Settings tab in the Color Grading panel.	Параметри керування кольором розташовано на вкладці «Налаштування» панелі «Кольорокорекція».
 	Forest	Лісовий
 	Frame Blending	Змішування кадрів
 	Frame Hold Options…	Параметри стоп-кадру…
@@ -146,6 +182,8 @@
 	Graphics…	Графіка…
 	Guide Templates	Шаблони напрямних
 	Hard	Hard
+	Hex	HEX
+	Hex color	Колір у форматі HEX
 	Hide All Caption Tracks	Приховати всі доріжки субтитрів
 	High Quality Playback	Відтворення у високій якості
 	Home	Home
@@ -169,19 +207,25 @@
 	Link	Зв’язати
 	Link Media…	Прив’язати медіа…
 	Linked Selection	Пов’язане виділення
-	Lumetri Color	Колір Lumetri
-	Lumetri Scopes	Відеоскопи Lumetri
+	List Color Grading Presets	Список пресетів кольорокорекції
+	Maintain Audio Pitch	Зберігати висоту звуку
 	Make Offline…	Зробити автономним…
 	Make Subclip…	Створити підкліп…
 	Make Subsequence	Створити підсеквенцію
+	Manage Colors	Керування кольорами
+	Manage Colors…	Керування кольорами…
 	Manage Guides…	Керувати напрямними…
 	Mark Clip	Позначити кліп
 	Mark In	Установити початкову позначку
 	Mark Out	Установити кінцеву позначку
 	Mark Selection	Позначити виділення
 	Mark Split	Установити розділену позначку
+	Marker	Маркер
+	Marker changed or was removed. Reopen it to continue.	Маркер змінено або видалено. Відкрийте його знову, щоб продовжити.
+	Marker owner is unavailable	Об’єкт, якому належить маркер, недоступний
 	Markers	Маркери
 	Match Frame	Знайти відповідний кадр
+	Matte	Matte
 	Media Analysis & Transcription…	Аналіз медіа й транскрибування…
 	Media Browser	Медіабраузер
 	Media Cache…	Медіакеш…
@@ -189,18 +233,28 @@
 	Memory…	Пам’ять…
 	Merge Clips…	Об’єднати кліпи…
 	Merged PRs	Merged PRs
+	Morph Cut	Морф-перехід
 	Motion Graphics Template…	Шаблон анімаційної графіки…
 	Multi-Camera	Мультикамера
 	Multi-Camera View	Мультикамерний режим
-	Name	Name
+	Name	Назва
 	Name (A–Z)	Name (A–Z)
 	Nest…	Вкласти в секвенцію…
 	New Project Panel	Нова панель проєкту
+	Next	Наступний
 	Next in Sequence	Наступний у секвенції
 	Next in Track	Наступний на доріжці
+	No markers	Немає маркерів
+	No matching markers	Немає відповідних маркерів
+	No saved colors	Немає збережених кольорів
+	No sequence open	Немає відкритої секвенції
+	No source clip open	Немає відкритого вихідного кліпу
 	Normalize Mix Track…	Нормалізувати доріжку міксу…
+	Notes	Примітки
 	Offline File…	Автономний файл…
+	Open Link	Відкрити посилання
 	Open Project…	Відкрити проєкт…
+	Opens this address in your web browser	Відкриває цю адресу у веббраузері
 	Optical Flow	Оптичний потік
 	Overwrite	Перезаписати
 	Paste Attributes…	Вставити атрибути…
@@ -209,27 +263,33 @@
 	Playback Resolution	Роздільність відтворення
 	Playback…	Відтворення…
 	Plugins…	Плагіни…
+	Previous	Попередній
 	Previous in Sequence	Попередній у секвенції
 	Previous in Track	Попередній на доріжці
 	Program	Програма
 	Progress	Перебіг
 	Project	Проєкт
+	Project Colors	Кольори проєкту
 	Project Manager…	Менеджер проєкту…
 	Project Notes	Нотатки проєкту
 	Project Settings	Налаштування проєкту
 	Project…	Проєкт…
 	Purple	Пурпуровий
+	Range marker	Маркер діапазону
 	Ratio	Ratio
+	Read Video Scopes	Зчитати дані відеоскопів
 	Reconnect Full Resolution Media…	Повторно під’єднати медіа повної роздільності…
 	Recover	Recover
 	Recover Unsaved Changes…	Відновити незбережені зміни…
 	Reference Monitor	Еталонний монітор
 	Remix	Ремікс
 	Remix Properties…	Властивості реміксу…
-	Remove	Remove
+	Remove	Вилучити
 	Remove Attributes…	Видалити атрибути…
+	Remove Custom Color	Видалити власний колір
 	Remove Filler Words	Видалити слова-паразити
 	Remove Pauses	Видалити паузи
+	Remove saved color	Видалити збережений колір
 	Remove Unused	Видалити невикористане
 	Render Audio	Рендерити аудіо
 	Render Effects In to Out	Рендерити ефекти між початковою та кінцевою позначками
@@ -251,13 +311,19 @@
 	Rose	Рожевий
 	Safe Margins	Безпечні поля
 	Save All	Зберегти все
+	Save color	Зберегти колір
 	Save Guides as Template…	Зберегти напрямні як шаблон…
 	Scale to Frame Size	Масштабувати до розміру кадру
 	Scene Edit Detection…	Виявлення монтажних склейок…
 	Search Bin	Пошуковий контейнер
+	Search markers	Пошук маркерів
+	Search name, notes, author	Пошук за назвою, примітками й автором
+	Segmentation Marker	Маркер сегментації
 	Select	Вибрати
 	Select All	Виділити все
+	Select all	Вибрати все
 	Select All Matching	Виділити всі відповідні
+	Select all visible markers	Вибрати всі видимі маркери
 	Select Label Group	Виділити групу міток
 	Select Next Graphic	Вибрати наступний графічний елемент
 	Select Next Layer	Вибрати наступний шар
@@ -269,31 +335,38 @@
 	Sequence	Секвенція
 	Sequence From Clip	Секвенція з кліпу
 	Sequence Settings…	Налаштування секвенції…
+	Sequence: {name}	Секвенція: {name}
 	Sequence…	Секвенція…
 	Show	Show
 	Show Active Caption Tracks Only	Показати лише активні доріжки субтитрів
 	Show All Caption Tracks	Показати всі доріжки субтитрів
 	Show All Marker Colors	Показати всі кольори маркерів
+	Show Duplicate Frame Markers	Показати маркери повторюваних кадрів
 	Show Through Edits	Показати розрізи без зміни кадру
 	Simplify Sequence…	Спростити секвенцію…
 	Snap in Program Monitor	Прив’язка в моніторі програми
 	Snap in Timeline	Прив’язка на часовій шкалі
 	Soft	Soft
 	Source Settings…	Налаштування джерела…
+	Source: {name}	Джерело: {name}
+	Source: {name} (shared source markers)	Джерело: {name} (спільні вихідні маркери)
 	Speed/Duration…	Швидкість/тривалість…
 	Split	Split
 	Standard	Standard
 	Stroke Color	Stroke Color
 	Synchronize…	Синхронізувати…
+	System color picker unavailable: {error}	Системне вікно вибору кольору недоступне: {error}
 	System Compatibility Report…	Звіт про сумісність системи…
 	Tan	Світло-коричневий
 	Teal	Бірюзовий
 	Time Interpolation	Часова інтерполяція
+	Time is outside the supported range	Час за межами підтримуваного діапазону
 	Timecode…	Таймкод…
 	Timeline	Часова шкала
 	Timeline…	Часова шкала…
 	Title	Title
 	To	To
+	Toggle Color Grading Section	Перемкнути розділ кольорокорекції
 	Toggle Proxies	Перемкнути проксі
 	Tools	Інструменти
 	Top	Верх
@@ -303,14 +376,20 @@
 	Transparent Video…	Прозоре відео…
 	Trim Edit	Підрізати склейку
 	Trim…	Підрізання…
+	Ultra Key	Хромакей
 	Universal Counting Leader…	Універсальний зворотний відлік…
 	Update Metadata…	Оновити метадані…
 	Upgrade Caption to Graphic	Перетворити субтитр на графіку
 	Upgrade to Source Graphic	Перетворити на вихідну графіку
+	URL	URL
 	Vertical Text	Вертикальний текст
 	Video and Audio Waveform Split	Розділений вигляд відео й осцилограми аудіо
 	Video In	Початок відео
 	Video Options	Параметри відео
 	Video Out	Кінець відео
+	Video Scopes	Відеоскопи
 	View	Вигляд
+	Warp Stabilizer	Стабілізатор деформації
+	Web Link	Вебпосилання
 	Zoom to Sequence	Умістити секвенцію
+	{count} selected	Вибрано: {count}

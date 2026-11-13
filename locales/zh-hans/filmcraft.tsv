@@ -42,8 +42,11 @@
 	+ Cmd	+ Cmd
 	+ Opt	+ Opt
 	0 fastest, 8 smallest	0 最快，8 最小
+	1 frame ({seconds} s)	1 帧（{seconds} 秒）
+	1/2	1/2
 	10 Bit Black Point	10 位黑点
 	10 Bit White Point	10 位白点
+	10-bit color	10 位色彩
 	105mm Prime	105mm 定焦
 	29.97 fps Drop-Frame	29.97 fps 掉帧
 	29.97 fps Non Drop-Frame	29.97 fps 非掉帧
@@ -65,6 +68,7 @@
 	A cut sequence with transitions, effects and music	一段包含过渡、效果与音乐的剪辑序列
 	A file dialog is already open	已有一个文件对话框处于打开状态
 	A news-style line that crawls in from the right and leaves at the left.	新闻风格的一行文字从右侧爬入，从左侧离开。
+	A range marker needs a positive duration	范围标记的持续时间必须大于零
 	A rounded tag that fits its text, with a status dot.	贴合文字的圆角标签，带状态圆点。
 	A title on a rounded card with a soft shadow.	圆角卡片上的标题，带柔和阴影。
 	AAC Audio	AAC 音频
@@ -81,6 +85,7 @@
 	Active Monitor	活动监视器
 	Adaptive ({bpp} bits per pixel)	自适应（每像素 {bpp} 位）
 	Add a timecode row	添加时间码行
+	Add and apply	添加并应用
 	Add another shortcut	添加另一个快捷键
 	Add Audio Submix Track	添加音频子混音轨道
 	Add audio submix tracks	添加音频子混音轨道
@@ -89,21 +94,26 @@
 	Add caption at playhead	在播放头处添加字幕
 	Add captions	添加字幕
 	Add Chapter Marker…	添加章节标记…
+	Add color	添加颜色
+	Add Color Grading to clip	为剪辑添加色彩分级
+	Add Custom Color	添加自定义颜色
+	Add custom color	添加自定义颜色
+	Add custom color…	添加自定义颜色…
 	Add Edit	添加编辑
 	Add Edit to All Tracks	在所有轨道添加编辑点
 	Add Flash Cue Marker…	添加闪现提示标记…
 	Add Frame Hold	添加帧定格
 	Add Guide…	添加参考线…
 	Add keyframe	添加关键帧
-	Add Lumetri Color to clip	向剪辑添加 Lumetri 颜色
 	Add Marker	添加标记
 	Add Marker (M)	添加标记（M）
-	Add media to your project. Drop files anywhere in the window, or choose a source below.	将媒体添加到你的项目。将文件拖到窗口任意位置，或在下方选择来源。
+	Add media to your project. Drop files or folders anywhere in the window, or choose a source below.	将媒体添加到你的项目。将文件或文件夹拖到窗口任意位置，或在下方选择来源。
 	Add New Caption Track…	添加新字幕轨道…
 	Add Property…	添加属性…
 	Add Range Marker	添加范围标记
 	Add Range Marker to In and Out	在入点和出点间添加范围标记
 	Add to Favorites	添加到收藏夹
+	Add Track	添加轨道
 	Add Tracks	添加轨道
 	Add tracks automatically when editing source clips onto the Timeline	将源剪辑编辑到时间轴时自动添加轨道
 	Add Tracks…	添加轨道…
@@ -135,6 +145,7 @@
 	All Categories	全部分类
 	All Empty Tracks	所有空轨道
 	All Events	所有事件
+	All Intra	全帧内
 	All lines	所有行
 	All markers are hidden by the colour filter.	所有标记均已按颜色筛选隐藏。
 	All media is online.	所有媒体均已联机。
@@ -172,6 +183,7 @@
 	Anchor point	锚点
 	Anchor to In Point	锚定到入点
 	Anchor to Out Point	锚定到出点
+	Animate zoom, scrolling and menus	缩放、滚动和菜单使用动画
 	Animated GIF	动态 GIF
 	Animated GIF 640×360	动态 GIF 640×360
 	Anti-aliasing Quality	抗锯齿质量
@@ -190,6 +202,7 @@
 	Application shortcuts work whatever panel has focus	无论哪个面板获得焦点，应用程序快捷键均生效
 	Apply a cut at each detected cut point	在每个检测到的切点应用剪切
 	Apply Audio Transition	应用音频过渡
+	Apply Color Grading Preset	应用色彩分级预设
 	Apply Default Audio Transition	应用默认音频过渡
 	Apply Default Transitions	应用默认过渡
 	Apply Default Transitions to Selection	对所选对象应用默认过渡
@@ -236,14 +249,17 @@
 	Audio In Point	音频入点
 	Audio Info	音频信息
 	Audio Meters	音频电平表
+	Audio Names	音频名称
 	Audio on track {t}	轨道 {t} 上的音频
 	Audio Only	仅音频
 	Audio only	仅音频
 	Audio Options	音频选项
 	Audio Out	音频出
 	Audio Out Point	音频出点
-	Audio output failed: playing without sound (check Settings ▸ Audio Hardware)	音频输出失败：无声播放（请检查设置 ▸ 音频硬件）
-	Audio output is not responding: playing without sound (check Settings ▸ Audio Hardware)	音频输出无响应：无声播放（请检查设置 ▸ 音频硬件）
+	Audio output failed: playing without sound (check Settings > Audio Hardware)	音频输出失败：无声播放（请检查设置 > 音频硬件）
+	Audio output failed: playing without sound (check Settings ▸ Audio Hardware)	音频输出失败：以无声音方式播放（检查 设置 ▸ 音频硬件）
+	Audio output is not responding: playing without sound (check Settings > Audio Hardware)	音频输出无响应：无声播放（请检查设置 > 音频硬件）
+	Audio output is not responding: playing without sound (check Settings ▸ Audio Hardware)	音频输出未响应：以无声音方式播放（检查 设置 ▸ 音频硬件）
 	Audio Previews:	音频预览：
 	Audio Samples	音频采样
 	Audio Time Units	音频时间单位
@@ -292,6 +308,7 @@
 	Automatically transcribe clips	自动转录剪辑
 	Automation Keyframe Optimization	自动化关键帧优化
 	AV1	AV1
+	AV1 needs a hardware encoder; none was found on this machine, and FilmCraft has no software AV1 encoder yet.	AV1 需要硬件编码器；本机未找到，且 FilmCraft 尚无软件 AV1 编码器。
 	Average Data Rate	平均数据速率
 	Avid DNxHR	Avid DNxHR
 	Avid DNxHR HQ	Avid DNxHR HQ
@@ -428,6 +445,7 @@
 	Cancelled	已取消
 	Cannot open {dir}: {e}	无法打开 {dir}：{e}
 	Capitalisation	大小写
+	Caption Export Settings	字幕导出设置
 	Caption track options	字幕轨道选项
 	Caption Tracks	字幕轨道
 	Captions	字幕
@@ -446,6 +464,7 @@
 	Center	中置
 	Center Align Text	文本居中对齐
 	Center align text	居中对齐文本
+	Center at Cut	在剪切点居中
 	Center Channel Pan	中置声道声像
 	Center Gradient	中心渐变
 	Center Horizontally	水平居中
@@ -463,6 +482,8 @@
 	Cerulean	蔚蓝
 	Ch. {n}	声道 {n}
 	Change Mask	更改遮罩
+	Change Sequence Settings	更改序列设置
+	Change the sequence to match the clip's settings?	是否更改序列以匹配剪辑的设置？
 	Change to Color	更改为颜色
 	Changes are copied in the background a moment after each edit. If FilmCraft quits unexpectedly, they are offered the next time it starts.	每次编辑后，更改会在后台稍后复制。如果 FilmCraft 意外退出，下次启动时会提示恢复。
 	Channel	通道
@@ -472,10 +493,16 @@
 	Channel Volume	声道音量
 	Channel {n}	通道 {n}
 	Chaos	混沌
+	Chapter	章节
+	Chapter Marker	章节标记
 	Chebyshev	切比雪夫
+	Check for Updates…	检查更新…
 	Checker Wipe	棋盘擦除
+	Checking for updates…	正在检查更新…
 	Chinese	中文
 	Choke	阻塞
+	Choose color with system picker	使用系统取色器选择颜色
+	Choose Color…	选择颜色…
 	Chorus	合唱
 	Chorus/Flanger	合唱/镶边
 	Chroma	色度
@@ -523,6 +550,7 @@
 	Clip Keyframes	剪辑关键帧
 	Clip Level	剪辑电平
 	Clip Marker	剪辑标记
+	Clip Mismatch Warning	剪辑不匹配警告
 	Clip Name	剪辑名称
 	Clip Name:	剪辑名称：
 	Clip Names	剪辑名称
@@ -533,6 +561,7 @@
 	Clip Volume	剪辑音量
 	Clip {n}	剪辑 {n}
 	Clip: {name}	剪辑：{name}
+	Clip: {settings}	剪辑：{settings}
 	Clipping	削波
 	Clips	剪辑
 	Clock Wipe	时钟擦除
@@ -559,6 +588,10 @@
 	Color Correction	色彩校正
 	Color Distortion	色彩失真
 	Color Emboss	彩色浮雕
+	Color Grading	色彩分级
+	Color Grading Preset Thumbnails	色彩分级预设缩略图
+	Color Grading Presets	色彩分级预设
+	Color Grading Section	色彩分级分区
 	Color Key	颜色键
 	Color Management · {n} item	色彩管理 · {n} 项
 	Color Management · {n} items	色彩管理 · {n} 项
@@ -567,7 +600,9 @@
 	Color Matte Color	颜色遮罩颜色
 	Color Matte…	颜色遮罩…
 	Color Pass	色彩保留
+	Color picker	取色器
 	Color Replace	颜色替换
+	Color selected markers	更改所选标记的颜色
 	Color Theme	配色主题
 	Color To Leave	保留颜色
 	Color Tolerance	颜色容差
@@ -576,6 +611,7 @@
 	Color/Gray	彩色/灰度
 	Colour Space	色彩空间
 	Column order	列顺序
+	Comment Marker	注释标记
 	Comments:	注释：
 	Commits	提交
 	Comparison View	比较视图
@@ -612,6 +648,7 @@
 	Corner	拐角
 	Corner Pin	四角定位
 	Corner Radius	圆角半径
+	Could not check for updates:\n{error}	无法检查更新：\n{error}
 	Couldn't open your web browser	无法打开网页浏览器
 	Count	计数
 	Countdown Sound Cues	倒计时提示音
@@ -659,7 +696,9 @@
 	Custom ({n} points)	自定义（{n} 个点）
 	Custom ({ratio})	自定义（{ratio}）
 	Custom Color	自定义颜色
+	Custom Color…	自定义颜色…
 	Custom Setup	自定义设置
+	Custom Start	自定义开始
 	Cut to Camera 1	切换到摄像机 1
 	Cut to Camera 2	切换到摄像机 2
 	Cut to Camera 3	切换到摄像机 3
@@ -727,14 +766,20 @@
 	Delete files older than	删除早于以下时间的文件
 	Delete Graphic Layer	删除图形图层
 	Delete Guide Template	删除参考线模板
+	Delete Marker	删除标记
+	Delete Markers	删除标记
 	Delete Media Cache Files	删除媒体缓存文件
 	Delete oldest files when the cache exceeds	当缓存超过以下大小时删除最旧的文件
 	Delete Preset	删除预设
+	Delete Redoable Actions	删除可重做的操作
 	Delete Render Files	删除渲染文件
 	Delete Render Files In to Out	删除入点到出点间的渲染文件
 	Delete Search Bin	删除搜索素材箱
 	Delete selected captions	删除所选字幕
+	Delete selected markers	删除所选标记
+	Delete the dimmed actions after the current state? They cannot be redone.	删除当前状态之后显示为灰色的操作？删除后将无法重做。
 	Delete this preset	删除此预设
+	Delete Track	删除轨道
 	Delete Tracks	删除轨道
 	Delete Tracks…	删除轨道…
 	Delete Transcript	删除转录文稿
@@ -794,7 +839,8 @@
 	Distribute Space Vertically	垂直均匀分布间距
 	Distribute Vertically	垂直分布
 	Do not delete cache files automatically	不自动删除缓存文件
-	Dock Panel	Dock Panel
+	Dock Panel	停靠面板
+	Docking Action	停靠操作
 	Does Not Contain	不包含
 	Don't label speakers	不标记说话人
 	Done	已完成
@@ -824,7 +870,9 @@
 	Duck Under Dialogue	压低至对白之下
 	Duck Under Voice and Effects	压低至人声与效果之下
 	Ducking	自动避让
+	Duration (frames):	持续时间（帧）：
 	Duration:	持续时间：
+	Duration: {tc}	持续时间：{tc}
 	DVCPRO HD (1.5)	DVCPRO HD（1.5）
 	Dynamic Audio Waveforms	动态音频波形
 	Dynamic Link	动态链接
@@ -852,8 +900,13 @@
 	Edit Cameras	编辑摄像机
 	Edit Cameras…	编辑摄像机…
 	Edit Caption Text	编辑字幕文本
+	Edit color	编辑颜色
 	Edit Columns	编辑列
 	Edit Columns…	编辑列…
+	Edit Custom Color	编辑自定义颜色
+	Edit Marker	编辑标记
+	Edit Markers	编辑标记
+	Edit Marker…	编辑标记…
 	Edit Narration	编辑旁白
 	Edit Offline File	编辑离线文件
 	Edit Offline…	脱机编辑…
@@ -865,6 +918,7 @@
 	Edit Workspaces…	编辑工作区…
 	Editable properties:	可编辑属性：
 	Editing Mode:	编辑模式：
+	Editing or removing a swatch leaves assigned colors unchanged.	编辑或移除色板不会更改已分配的颜色。
 	EDL…	EDL…
 	Effect Controls	效果控件
 	Effect presets	效果预设
@@ -872,10 +926,10 @@
 	Empty tracks	空轨道
 	Enable clip and XMP metadata linking	启用剪辑与 XMP 元数据链接
 	Enable developer mode	启用开发者模式
+	Enable External Video Output	启用外部视频输出
 	Enable hardware accelerated decoding (requires restart)	启用硬件加速解码（需要重启）
 	Enable HSL Secondary	启用 HSL 辅助
 	Enable language auto-detection	启用语言自动检测
-	Enable Mercury Transmit	启用 Mercury 传输
 	Enable ProRes hardware accelerated encoding, if available	如可用，启用 ProRes 硬件加速编码
 	Enable proxies	启用代理
 	Enable Remix	启用重新混音
@@ -883,6 +937,7 @@
 	Encapsulate	封装
 	Encoder	编码器
 	Encoding {n}%	编码 {n}%
+	End at Cut	在剪切点结束
 	End Color	结束颜色
 	End Credits	片尾字幕
 	End Credits – Roll	片尾字幕 – 滚动
@@ -890,8 +945,13 @@
 	End Off Screen	结束离屏
 	End Point	结束点
 	End:	结束：
+	End: {tc}	结束：{tc}
 	Ends With	结尾为
 	Enhance Speech	增强人声
+	Enter a positive duration within the supported speed range.	请输入支持的速度范围内的正时长。
+	Enter a valid HH:MM:SS:FF timecode	请输入有效的 HH:MM:SS:FF 时间码
+	Enter a valid HTTP or HTTPS URL without credentials	请输入不含凭据的有效 HTTP 或 HTTPS 网址
+	Enter six hex digits, for example FF80C0.	请输入六位十六进制数，例如 FF80C0。
 	Entire Source	整个源
 	Enumerate Cameras	枚举摄像机
 	EQ	均衡器
@@ -901,6 +961,7 @@
 	EssentialSound	EssentialSound
 	Estimated file size: {size}	估计文件大小：{size}
 	Events	事件
+	Every frame a keyframe (edit-friendly, larger files)	每一帧都是关键帧（便于剪辑，文件更大）
 	Evolution	演化
 	Evolution Options	演化选项
 	Exact name matches only	仅精确名称匹配
@@ -926,6 +987,7 @@
 	Export: no file chosen (agents: export.presets.export {path, names})	导出：未选择文件（agents：export.presets.export {path, names}）
 	Export: no file chosen (agents: shortcuts.export {path})	导出：未选择文件（agents：shortcuts.export {path}）
 	Exported graphics template to {path}	已将图形模板导出到 {path}
+	Exported {path} as {format}, from its file extension	已将 {path} 导出为 {format}（依据文件扩展名）
 	Exporting	正在导出
 	Exporting {path}	正在导出 {path}
 	Extend Next Edit To Playhead	将下一个编辑点延伸至播放头
@@ -984,6 +1046,7 @@
 	Fill Right with Left	用左声道填充右声道
 	Fill Selector	填充选择器
 	Fill the slots above first	请先填满上方的插槽
+	Fill Type	填充类型
 	Film Dissolve	胶片溶解
 	Film Dissolve (Legacy)	胶片溶解（旧版）
 	Film Emulation	胶片模拟
@@ -997,7 +1060,9 @@
 	FilmCraft on GitHub	GitHub 上的 FilmCraft
 	FilmCraft Project	FilmCraft 项目
 	FilmCraft quit unexpectedly while “{name}” had unsaved changes.	FilmCraft 在“{name}”存在未保存的更改时意外退出。
+	FilmCraft Updates	FilmCraft 更新
 	FilmCraft was closed while “{name}” had unsaved changes.	FilmCraft 在“{name}”存在未保存的更改时被关闭。
+	FilmCraft {version} is currently the newest version available.	FilmCraft {version} 目前已是最新版本。
 	Filter and EQ	滤镜与均衡
 	Filter Frequency	滤镜频率
 	Filter Resonance	滤镜共振
@@ -1019,6 +1084,7 @@
 	Flare Center	光晕中心
 	Flare Color	光晕颜色
 	Flash Cue Marker	闪存提示标记
+	Flash Cue Point	闪存提示点
 	Flicker	闪烁
 	Flicker Removal	闪烁消除
 	Flickers	闪烁
@@ -1034,7 +1100,7 @@
 	Font family	字体族
 	Font Style	字体样式
 	Fonts used in the project:	项目中使用的字体：
-	For color management parameters, go to the Settings tab in the Lumetri Color panel.	有关色彩管理参数，请前往 Lumetri 颜色面板中的“设置”选项卡。
+	For color management parameters, go to the Settings tab in the Color Grading panel.	有关色彩管理参数，请转到色彩分级面板中的设置选项卡。
 	Forest	森林绿
 	Format and size	格式与大小
 	Four Scopes (RGB, 8 bit)	四视图示波器（RGB，8 位）
@@ -1068,6 +1134,7 @@
 	From East	从东
 	From file…	从文件…
 	From North	北向
+	From preset file:	来自预设文件：
 	From Source Monitor	从源监视器
 	From Source Monitor, Match Frame	从源监视器，匹配帧
 	From South	南向
@@ -1140,6 +1207,7 @@
 	GPU acceleration is unavailable; preview renders on the CPU	GPU 加速不可用；预览在 CPU 上渲染
 	GPU Rendering	GPU 渲染
 	Grab bag	杂项
+	Gradient Angle	渐变角度
 	Gradient End	渐变结束
 	Gradient Layer	渐变图层
 	Gradient Placement	渐变放置
@@ -1184,7 +1252,12 @@
 	H.264 at the sequence's frame size and rate; 0.05 bits per pixel	H.264（采用序列的帧大小与帧速率）；每像素 0.05 位
 	H.264 at the sequence's frame size and rate; 0.1 bits per pixel	H.264（采用序列的帧大小与帧速率）；每像素 0.1 位
 	H.264 at the sequence's frame size and rate; bitrate adapts to the frame size (0.2 bits per pixel)	H.264（采用序列的帧大小与帧速率）；码率随帧大小自适应（每像素 0.2 位）
+	H.264 High 10 (10-bit 4:2:0) at the sequence's size, constant quality CRF 16, AAC 320 kbps; a 10-bit master	H.264 High 10（10 位 4:2:0，采用序列的尺寸），恒定质量 CRF 16，AAC 320 kbps；10 位母版
+	H.264 High 10 Intra	H.264 High 10 Intra
+	H.264 High 10 Intra (10-bit 4:2:0, every frame a keyframe), CRF 12, AAC 320 kbps; an edit-friendly intermediate	H.264 High 10 Intra（10 位 4:2:0，每一帧都是关键帧），CRF 12，AAC 320 kbps；便于剪辑的中间文件
+	H.264 High 10 Master	H.264 High 10 母版
 	H.265 (HEVC)	H.265（HEVC）
+	H.265 (HEVC) needs a hardware encoder (NVENC on NVIDIA GPUs, VideoToolbox on macOS); none was found on this machine, and FilmCraft has no software H.265 encoder yet. Choose H.264 or ProRes instead.	H.265 (HEVC) 需要硬件编码器（NVIDIA GPU 上的 NVENC、macOS 上的 VideoToolbox）；本机未找到，且 FilmCraft 尚无软件 H.265 编码器。请改选 H.264 或 ProRes。
 	Half Saturation	半饱和度
 	Handle Frames:	余量帧数：
 	Hard Clip	硬削波
@@ -1196,6 +1269,7 @@
 	Hardware (H.265 has no software encoder)	硬件（H.265 无软件编码器）
 	Hardware decoding	硬件解码
 	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	硬件解码：自动模式对支持的流使用系统视频解码器（macOS 上为 VideoToolbox，Windows 上为 Media Foundation，Linux 上对 H.264 和 HEVC 使用 VA-API），其余情况或硬件失败时回退到 FilmCraft 自带的解码器。已打开的媒体会保留其解码器，直到重新打开。
+	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API or NVDEC for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	硬件解码：自动模式对支持的流使用系统视频解码器（macOS 的 VideoToolbox、Windows 的 Media Foundation、Linux 上 H.264 和 HEVC 的 VA-API 或 NVDEC），对其余内容或在硬件故障时使用 FilmCraft 自带的解码器。已打开的媒体在重新打开之前会保留其解码器。
 	HD Anamorphic 1080 (1.333)	HD 变形宽银幕 1080（1.333）
 	HDR	HDR
 	HDR Graphics White (Nits)	HDR 图形白色（尼特）
@@ -1207,8 +1281,12 @@
 	Head Size	头部大小
 	Heading	标题
 	Height:	高度：
+	Hex	十六进制
+	Hex color	十六进制颜色
 	Hide All Caption Tracks	隐藏所有字幕轨道
 	Hide Back Face	隐藏背面
+	Hide FilmCraft	隐藏 FilmCraft
+	High 10	High 10
 	High contrast with held highlights and deep shadows	高对比，保留高光与深邃阴影
 	High Cutoff	高截止
 	High Frequency Cut	高频切除
@@ -1275,6 +1353,11 @@
 	Import Presets…	导入预设…
 	Import: no file chosen (agents: export.presets.import {path})	导入：未选择文件（agents：export.presets.import {path}）
 	Import: no file chosen (agents: shortcuts.import {path})	导入：未选择文件（agents：shortcuts.import {path}）
+	Imported {n} preset(s)	已导入 {n} 个预设
+	Imported {n} preset(s); not imported: {error}	已导入 {n} 个预设；未导入：{error}
+	Imported {n} preset(s); {skipped} skipped	已导入 {n} 个预设；已跳过 {skipped} 个
+	Imported {n} preset(s); {skipped} skipped, {warnings} with unsupported parameters	已导入 {n} 个预设；已跳过 {skipped} 个，{warnings} 个含不支持的参数
+	Imported {n} preset(s); {warnings} with unsupported parameters	已导入 {n} 个预设；{warnings} 个含不支持的参数
 	Imported “{name}”	已导入“{name}”
 	Impulse	脉冲
 	In	入点
@@ -1285,6 +1368,7 @@
 	In the Media Cache	在媒体缓存中
 	In the project	在项目中
 	In/Out Duration	入点/出点时长
+	In:	入点：
 	In: {name}	入点：{name}
 	Include Alpha Channel	包含 Alpha 通道
 	Include captions on import	导入时包含字幕
@@ -1318,6 +1402,7 @@
 	Install Motion Graphics Template (.fcgt)	安装动态图形模板（.fcgt）
 	Install Motion Graphics Template…	安装动态图形模板…
 	Install…	安装…
+	integrated GPU	集成 GPU
 	Inter	中间
 	Interior Room Tone	室内环境音
 	Internal Black Point	内部黑点
@@ -1325,6 +1410,7 @@
 	Interpret Footage	解释素材
 	Interpret Footage…	解释素材…
 	Intro Duration	片头时长
+	Invalid duration: {error}	持续时间无效：{error}
 	Inverse Falloff	反向衰减
 	Invert Alpha	反相 Alpha
 	Invert Blur	反相模糊
@@ -1348,6 +1434,7 @@
 	JPEG Sequence	JPEG 序列
 	Kaleidoscope	万花筒
 	Keep a recovery copy of unsaved changes	保留未保存更改的恢复副本
+	Keep Existing Settings	保留现有设置
 	Key	键
 	Key Color	键颜色
 	Key Frame Distance	关键帧间隔
@@ -1427,6 +1514,7 @@
 	Linked Selection	关联选择
 	Linked {n} clip(s)	已链接 {n} 个剪辑
 	Liquid Distortion	液体畸变
+	List Color Grading Presets	列出色彩分级预设
 	Loaded “{name}”	已加载“{name}”
 	Local Drives	本地驱动器
 	Local Projects	本地项目
@@ -1440,6 +1528,7 @@
 	Look	风格
 	Look LUT	风格 LUT
 	Look-Ahead Time	预读时间
+	Looks for a newer FilmCraft release and offers to update.	查找较新的 FilmCraft 版本并提供更新。
 	Loop	循环
 	Loop marked range	循环标记范围
 	Looping GIF, 640×360 at 15 fps	循环 GIF，640×360，15 fps
@@ -1471,10 +1560,6 @@
 	Luma Min / Max	亮度最小 / 最大
 	Luma Source	亮度源
 	Luma vs Sat	亮度 vs 饱和度
-	Lumetri	Lumetri
-	Lumetri Color	Lumetri 颜色
-	Lumetri Presets	Lumetri 预设
-	Lumetri Scopes	Lumetri 示波器
 	Luminance Threshold	亮度阈值
 	Luminosity	光度
 	LUT	LUT
@@ -1485,6 +1570,7 @@
 	Main (8-bit)	主要（8 位）
 	Main (8-bit; Main 10 for HDR sequences)	主要（8 位；HDR 序列使用主要 10）
 	Main 10 (10-bit, HDR)	主要 10（10 位，HDR）
+	Maintain Audio Pitch	保持音频音调
 	Maintain pitch while shuttling	拖动播放时保持音高
 	Major Radius	主半径
 	Make Offline	设为脱机
@@ -1495,6 +1581,8 @@
 	Make {n} selected clip(s) offline. Their clips show the offline slate until you link them again.	将 {n} 个所选剪辑设为脱机。在重新链接之前，这些剪辑将显示脱机画面。
 	Makeup	补偿
 	Male	男声
+	Manage Colors	管理颜色
+	Manage Colors…	管理颜色…
 	Manage Guides	管理参考线
 	Manage Guides…	管理参考线…
 	Manage Saved View Presets	管理已保存的视图预设
@@ -1512,6 +1600,9 @@
 	Mark Selection	标记所选对象
 	Mark Split	标记拆分点
 	Marker	标记
+	Marker changed or was removed. Reopen it to continue.	标记已更改或删除。请重新打开以继续。
+	Marker Color:	标记颜色：
+	Marker owner is unavailable	标记所属对象不可用
 	Markers	标记
 	Mask Only	仅蒙版
 	Master Amplitude	主振幅
@@ -1657,6 +1748,9 @@
 	Movie	影片
 	Movie (audio and video)	影片（音频与视频）
 	Movies, audio and stills from disk	来自磁盘的电影、音频与静帧
+	MP3	MP3
+	MP3 48 kHz 320 kbps	MP3 48 kHz 320 kbps
+	MPEG audio (.mp3), joint stereo 48 kHz at 320 kbps	MPEG 音频 (.mp3)，联合立体声 48 kHz，320 kbps
 	MPEG-4 audio (.m4a), stereo 48 kHz AAC-LC at 320 kbps	MPEG-4 音频 (.m4a)，立体声 48 kHz AAC-LC，320 kbps
 	Multi-Camera	多机位
 	Multi-Camera Audio Follows Video	多机位音频跟随视频
@@ -1726,6 +1820,7 @@
 	New Text	新建文本
 	New Text Layer	新建文本图层
 	New {format} track	新建 {format} 轨道
+	Next	下一个
 	Next in Sequence	序列中的下一个
 	Next in Track	轨道中的下一个
 	Next Multi-Camera Page	下一个多机位页面
@@ -1746,15 +1841,23 @@
 	no GPU adapter: the CPU compositor is used	无 GPU 适配器：使用 CPU 合成器
 	no Japanese font is installed on this system; the interface stays in English	此系统未安装日语字体；界面保持英文
 	no Korean font is installed on this system; the interface stays in English	此系统未安装韩文字体；界面保持英文
+	No markers	没有标记
 	No markers. Press M to add one.	无标记。按 M 键添加一个。
 	No matching captions.	无匹配字幕。
+	No matching markers	没有匹配的标记
+	No matching text.	没有匹配的文本。
 	No model credits were built into this copy.	此版本未内置模型署名。
 	No Motion	无运动
 	No multi-camera clip at the playhead	播放头处无多机位剪辑
 	No plugins are installed. Changes will take effect the next time you start FilmCraft.	未安装任何插件。更改将在下次启动 FilmCraft 时生效。
+	No presets folder: the app has no data directory	无预设文件夹：应用没有数据目录
+	No saved colors	没有已保存的颜色
 	No saved guide templates.	无已保存的参考线模板。
 	No Scroll	不滚动
+	No sequence open	未打开序列
+	No source clip open	未打开源片段
 	No templates match.	无匹配的模板。
+	No text graphics in this sequence. Add text with the Type tool.	此序列中没有文本图形。请用文字工具添加文本。
 	Noise	噪点
 	Noise & Grain	噪点与颗粒
 	Noise (Legacy)	噪点（旧版）
@@ -1780,6 +1883,7 @@
 	Notch 6	陷波 6
 	Notch Filter	陷波滤波器
 	Notch Width	陷波宽度
+	Notes	备注
 	Notes for this project: to-dos, instructions, frame numbers… Saved with the project.	此项目的备注：待办事项、说明、帧号等… 随项目一起保存。
 	Nothing found with that name.	未找到使用该名称的文件。
 	Nothing is assigned to this key	此按键未分配任何内容
@@ -1828,6 +1932,7 @@
 	Opacity 0 → 100 % over the first second	在最初一秒内不透明度从 0 → 100%
 	Opacity 100 → 0 % over the last second	在最后一秒内不透明度从 100% → 0
 	Open a sequence to export	打开一个序列以导出
+	Open a sequence to search its graphics	打开序列以搜索其中的图形
 	Open a sequence to see its transcript	打开一个序列以查看其转录文稿
 	Open a sequence to work with captions	打开一个序列以编辑字幕
 	Open Air	露天
@@ -1842,8 +1947,10 @@
 	Open in Source Monitor	在源监视器中打开
 	Open in Timeline	在时间轴中打开
 	Open Ingest Settings	打开摄取设置
+	Open Link	打开链接
 	Open Most Recent	打开最近的文件
 	Open new tab	打开新标签页
+	Open Presets Folder	打开预设文件夹
 	Open Project…	打开项目…
 	Open Search	打开搜索
 	Open this address in your browser yourself:	请自行在浏览器中打开此地址：
@@ -1851,9 +1958,11 @@
 	OpenEXR	OpenEXR
 	OpenEXR Sequence	OpenEXR 序列
 	Opens in your web browser: {url}	在网页浏览器中打开：{url}
+	Opens this address in your web browser	在网页浏览器中打开此地址
 	Opens up the shadows	提亮阴影
 	OpenTimelineIO…	OpenTimelineIO…
 	Optical Flow	光流
+	Options:	选项：
 	Order	顺序
 	Ordering:	排序：
 	Out	出点
@@ -1999,6 +2108,9 @@
 	Preroll	前滚
 	Presence Lift	临场感提升
 	Preserve Scale	保留缩放
+	Preset library is up to date	预设库已是最新
+	Preset library updated	预设库已更新
+	Preset library updated: {imported} loaded, {removed} removed	预设库已更新：已加载 {imported} 个，已移除 {removed} 个
 	Preset name	预设名称
 	Preview Area	预览区域
 	Preview File Format:	预览文件格式：
@@ -2013,6 +2125,7 @@
 	Progressive	逐行扫描
 	Project	项目
 	Project Auto Save:	项目自动保存：
+	Project Colors	项目颜色
 	Project Manager	项目管理器
 	Project Manager: writing {path}	项目管理器：正在写入 {path}
 	Project Manager…	项目管理器…
@@ -2062,6 +2175,7 @@
 	Ramp	渐变
 	Ramp Shape	渐变形状
 	Random Seed	随机种子
+	Range marker	范围标记
 	Rate Stretch Tool	速率伸缩工具
 	Ratio	比率
 	Ray	光线
@@ -2071,6 +2185,7 @@
 	Rays Only	仅光线
 	Razor Tool	剃刀工具
 	Read	读取
+	Read Video Scopes	读取视频示波器
 	Rec. 2100	Rec. 2100
 	Rec. 601	Rec. 601
 	Rec. 709	Rec. 709
@@ -2132,6 +2247,7 @@
 	Remove Attributes	移除属性
 	Remove Attributes…	移除属性…
 	Remove Audio from AV Clip	从音视频剪辑中移除音频
+	Remove Custom Color	移除自定义颜色
 	Remove Effect	移除效果
 	Remove Filler Words	移除填充词
 	Remove filler words	移除填充词
@@ -2141,6 +2257,7 @@
 	Remove Media Cache Files	删除媒体缓存文件
 	Remove Pauses	移除停顿
 	Remove Row	删除行
+	Remove saved color	移除已保存的颜色
 	Remove Send	移除发送
 	Remove Unused	移除未使用项
 	Render at Maximum Depth	以最大深度渲染
@@ -2157,6 +2274,7 @@
 	Repair	修复
 	Repeat Edge Pixels	重复边缘像素
 	Replace Color	替换颜色
+	Replace File	替换文件
 	Replace Fonts in Projects	替换项目中的字体
 	Replace Fonts in Projects…	替换项目中的字体…
 	Replace With Clip	替换为剪辑
@@ -2167,12 +2285,14 @@
 	Reset All Parameters	重置所有参数
 	Reset Duration	重置持续时间
 	Reset Effect	重置效果
+	Reset Interface Zoom	重置界面缩放
 	Reset Parameter	重置参数
 	Reset to Grid	重置到网格
 	Reset to Saved Layout	重置为已保存的布局
 	Resize floating panel	调整浮动面板大小
 	Responsive Design - Position	响应式设计 - 位置
 	Responsive Design - Time	响应式设计 - 时间
+	Responsive Design – Time remaps the graphic's layer keyframes; clip effects like Opacity and Motion keep media time	自适应设计 – 时间会重新映射图形的图层关键帧；不透明度和运动等剪辑效果保持媒体时间
 	Restore Arrangement	恢复排列
 	Restore Captions from Source Clip	从源剪辑恢复字幕
 	Restore Frame	还原帧
@@ -2215,11 +2335,14 @@
 	Ripple Edit, Shifting Trailing Clips	波纹编辑，移动后续剪辑
 	Ripple Sequence Markers	波纹序列标记
 	Ripple trim adds edits to keep both sides of trim in sync	波纹修剪添加编辑以保持修剪两侧同步
+	Ripple Trim In	波纹修剪入点
 	Ripple Trim Next Edit to Playhead	波纹修剪：将下一个编辑点修剪至播放头
+	Ripple Trim Out	波纹修剪出点
 	Ripple Trim Previous Edit to Playhead	波纹修剪：将上一个编辑点修剪至播放头
 	Role	角色
 	Roll	滚动
 	Roll (Z Axis)	滚动（Z 轴）
+	Roll Edit	滚动编辑
 	Rolling Edit Tool	滚动编辑工具
 	Room Size	房间大小
 	Rose	玫瑰红
@@ -2250,6 +2373,7 @@
 	Save as Template…	另存为模板…
 	Save Changes to this Workspace	保存对此工作区的更改
 	Save changes to “{project_name}” before closing?	关闭前是否保存对“{project_name}”的更改？
+	Save color	保存颜色
 	Save current settings as:	将当前设置另存为：
 	Save Current View Preset	保存当前视图预设
 	Save Guides as Template	将参考线另存为模板
@@ -2277,6 +2401,7 @@
 	Scale to frame size	缩放以适配帧大小
 	Scale Width	缩放宽度
 	Scan Lines	扫描线
+	Scan Presets Folder	扫描预设文件夹
 	Scene	场景
 	Scene Edit Detection	场景编辑检测
 	Scene Edit Detection: analysing in the background (see Progress)	场景编辑检测：正在后台分析（参见进度）
@@ -2289,12 +2414,15 @@
 	Search effects	搜索效果
 	Search fields	搜索字段
 	Search in:	搜索位置：
+	Search markers	搜索标记
+	Search name, notes, author	搜索名称、备注、作者
 	Search presets	搜索预设
 	Search templates	搜索模板
 	Search:	搜索：
 	second(s)	秒
 	Seconds	秒
 	seconds	秒
+	Segmentation Marker	分段标记
 	Segments	段
 	Segments:	片段数：
 	Select a clip to grade	选择一个剪辑以进行调色
@@ -2302,8 +2430,10 @@
 	Select a clip to view its metadata.	选择一个剪辑以查看其元数据。
 	Select a graphic clip, or use the Type tool (T) on the Program monitor	选择一个图形剪辑，或在节目监视器上使用文字工具（T）
 	Select a layer to edit its properties.	选择一个图层以编辑其属性。
+	Select all	全选
 	Select All Matching	选择所有匹配项
 	Select All Project Items	选择所有项目项
+	Select all visible markers	选择所有可见标记
 	Select an item to preview it	选择一个项目以预览
 	Select audio clips to edit them here	选择音频剪辑以在此处编辑
 	Select audio clips, then click a preset to apply it.	选择音频剪辑，然后点击预设以应用。
@@ -2324,6 +2454,7 @@
 	Select Next Graphic	选择下一个图形
 	Select Next Layer	选择下一个图层
 	Select Next Panel	选择下一个面板
+	Select one clip (or a linked clip) in the Timeline, or one item in the Project panel, to rename	在时间轴中选择一个剪辑（或一个链接的剪辑），或在项目面板中选择一个项目，以进行重命名
 	Select Previous Clip	选择上一个剪辑
 	Select Previous Graphic	选择上一个图形
 	Select Previous Layer	选择上一个图层
@@ -2359,9 +2490,12 @@
 	Sequence Time	序列时间
 	Sequence Timecode	序列时间码
 	Sequence, {w}x{h}, {fps} fps, {rate} Hz	序列，{w}x{h}，{fps} fps，{rate} Hz
+	Sequence: {name}	序列：{name}
+	Sequence: {settings}	序列：{settings}
 	Sequences	序列
 	Sequence…	序列…
 	Sequentially	顺序
+	Set as Default Transition	设为默认过渡
 	Set Comparison Reference	设置比较参考
 	Set Creative Look	设置创意风格
 	Set focus on the Timeline when performing Insert/Overwrite edits	执行插入/覆盖编辑时将焦点设在时间轴上
@@ -2373,8 +2507,9 @@
 	Set Timecode:	设置时间码：
 	Set to frame size	设为帧大小
 	Set Transition Duration	设置过渡持续时间
+	Set Work Area Bar In Point	设置工作区域条入点
+	Set Work Area Bar Out Point	设置工作区域条出点
 	Setting	设置
-	Settings	Settings
 	SFX	音效
 	Shadow Angle	阴影角度
 	Shadow Blue Balance	阴影蓝平衡
@@ -2403,10 +2538,12 @@
 	Show Active Caption Tracks Only	仅显示活动字幕轨道
 	Show All Caption Tracks	显示所有字幕轨道
 	Show All Marker Colors	显示所有标记颜色
+	Show Audio Names	显示音频名称
 	Show Audio Waveform	显示音频波形
 	Show Clip Mismatch Warning dialog	显示剪辑不匹配警告对话框
 	Show clip names	显示剪辑名称
 	Show Dot	显示圆点
+	Show Duplicate Frame Markers	显示重复帧标记
 	Show durations	显示持续时间
 	Show Event Indicator	显示事件指示器
 	Show finished jobs	显示已完成的任务
@@ -2430,6 +2567,7 @@
 	Show the presets folder	显示预设文件夹
 	Show Through Edits	显示贯通编辑
 	Show Transport Controls	显示播放控制
+	Show Video Names	显示视频名称
 	Show Video Thumbnails	显示视频缩略图
 	Show Workspace Reset Warning dialog on double click	双击时显示工作区重置警告对话框
 	Show {n}	显示 {n}
@@ -2498,6 +2636,7 @@
 	Soft Wipe	柔和擦除
 	Soften Harshness	柔化硬边
 	software rendering	软件渲染
+	Solid	纯色
 	Solid Colors	纯色
 	Solo	独奏
 	Solo safe	独奏保护
@@ -2507,6 +2646,7 @@
 	Source channels the selected audio clips play:	所选音频剪辑播放的源声道：
 	Source code on GitHub	GitHub 上的源代码
 	Source In/Out	源入/出点
+	Source In/Out is only 1 frame. Choose Entire Source to export the whole sequence.	源入点/出点仅有 1 帧。请选择“整个源”以导出整个序列。
 	Source Play/Stop	源播放/停止
 	Source Point	源点
 	Source Settings	源设置
@@ -2515,6 +2655,8 @@
 	Source Timecode	源时间码
 	Source · {name}	源 · {name}
 	Source:	源：
+	Source: {name}	源：{name}
+	Source: {name} (shared source markers)	源：{name}（共享源标记）
 	Spacer	间隔
 	Speaker	说话人
 	Speaker Angle	扬声器角度
@@ -2554,6 +2696,7 @@
 	Start Angle	起始角度
 	Start at 0	从 0 开始
 	Start at 1	从 1 开始
+	Start at Cut	在剪切点开始
 	Start Color	起始颜色
 	Start Export Queue	启动导出队列
 	Start of Ramp	渐变起点
@@ -2563,6 +2706,7 @@
 	Start Voice-over Recording	开始画外音录制
 	Start with an Empty Project	以空项目开始
 	Start:	开始：
+	Start: {tc}	开始：{tc}
 	Starting Intensity	起始强度
 	Static Plates	静态底板
 	Steel Blue	钢蓝
@@ -2641,6 +2785,7 @@
 	Synchronized {n} clip group(s)	已同步 {n} 个剪辑组
 	Synchronize…	同步…
 	Synthetic	合成
+	System color picker unavailable: {error}	系统取色器不可用：{error}
 	System Compatibility Report	系统兼容性报告
 	System Compatibility Report…	系统兼容性报告…
 	System Default	系统默认
@@ -2678,6 +2823,7 @@
 	Text Styling	文本样式
 	Text to Speech	文字转语音
 	TextPanel	TextPanel
+	The control server is disabled: FILMCRAFT_CONTROL_TOKEN must contain 64 random hex characters (see docs/control-protocol.md)	控制服务器已禁用：FILMCRAFT_CONTROL_TOKEN 必须包含 64 个随机十六进制字符（参见 docs/control-protocol.md）
 	The default graphics are used from the next start.	下次启动时将使用默认图形。
 	The language changed but could not be saved: {e}	语言已更改但无法保存：{e}
 	The media cache holds render previews of unsaved projects and other files FilmCraft can recreate. Deleting them is always safe; FilmCraft rebuilds them as needed.	媒体缓存保存未保存项目的渲染预览，以及其他 FilmCraft 可重建的文件。删除它们始终安全；FilmCraft 会在需要时重新构建。
@@ -2686,6 +2832,7 @@
 	The sequence has no caption track.	该序列没有字幕轨道。
 	Thickness	厚度
 	This build has no speech-to-text; import a transcript with transcript.set.	此版本不含语音转文字；请使用 transcript.set 导入转录文稿。
+	This clip does not match the sequence settings.	此剪辑与序列设置不匹配。
 	Thr	阈值
 	Thumbnail controls for all pointing devices	适用于所有指针设备的缩略图控件
 	Thumbnail Size Next	缩略图大小：下一个
@@ -2699,6 +2846,7 @@
 	Tilt (X Axis)	倾斜（X 轴）
 	Time and Pitch	时间与音高
 	Time Interpolation	时间插值
+	Time is outside the supported range	时间超出支持的范围
 	Time Remapping	时间重映射
 	Timebase:	时基：
 	Timecode Conversion	时间码转换
@@ -2723,6 +2871,7 @@
 	Toggle All Video Targets	切换所有视频目标
 	Toggle animation	切换动画
 	Toggle Audio During Scrubbing	切换拖动时的音频
+	Toggle Color Grading Section	切换色彩分级分区
 	Toggle Full Screen	切换全屏
 	Toggle Mute for All Targeted Audio Tracks	切换所有目标音频轨道的静音
 	Toggle Proxies	切换代理文件
@@ -2752,6 +2901,7 @@
 	Top Center	顶部居中
 	Total Duration	总时长
 	Touch	触摸
+	Track Color	轨道颜色
 	Track Fx Editor	轨道效果编辑器
 	Track Keyframes	轨道关键帧
 	Track Matte Key	轨道遮罩键
@@ -2781,6 +2931,7 @@
 	Transition Softness	过渡柔化
 	Transitions	过渡
 	Transmit Multi-Camera View	传输多机位视图
+	Transparency Grid	透明网格
 	Transparent Video…	透明视频…
 	Trash	废纸篓
 	Travel Motion	行进运动
@@ -2792,7 +2943,9 @@
 	Trim Edit	修剪编辑
 	Trim Forward	向前修剪
 	Trim Forward Many	大幅向前修剪
+	Trim In	修剪入点
 	Trim Next Edit to Playhead	将下一个编辑点修剪至播放头
+	Trim Out	修剪出点
 	Trim Previous Edit to Playhead	将上一个编辑点修剪至播放头
 	Trimming	修剪中
 	Trim…	修剪…
@@ -2841,8 +2994,10 @@
 	Upper Frequency	上限频率
 	Upper Left	上左
 	Upper Right	上右
+	URL	网址
 	Use Color Noise	使用彩色噪点
 	Use Default Graphics	使用默认图形
+	Use Effect Shutter Angle	使用效果快门角度
 	Use End Color	使用结束颜色
 	Use File	使用文件
 	Use file metadata	使用文件元数据
@@ -2896,6 +3051,7 @@
 	Video In Point	视频入点
 	Video Info	视频信息
 	Video Limiter	视频限制器
+	Video Names	视频名称
 	Video Only	仅视频
 	Video Options	视频选项
 	Video Out	视频出
@@ -2903,6 +3059,7 @@
 	Video Previews	视频预览
 	Video Previews:	视频预览：
 	Video Rendering and Playback	视频渲染与回放
+	Video Scopes	视频示波器
 	Video Thumbnails	视频缩略图
 	Video Tracks	视频轨道
 	Video Transition Default Duration	视频过渡默认时长
@@ -2975,8 +3132,10 @@
 	Waveform Type	波形类型
 	Wavelength	波长
 	Web & Social	网络与社交
+	Web Link	Web 链接
 	WebVTT (.vtt)	WebVTT（.vtt）
 	Wet Out	输出湿润
+	When enabled, GIF transparency is on/off: alpha below 128 is transparent; 128 and above is opaque.	启用后，GIF 透明度为开/关模式：alpha 低于 128 为透明；128 及以上为不透明。
 	When Opening a Project	打开项目时
 	Whip	抽鞭
 	Whip (Legacy)	抽鞭（旧版）
@@ -2996,6 +3155,7 @@
 	Without keyframes	不含关键帧
 	Wonder Glow	奇幻辉光
 	Work Area	工作区域
+	Work Area Bar	工作区域栏
 	Working Color Space	工作色彩空间
 	Working Color Space:	工作色彩空间：
 	Wrap Back	回绕
@@ -3030,9 +3190,11 @@
 	{active} (modified)	{active}（已修改）
 	{category} · My Template	{category} · 我的模板
 	{codec} · {rate} Hz · {n} channel(s)	{codec} · {rate} Hz · {n} 声道
+	{count} selected	已选择 {count} 个
 	{first} - Merged	{first} - 已合并
 	{first} Multicam	{first} 多机位
 	{fps} fps · {n} frames queued	{fps} fps · 已排队 {n} 帧
+	{frames} frames ({seconds} s)	{frames} 帧（{seconds} 秒）
 	{f} (missing)	{f}（缺失）
 	{key} can't be used as a shortcut	{key} 不能用作快捷键
 	{mode} · no clip	{mode} · 无剪辑
@@ -3042,6 +3204,7 @@
 	{name} (Simplified)	{name}（简化）
 	{name} (user)	{name}（用户）
 	{name} - Edited	{name} - 已编辑
+	{name} already exists, so nothing was exported. To replace it, choose it in the save dialog.	{name} 已存在，因此未导出任何内容。要替换它，请在保存对话框中选择它。
 	{name} Selection.fcproj	{name} Selection.fcproj
 	{n} clip(s) can't find their media. Locate them, search a folder, or leave them offline.	有 {n} 个剪辑找不到其媒体。请定位它们、搜索文件夹，或保持脱机状态。
 	{n} clip(s) selected.	已选择 {n} 个剪辑。
@@ -3065,6 +3228,7 @@
 	{sel} of {total} items selected	已选择 {sel} / {total} 项
 	{tc}  Chapter	{tc}  章节
 	{total} items	{total} 项
+	“{file}” already exists in “{folder}”. Do you want to replace it?	“{file}”已存在于“{folder}”中。要替换它吗？
 	✓ Enable	✓ 启用
 	✔ matches	✔ 匹配
 	✔ same file	✔ 同一文件

@@ -1,0 +1,28 @@
+# 繁體中文 (zh-hant) interface catalog for TextureCraft (partial stereo-view additions).
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+# Partial: stereo preview labels only; ordinary Arabic remains in MaterialCraft’s original table.
+
+	Could not open Display Settings: {error}	無法開啟顯示設定：{error}
+	Could not show the stereo view: {error}	無法顯示立體檢視：{error}
+	Desktop Display Settings	桌面顯示設定
+	Enable 3D	啟用 3D
+	Open the 3D View first.	請先開啟 3D 檢視。
+	Render resolution per eye	每眼算繪解析度
+	Stereo View	立體檢視
+	Stereo depth is unavailable on this desktop; showing the flat model.	此桌面不支援立體深度；將以平面顯示模型。
+	The 3D view size preserves its current sampling; the desktop scales once.	3D 檢視大小保留目前取樣；桌面僅縮放一次。
+	The stereo view has invalid native dimensions.	立體檢視的原生尺寸無效。
+	The stereo window closed before the pair was shown.	顯示影像對之前，立體視窗已關閉。
+	Use 3D view size	使用 3D 檢視大小
+	Could not prepare the material scene.	無法準備材質場景。
+	The stereo renderer stopped before completing its pair.	立體算繪器在完成影像對之前已停止。

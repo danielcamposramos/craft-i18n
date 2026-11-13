@@ -1,0 +1,19 @@
+# Deutsch (de) interface catalog for AniCraft.
+# Partial catalog: stereo stage view only; other missing entries remain English.
+# Columns, separated by a TAB: context <TAB> English source text <TAB> translation
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+	Stereo View	Stereoansicht
+	Stereo depth is unavailable on this desktop; showing the flat stage.	Auf diesem Desktop ist keine Stereotiefe verfügbar; die Bühne wird flach angezeigt.
+	Could not show the stereo view: {error}	Die Stereoansicht konnte nicht angezeigt werden: {error}
+	The stereo view supports at most {pixels} stage pixels; reduce the stage dimensions.	Die Stereoansicht unterstützt höchstens {pixels} Bühnenpixel; verkleinern Sie die Bühne.
+	The compositor returned invalid depth limits.	Der Compositor hat ungültige Tiefengrenzen zurückgegeben.
+	The stereo views have invalid dimensions.	Die Stereoansichten haben ungültige Abmessungen.
+	The stereo views do not match the requested frame and native size.	Die Stereoansichten entsprechen nicht dem angeforderten Bild und der nativen Größe.
+	Render resolution per eye	Renderauflösung pro Auge
+	The document stage size preserves its original sampling; the desktop scales once.	Die Bühnengröße des Dokuments erhält die ursprüngliche Abtastung; der Desktop skaliert die Ansicht nur einmal.
+	Use document stage size	Bühnengröße des Dokuments verwenden
+	Display Settings	Anzeigeeinstellungen
+	Could not open Display Settings: {error}	Anzeigeeinstellungen konnten nicht geöffnet werden: {error}
+	The stereo view supports at most {pixels} render pixels per eye; reduce the render resolution.	Die Stereoansicht unterstützt höchstens {pixels} Renderpixel pro Auge; verringern Sie die Renderauflösung.

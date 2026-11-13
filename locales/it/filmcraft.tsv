@@ -44,6 +44,7 @@
 	0 fastest, 8 smallest	0 più veloce, 8 più piccolo
 	10 Bit Black Point	Punto nero 10 bit
 	10 Bit White Point	Punto bianco 10 bit
+	10-bit color	Colore a 10 bit
 	105mm Prime	Obiettivo fisso 105 mm
 	29.97 fps Drop-Frame	29,97 fps drop-frame
 	29.97 fps Non Drop-Frame	29,97 fps non drop-frame
@@ -65,6 +66,7 @@
 	A cut sequence with transitions, effects and music	Una sequenza montata con transizioni, effetti e musica
 	A file dialog is already open	Una finestra di selezione file è già aperta
 	A news-style line that crawls in from the right and leaves at the left.	Una riga in stile notiziario che entra da destra ed esce a sinistra.
+	A range marker needs a positive duration	Un marcatore di intervallo richiede una durata positiva
 	A rounded tag that fits its text, with a status dot.	Un tag arrotondato che si adatta al testo, con un punto di stato.
 	A title on a rounded card with a soft shadow.	Un titolo su una scheda arrotondata con un'ombra morbida.
 	AAC Audio	Audio AAC
@@ -81,6 +83,7 @@
 	Active Monitor	Monitor attivo
 	Adaptive ({bpp} bits per pixel)	Adattivo ({bpp} bit per pixel)
 	Add a timecode row	Aggiungi una riga timecode
+	Add and apply	Aggiungi e applica
 	Add another shortcut	Aggiungi un'altra scorciatoia
 	Add Audio Submix Track	Aggiungi traccia submix audio
 	Add audio submix tracks	Aggiungi tracce submix audio
@@ -89,16 +92,20 @@
 	Add caption at playhead	Aggiungi sottotitolo all'indicatore di riproduzione
 	Add captions	Aggiungi sottotitoli
 	Add Chapter Marker…	Aggiungi marcatore di capitolo…
+	Add color	Aggiungi colore
+	Add Color Grading to clip	Aggiungi gradazione colore alla clip
+	Add Custom Color	Aggiungi colore personalizzato
+	Add custom color	Aggiungi colore personalizzato
+	Add custom color…	Aggiungi colore personalizzato…
 	Add Edit	Aggiungi taglio
 	Add Edit to All Tracks	Aggiungi taglio a tutte le tracce
 	Add Flash Cue Marker…	Aggiungi marcatore Flash Cue…
 	Add Frame Hold	Aggiungi fermo immagine
 	Add Guide…	Aggiungi guida…
 	Add keyframe	Aggiungi fotogramma chiave
-	Add Lumetri Color to clip	Aggiungi Colore Lumetri alla clip
 	Add Marker	Aggiungi marcatore
 	Add Marker (M)	Aggiungi marcatore (M)
-	Add media to your project. Drop files anywhere in the window, or choose a source below.	Aggiungi media al progetto. Trascina i file in un punto qualsiasi della finestra o scegli una sorgente qui sotto.
+	Add media to your project. Drop files or folders anywhere in the window, or choose a source below.	Aggiungi media al progetto. Trascina i file o le cartelle in un punto qualsiasi della finestra o scegli una sorgente qui sotto.
 	Add New Caption Track…	Aggiungi nuova traccia sottotitoli…
 	Add Property…	Aggiungi proprietà…
 	Add Range Marker	Aggiungi marcatore di intervallo
@@ -133,6 +140,7 @@
 	All Cameras	Tutte le telecamere
 	All Empty Tracks	Tutte le tracce vuote
 	All Events	Tutti gli eventi
+	All Intra	Solo intra
 	All lines	Tutte le righe
 	All markers are hidden by the colour filter.	Tutti i marcatori sono nascosti dal filtro colore.
 	All media is online.	Tutti i media sono online.
@@ -170,6 +178,7 @@
 	Anchor point	Punto di ancoraggio
 	Anchor to In Point	Ancora al punto di attacco
 	Anchor to Out Point	Ancora al punto di stacco
+	Animate zoom, scrolling and menus	Anima zoom, scorrimento e menu
 	Animated GIF	GIF animata
 	Animated GIF 640×360	GIF animata 640×360
 	Anti-aliasing Quality	Qualità anti-aliasing
@@ -189,6 +198,7 @@
 	Application shortcuts work whatever panel has focus	Le scorciatoie dell'applicazione funzionano qualunque sia il pannello attivo
 	Apply a cut at each detected cut point	Applica un taglio in ogni punto di taglio rilevato
 	Apply Audio Transition	Applica transizione audio
+	Apply Color Grading Preset	Applica predefinito di gradazione colore
 	Apply Default Audio Transition	Applica transizione audio predefinita
 	Apply Default Transitions	Applica transizioni predefinite
 	Apply Default Transitions to Selection	Applica transizioni predefinite alla selezione
@@ -234,14 +244,15 @@
 	Audio In Point	Punto di attacco audio
 	Audio Info	Info audio
 	Audio Meters	Indicatori audio
+	Audio Names	Nomi audio
 	Audio on track {t}	Audio sulla traccia {t}
 	Audio Only	Solo audio
 	Audio only	Solo audio
 	Audio Options	Opzioni audio
 	Audio Out	Uscita audio
 	Audio Out Point	Punto di stacco audio
-	Audio output failed: playing without sound (check Settings ▸ Audio Hardware)	Uscita audio non riuscita: riproduzione senza audio (controlla Impostazioni ▸ Hardware audio)
-	Audio output is not responding: playing without sound (check Settings ▸ Audio Hardware)	L'uscita audio non risponde: riproduzione senza audio (controlla Impostazioni ▸ Hardware audio)
+	Audio output failed: playing without sound (check Settings > Audio Hardware)	Uscita audio non riuscita: riproduzione senza audio (controlla Impostazioni > Hardware audio)
+	Audio output is not responding: playing without sound (check Settings > Audio Hardware)	L'uscita audio non risponde: riproduzione senza audio (controlla Impostazioni > Hardware audio)
 	Audio Previews:	Anteprime audio:
 	Audio Samples	Campioni audio
 	Audio Time Units	Unità di tempo audio
@@ -440,6 +451,7 @@
 	Cell Pattern	Motivo a celle
 	Center Align Text	Centra il testo
 	Center align text	Centra il testo
+	Center at Cut	Centrato sul taglio
 	Center Channel Pan	Pan canale centrale
 	Center Gradient	Sfumatura centrale
 	Center Horizontally	Centra orizzontalmente
@@ -465,10 +477,14 @@
 	Channel Volume	Volume canale
 	Channel {n}	Canale {n}
 	Chaos	Caos
+	Chapter	Capitolo
+	Chapter Marker	Marcatore capitolo
 	Chebyshev	Chebyshev
 	Checker Wipe	Tendina a scacchi
 	Chinese	Cinese
 	Choke	Strozzatura
+	Choose color with system picker	Scegli il colore con il selettore di sistema
+	Choose Color…	Scegli colore…
 	Chorus	Chorus
 	Chorus/Flanger	Chorus/Flanger
 	Chroma	Crominanza
@@ -552,6 +568,10 @@
 	Color Correction	Correzione colore
 	Color Distortion	Distorsione colore
 	Color Emboss	Rilievo colore
+	Color Grading	Gradazione colore
+	Color Grading Preset Thumbnails	Miniature dei predefiniti di gradazione colore
+	Color Grading Presets	Predefiniti di gradazione colore
+	Color Grading Section	Sezione di gradazione colore
 	Color Key	Chiave colore
 	Color Management · {n} item	Gestione del colore · {n} elemento
 	Color Management · {n} items	Gestione del colore · {n} elementi
@@ -560,7 +580,9 @@
 	Color Matte Color	Colore del mascherino colore
 	Color Matte…	Mascherino colore…
 	Color Pass	Passaggio colore
+	Color picker	Selettore colore
 	Color Replace	Sostituisci colore
+	Color selected markers	Colora i marcatori selezionati
 	Color Theme	Tema colori
 	Color To Leave	Colore da mantenere
 	Color Tolerance	Tolleranza colore
@@ -569,6 +591,7 @@
 	Color/Gray	Colore/grigio
 	Colour Space	Spazio colore
 	Column order	Ordine colonne
+	Comment Marker	Marcatore commento
 	Comments:	Commenti:
 	Community	Community
 	Comparison View	Vista di confronto
@@ -651,7 +674,9 @@
 	Custom ({n} points)	Personalizzata ({n} punti)
 	Custom ({ratio})	Personalizzato ({ratio})
 	Custom Color	Colore personalizzato
+	Custom Color…	Colore personalizzato…
 	Custom Setup	Configurazione personalizzata
+	Custom Start	Inizio personalizzato
 	Cut to Camera 1	Taglia su telecamera 1
 	Cut to Camera 2	Taglia su telecamera 2
 	Cut to Camera 3	Taglia su telecamera 3
@@ -718,6 +743,8 @@
 	Delete files older than	Elimina i file più vecchi di
 	Delete Graphic Layer	Elimina livello grafico
 	Delete Guide Template	Elimina modello di guide
+	Delete Marker	Elimina marcatore
+	Delete Markers	Elimina marcatori
 	Delete Media Cache Files	Elimina file della cache multimediale
 	Delete oldest files when the cache exceeds	Elimina i file più vecchi quando la cache supera
 	Delete Preset	Elimina predefinito
@@ -725,6 +752,7 @@
 	Delete Render Files In to Out	Elimina file di rendering da attacco a stacco
 	Delete Search Bin	Elimina raccoglitore di ricerca
 	Delete selected captions	Elimina sottotitoli selezionati
+	Delete selected markers	Elimina i marcatori selezionati
 	Delete this preset	Elimina questo predefinito
 	Delete Tracks	Elimina tracce
 	Delete Tracks…	Elimina tracce…
@@ -842,8 +870,13 @@
 	Edit Cameras	Modifica telecamere
 	Edit Cameras…	Modifica telecamere…
 	Edit Caption Text	Modifica testo sottotitolo
+	Edit color	Modifica colore
 	Edit Columns	Modifica colonne
 	Edit Columns…	Modifica colonne…
+	Edit Custom Color	Modifica colore personalizzato
+	Edit Marker	Modifica marcatore
+	Edit Markers	Modifica marcatori
+	Edit Marker…	Modifica marcatore…
 	Edit Narration	Modifica narrazione
 	Edit Offline File	Modifica file offline
 	Edit Offline…	Modifica offline…
@@ -855,6 +888,7 @@
 	Editable properties:	Proprietà modificabili:
 	Editing	Montaggio
 	Editing Mode:	Modalità di montaggio:
+	Editing or removing a swatch leaves assigned colors unchanged.	La modifica o la rimozione di un campione non cambia i colori già assegnati.
 	EDL…	EDL…
 	Effect Controls	Controlli effetti
 	Effect presets	Predefiniti effetti
@@ -863,10 +897,10 @@
 	Enable	Abilita
 	Enable clip and XMP metadata linking	Abilita il collegamento dei metadati clip e XMP
 	Enable developer mode	Abilita la modalità sviluppatore
+	Enable External Video Output	Abilita uscita video esterna
 	Enable hardware accelerated decoding (requires restart)	Abilita la decodifica con accelerazione hardware (richiede il riavvio)
 	Enable HSL Secondary	Abilita HSL secondario
 	Enable language auto-detection	Abilita il rilevamento automatico della lingua
-	Enable Mercury Transmit	Abilita trasmissione Mercury
 	Enable ProRes hardware accelerated encoding, if available	Abilita la codifica ProRes con accelerazione hardware, se disponibile
 	Enable proxies	Abilita proxy
 	Enable Remix	Abilita remix
@@ -874,6 +908,7 @@
 	Encapsulate	Incapsula
 	Encoder	Codificatore
 	Encoding {n}%	Codifica {n}%
+	End at Cut	Fine sul taglio
 	End Color	Colore finale
 	End Credits	Titoli di coda
 	End Credits – Roll	Titoli di coda – scorrimento verticale
@@ -883,6 +918,10 @@
 	End:	Fine:
 	Ends With	Termina con
 	Enhance Speech	Migliora parlato
+	Enter a positive duration within the supported speed range.	Inserisci una durata positiva nell’intervallo di velocità supportato.
+	Enter a valid HH:MM:SS:FF timecode	Inserisci un timecode valido HH:MM:SS:FF
+	Enter a valid HTTP or HTTPS URL without credentials	Inserisci un URL HTTP o HTTPS valido senza credenziali
+	Enter six hex digits, for example FF80C0.	Inserisci sei cifre esadecimali, ad esempio FF80C0.
 	Entire Source	Intera sorgente
 	Enumerate Cameras	Numera telecamere
 	EQ	EQ
@@ -892,6 +931,7 @@
 	EssentialSound	Audio essenziale
 	Estimated file size: {size}	Dimensione file stimata: {size}
 	Events	Eventi
+	Every frame a keyframe (edit-friendly, larger files)	Ogni fotogramma è un fotogramma chiave (facile da montare, file più grandi)
 	Evolution	Evoluzione
 	Evolution Options	Opzioni evoluzione
 	Exact name matches only	Solo nomi esattamente corrispondenti
@@ -1009,6 +1049,7 @@
 	Flare Center	Centro bagliore lente
 	Flare Color	Colore bagliore lente
 	Flash Cue Marker	Marcatore Flash Cue
+	Flash Cue Point	Punto Flash Cue
 	Flatten	Unisci livelli
 	Flicker	Sfarfallio
 	Flicker Removal	Rimozione sfarfallio
@@ -1026,7 +1067,7 @@
 	Font family	Famiglia di font
 	Font Style	Stile font
 	Fonts used in the project:	Font usati nel progetto:
-	For color management parameters, go to the Settings tab in the Lumetri Color panel.	Per i parametri di gestione del colore, vai alla scheda Impostazioni del pannello Colore Lumetri.
+	For color management parameters, go to the Settings tab in the Color Grading panel.	Per i parametri di gestione del colore, apri la scheda Impostazioni nel pannello Gradazione colore.
 	Forest	Foresta
 	Format and size	Formato e dimensione
 	Four Scopes (RGB, 8 bit)	Quattro ambiti (RGB, 8 bit)
@@ -1174,6 +1215,10 @@
 	H.264 at the sequence's frame size and rate; 0.05 bits per pixel	H.264 alla dimensione e frequenza fotogrammi della sequenza; 0,05 bit per pixel
 	H.264 at the sequence's frame size and rate; 0.1 bits per pixel	H.264 alla dimensione e frequenza fotogrammi della sequenza; 0,1 bit per pixel
 	H.264 at the sequence's frame size and rate; bitrate adapts to the frame size (0.2 bits per pixel)	H.264 alla dimensione e frequenza fotogrammi della sequenza; il bitrate si adatta alla dimensione del fotogramma (0,2 bit per pixel)
+	H.264 High 10 (10-bit 4:2:0) at the sequence's size, constant quality CRF 16, AAC 320 kbps; a 10-bit master	H.264 High 10 (10 bit 4:2:0) alla dimensione della sequenza, qualità costante CRF 16, AAC 320 kbps; un master a 10 bit
+	H.264 High 10 Intra	H.264 High 10 Intra
+	H.264 High 10 Intra (10-bit 4:2:0, every frame a keyframe), CRF 12, AAC 320 kbps; an edit-friendly intermediate	H.264 High 10 Intra (10 bit 4:2:0, ogni fotogramma è un fotogramma chiave), CRF 12, AAC 320 kbps; un intermedio facile da montare
+	H.264 High 10 Master	H.264 High 10 Master
 	H.265 (HEVC)	H.265 (HEVC)
 	Half Saturation	Metà saturazione
 	Handle Frames:	Fotogrammi di margine:
@@ -1195,9 +1240,12 @@
 	Head and Tail	Inizio e fine
 	Head Size	Dimensione testa
 	Heading	Intestazione
+	Hex	Esadecimale
+	Hex color	Colore esadecimale
 	Hide All Caption Tracks	Nascondi tutte le tracce sottotitoli
 	Hide Back Face	Nascondi faccia posteriore
 	High	Alto
+	High 10	High 10
 	High contrast with held highlights and deep shadows	Contrasto elevato con luci trattenute e ombre profonde
 	High Cutoff	Taglio alto
 	High Frequency Cut	Taglio alte frequenze
@@ -1274,6 +1322,7 @@
 	In the Media Cache	Nella cache multimediale
 	In the project	Nel progetto
 	In/Out Duration	Durata attacco/stacco
+	In:	Attacco:
 	In: {name}	Entrata: {name}
 	Include Alpha Channel	Includi canale alfa
 	Include captions on import	Includi i sottotitoli durante l'importazione
@@ -1308,6 +1357,7 @@
 	Install Motion Graphics Template (.fcgt)	Installa modello di grafica animata (.fcgt)
 	Install Motion Graphics Template…	Installa modello di grafica animata…
 	Install…	Installa…
+	integrated GPU	GPU integrata
 	Inter	Inter
 	Interior Room Tone	Tono ambiente interno
 	Internal Black Point	Punto nero interno
@@ -1315,6 +1365,7 @@
 	Interpret Footage	Interpreta metraggio
 	Interpret Footage…	Interpreta metraggio…
 	Intro Duration	Durata intro
+	Invalid duration: {error}	Durata non valida: {error}
 	Inverse Falloff	Attenuazione inversa
 	Invert Alpha	Inverti alfa
 	Invert Blur	Inverti sfocatura
@@ -1415,6 +1466,7 @@
 	Linked Selection	Selezione collegata
 	Linked {n} clip(s)	{n} clip collegate
 	Liquid Distortion	Distorsione liquida
+	List Color Grading Presets	Elenca predefiniti di gradazione colore
 	Loaded “{name}”	“{name}” caricato
 	Local Drives	Unità locali
 	Local Projects	Progetti locali
@@ -1460,10 +1512,6 @@
 	Luma Min / Max	Luma min / max
 	Luma Source	Sorgente luma
 	Luma vs Sat	Luminanza vs saturazione
-	Lumetri	Lumetri
-	Lumetri Color	Colore Lumetri
-	Lumetri Presets	Predefiniti Lumetri
-	Lumetri Scopes	Ambiti Lumetri
 	Luminance Threshold	Soglia luminanza
 	LUT	LUT
 	Magnify	Ingrandisci
@@ -1472,6 +1520,7 @@
 	Main (8-bit)	Main (8 bit)
 	Main (8-bit; Main 10 for HDR sequences)	Main (8 bit; Main 10 per le sequenze HDR)
 	Main 10 (10-bit, HDR)	Main 10 (10 bit, HDR)
+	Maintain Audio Pitch	Mantieni intonazione audio
 	Maintain pitch while shuttling	Mantieni l'intonazione durante lo shuttle
 	Major Radius	Raggio maggiore
 	Make Offline	Rendi offline
@@ -1482,6 +1531,8 @@
 	Make {n} selected clip(s) offline. Their clips show the offline slate until you link them again.	Rendi offline {n} clip selezionate. Le clip mostrano la schermata offline finché non le ricolleghi.
 	Makeup	Compensazione
 	Male	Maschile
+	Manage Colors	Gestisci colori
+	Manage Colors…	Gestisci colori…
 	Manage Guides	Gestisci guide
 	Manage Guides…	Gestisci guide…
 	Manage Saved View Presets	Gestisci predefiniti di vista salvati
@@ -1499,6 +1550,9 @@
 	Mark Selection	Contrassegna selezione
 	Mark Split	Contrassegna taglio
 	Marker	Marcatore
+	Marker changed or was removed. Reopen it to continue.	Il marcatore è stato modificato o rimosso. Riaprilo per continuare.
+	Marker Color:	Colore marcatore:
+	Marker owner is unavailable	La sorgente del marcatore non è disponibile
 	Markers	Marcatori
 	Mask Only	Solo maschera
 	Master Amplitude	Ampiezza master
@@ -1732,15 +1786,22 @@
 	No Fields (Progressive Scan)	Nessun campo (scansione progressiva)
 	no GPU adapter: the CPU compositor is used	nessun adattatore GPU: viene usato il compositore su CPU
 	no Japanese font is installed on this system; the interface stays in English	nessun font giapponese è installato su questo sistema; l'interfaccia resta in inglese
+	No markers	Nessun marcatore
 	No markers. Press M to add one.	Nessun marcatore. Premi M per aggiungerne uno.
 	No matching captions.	Nessun sottotitolo corrispondente.
+	No matching markers	Nessun marcatore corrispondente
+	No matching text.	Nessun testo corrispondente.
 	No model credits were built into this copy.	In questa copia non sono inclusi crediti dei modelli.
 	No Motion	Nessun movimento
 	No multi-camera clip at the playhead	Nessuna clip multicamera all'indicatore di riproduzione
 	No plugins are installed. Changes will take effect the next time you start FilmCraft.	Non ci sono plugin installati. Le modifiche avranno effetto al prossimo avvio di FilmCraft.
+	No saved colors	Nessun colore salvato
 	No saved guide templates.	Nessun modello di guide salvato.
 	No Scroll	Nessuno scorrimento
+	No sequence open	Nessuna sequenza aperta
+	No source clip open	Nessuna clip sorgente aperta
 	No templates match.	Nessun modello corrispondente.
+	No text graphics in this sequence. Add text with the Type tool.	Nessuna grafica con testo in questa sequenza. Aggiungi testo con lo strumento Testo.
 	Noise	Rumore
 	Noise & Grain	Rumore e grana
 	Noise (Legacy)	Rumore (legacy)
@@ -1766,6 +1827,7 @@
 	Notch 6	Notch 6
 	Notch Filter	Filtro notch
 	Notch Width	Larghezza notch
+	Notes	Note
 	Notes for this project: to-dos, instructions, frame numbers… Saved with the project.	Note per questo progetto: cose da fare, istruzioni, numeri di fotogramma… Salvate con il progetto.
 	Nothing found with that name.	Nessun elemento trovato con quel nome.
 	Nothing is assigned to this key	Nessun comando assegnato a questo tasto
@@ -1816,6 +1878,7 @@
 	Opacity 0 → 100 % over the first second	Opacità 0 → 100 % nel primo secondo
 	Opacity 100 → 0 % over the last second	Opacità 100 → 0 % nell'ultimo secondo
 	Open a sequence to export	Apri una sequenza da esportare
+	Open a sequence to search its graphics	Apri una sequenza per cercare nelle sue grafiche
 	Open a sequence to see its transcript	Apri una sequenza per vederne la trascrizione
 	Open a sequence to work with captions	Apri una sequenza per lavorare con i sottotitoli
 	Open Air	All'aperto
@@ -1830,6 +1893,7 @@
 	Open in Source Monitor	Apri nel monitor sorgente
 	Open in Timeline	Apri nella timeline
 	Open Ingest Settings	Apri impostazioni di acquisizione
+	Open Link	Apri link
 	Open Most Recent	Apri il più recente
 	Open new tab	Apri una nuova scheda
 	Open Project…	Apri progetto…
@@ -1839,9 +1903,11 @@
 	OpenEXR	OpenEXR
 	OpenEXR Sequence	Sequenza OpenEXR
 	Opens in your web browser: {url}	Si apre nel browser web: {url}
+	Opens this address in your web browser	Apre questo indirizzo nel browser web
 	Opens up the shadows	Apre le ombre
 	OpenTimelineIO…	OpenTimelineIO…
 	Optical Flow	Flusso ottico
+	Options:	Opzioni:
 	Order	Ordine
 	Ordering:	Ordinamento:
 	Out	Stacco
@@ -2003,6 +2069,7 @@
 	Progress	Avanzamento
 	Project	Progetto
 	Project Auto Save:	Salvataggio automatico progetto:
+	Project Colors	Colori del progetto
 	Project Manager	Gestione progetti
 	Project Manager: writing {path}	Gestione progetti: scrittura di {path}
 	Project Manager…	Gestione progetti…
@@ -2052,6 +2119,7 @@
 	Ramp	Rampa
 	Ramp Shape	Forma rampa
 	Random Seed	Seme casuale
+	Range marker	Marcatore di intervallo
 	Rate Stretch Tool	Strumento Allungamento velocità
 	Ratio	Rapporto
 	Ray	Raggio
@@ -2060,6 +2128,7 @@
 	Rays Only	Solo raggi
 	Razor Tool	Strumento Lama
 	Read	Lettura
+	Read Video Scopes	Leggi oscilloscopi video
 	Rec. 2100	Rec. 2100
 	Rec. 601	Rec. 601
 	Rec. 709	Rec. 709
@@ -2119,6 +2188,7 @@
 	Remove Attributes	Rimuovi attributi
 	Remove Attributes…	Rimuovi attributi…
 	Remove Audio from AV Clip	Rimuovi audio dalla clip AV
+	Remove Custom Color	Rimuovi colore personalizzato
 	Remove Effect	Rimuovi effetto
 	Remove Filler Words	Rimuovi intercalari
 	Remove filler words	Rimuovi intercalari
@@ -2128,6 +2198,7 @@
 	Remove Media Cache Files	Rimuovi file della cache multimediale
 	Remove Pauses	Rimuovi pause
 	Remove Row	Rimuovi riga
+	Remove saved color	Rimuovi colore salvato
 	Remove Send	Rimuovi mandata
 	Remove Unused	Rimuovi inutilizzati
 	Render at Maximum Depth	Esegui rendering alla profondità massima
@@ -2144,6 +2215,7 @@
 	Repair	Riparazione
 	Repeat Edge Pixels	Ripeti pixel dei bordi
 	Replace Color	Sostituisci colore
+	Replace File	Sostituisci file
 	Replace Fonts in Projects	Sostituisci font nei progetti
 	Replace Fonts in Projects…	Sostituisci font nei progetti…
 	Replace With Clip	Sostituisci con clip
@@ -2154,6 +2226,7 @@
 	Reset All Parameters	Reimposta tutti i parametri
 	Reset Duration	Reimposta durata
 	Reset Effect	Reimposta effetto
+	Reset Interface Zoom	Reimposta zoom dell'interfaccia
 	Reset Parameter	Reimposta parametro
 	Reset to Grid	Riporta alla griglia
 	Reset to Saved Layout	Ripristina layout salvato
@@ -2238,6 +2311,7 @@
 	Save as New Workspace…	Salva come nuova area di lavoro…
 	Save Changes to this Workspace	Salva le modifiche a questa area di lavoro
 	Save changes to “{project_name}” before closing?	Salvare le modifiche a “{project_name}” prima di chiudere?
+	Save color	Salva colore
 	Save current settings as:	Salva le impostazioni correnti come:
 	Save Current View Preset	Salva predefinito di vista corrente
 	Save Guides as Template	Salva guide come modello
@@ -2279,20 +2353,25 @@
 	Search effects	Cerca effetti
 	Search fields	Campi di ricerca
 	Search in:	Cerca in:
+	Search markers	Cerca marcatori
+	Search name, notes, author	Cerca nome, note, autore
 	Search presets	Cerca predefiniti
 	Search templates	Cerca modelli
 	Search:	Cerca:
 	second(s)	secondi
 	Seconds	Secondi
 	seconds	secondi
+	Segmentation Marker	Marcatore segmentazione
 	Segments:	Segmenti:
 	Select a clip to grade	Seleziona una clip da correggere
 	Select a clip to see its properties	Seleziona una clip per vederne le proprietà
 	Select a clip to view its metadata.	Seleziona una clip per vederne i metadati.
 	Select a graphic clip, or use the Type tool (T) on the Program monitor	Seleziona una clip grafica o usa lo strumento Testo (T) nel monitor programma
 	Select a layer to edit its properties.	Seleziona un livello per modificarne le proprietà.
+	Select all	Seleziona tutto
 	Select All Matching	Seleziona tutti i corrispondenti
 	Select All Project Items	Seleziona tutti gli elementi del progetto
+	Select all visible markers	Seleziona tutti i marcatori visibili
 	Select an item to preview it	Seleziona un elemento per vederne l'anteprima
 	Select audio clips to edit them here	Seleziona le clip audio per modificarle qui
 	Select audio clips, then click a preset to apply it.	Seleziona le clip audio, poi fai clic su un predefinito per applicarlo.
@@ -2313,6 +2392,7 @@
 	Select Next Graphic	Seleziona grafica successiva
 	Select Next Layer	Seleziona livello successivo
 	Select Next Panel	Seleziona pannello successivo
+	Select one clip (or a linked clip) in the Timeline, or one item in the Project panel, to rename	Seleziona una clip (o una clip collegata) nella timeline, o un elemento nel pannello Progetto, per rinominarlo
 	Select Previous Clip	Seleziona clip precedente
 	Select Previous Graphic	Seleziona grafica precedente
 	Select Previous Layer	Seleziona livello precedente
@@ -2347,6 +2427,7 @@
 	Sequence Time	Tempo sequenza
 	Sequence Timecode	Timecode sequenza
 	Sequence, {w}x{h}, {fps} fps, {rate} Hz	Sequenza, {w}x{h}, {fps} fps, {rate} Hz
+	Sequence: {name}	Sequenza: {name}
 	Sequences	Sequenze
 	Sequence…	Sequenza…
 	Sequentially	In sequenza
@@ -2390,10 +2471,12 @@
 	Show Active Caption Tracks Only	Mostra solo le tracce sottotitoli attive
 	Show All Caption Tracks	Mostra tutte le tracce sottotitoli
 	Show All Marker Colors	Mostra tutti i colori dei marcatori
+	Show Audio Names	Mostra nomi audio
 	Show Audio Waveform	Mostra forma d'onda audio
 	Show Clip Mismatch Warning dialog	Mostra la finestra di avviso di mancata corrispondenza della clip
 	Show clip names	Mostra nomi clip
 	Show Dot	Mostra punto
+	Show Duplicate Frame Markers	Mostra marcatori dei fotogrammi duplicati
 	Show durations	Mostra durate
 	Show Event Indicator	Mostra indicatore eventi
 	Show finished jobs	Mostra processi completati
@@ -2417,6 +2500,7 @@
 	Show the presets folder	Mostra la cartella dei predefiniti
 	Show Through Edits	Mostra tagli passanti
 	Show Transport Controls	Mostra controlli di trasporto
+	Show Video Names	Mostra nomi video
 	Show Video Thumbnails	Mostra miniature video
 	Show Workspace Reset Warning dialog on double click	Mostra l'avviso di ripristino dell'area di lavoro al doppio clic
 	Show {n}	Mostra {n}
@@ -2502,6 +2586,8 @@
 	Source Timecode	Timecode sorgente
 	Source · {name}	Sorgente · {name}
 	Source:	Sorgente:
+	Source: {name}	Sorgente: {name}
+	Source: {name} (shared source markers)	Sorgente: {name} (marcatori sorgente condivisi)
 	Spacer	Distanziatore
 	Speaker	Parlante
 	Speaker Angle	Angolo altoparlante
@@ -2540,6 +2626,7 @@
 	Start Angle	Angolo iniziale
 	Start at 0	Inizia da 0
 	Start at 1	Inizia da 1
+	Start at Cut	Inizio sul taglio
 	Start Color	Colore iniziale
 	Start Export Queue	Avvia coda di esportazione
 	Start of Ramp	Inizio rampa
@@ -2630,6 +2717,7 @@
 	Synchronized {n} clip group(s)	{n} gruppi di clip sincronizzati
 	Synchronize…	Sincronizza…
 	Synthetic	Sintetico
+	System color picker unavailable: {error}	Selettore colore di sistema non disponibile: {error}
 	System Compatibility Report	Rapporto di compatibilità del sistema
 	System Compatibility Report…	Rapporto di compatibilità del sistema…
 	System Default	Predefinito di sistema
@@ -2667,6 +2755,7 @@
 	Text Styling	Stile del testo
 	Text to Speech	Sintesi vocale
 	TextPanel	Pannello Testo
+	The control server is disabled: FILMCRAFT_CONTROL_TOKEN must contain 64 random hex characters (see docs/control-protocol.md)	Il server di controllo è disattivato: FILMCRAFT_CONTROL_TOKEN deve contenere 64 caratteri esadecimali casuali (vedi docs/control-protocol.md)
 	The default graphics are used from the next start.	La grafica predefinita viene usata dal prossimo avvio.
 	The language changed but could not be saved: {e}	La lingua è cambiata ma non è stato possibile salvarla: {e}
 	The media cache holds render previews of unsaved projects and other files FilmCraft can recreate. Deleting them is always safe; FilmCraft rebuilds them as needed.	La cache multimediale contiene le anteprime di rendering dei progetti non salvati e altri file che FilmCraft può ricreare. Eliminarli è sempre sicuro; FilmCraft li ricostruisce quando servono.
@@ -2688,6 +2777,7 @@
 	Time	Tempo
 	Time and Pitch	Tempo e intonazione
 	Time Interpolation	Interpolazione temporale
+	Time is outside the supported range	Il tempo è fuori dall’intervallo supportato
 	Time Remapping	Rimappatura temporale
 	Timebase:	Base temporale:
 	Timecode Conversion	Conversione timecode
@@ -2712,6 +2802,7 @@
 	Toggle All Video Targets	Attiva/disattiva tutte le destinazioni video
 	Toggle animation	Attiva/disattiva animazione
 	Toggle Audio During Scrubbing	Attiva/disattiva audio durante lo scorrimento
+	Toggle Color Grading Section	Attiva/disattiva sezione di gradazione colore
 	Toggle Full Screen	Attiva/disattiva schermo intero
 	Toggle Mute for All Targeted Audio Tracks	Attiva/disattiva muto per tutte le tracce audio di destinazione
 	Toggle Proxies	Attiva/disattiva proxy
@@ -2740,6 +2831,7 @@
 	Top Center	In alto al centro
 	Total Duration	Durata totale
 	Touch	Touch
+	Track Color	Colore traccia
 	Track Fx Editor	Editor effetti traccia
 	Track Keyframes	Fotogrammi chiave della traccia
 	Track Matte Key	Chiave mascherino traccia
@@ -2831,6 +2923,7 @@
 	Upper Frequency	Frequenza superiore
 	Upper Left	In alto a sinistra
 	Upper Right	In alto a destra
+	URL	URL
 	Use Color Noise	Usa rumore colorato
 	Use Default Graphics	Usa grafica predefinita
 	Use Effect Shutter Angle	Usa l'angolo otturatore dell'effetto
@@ -2887,6 +2980,7 @@
 	Video In Point	Punto di attacco video
 	Video Info	Info video
 	Video Limiter	Limitatore video
+	Video Names	Nomi video
 	Video Only	Solo video
 	Video Options	Opzioni video
 	Video Out	Uscita video
@@ -2894,6 +2988,7 @@
 	Video Previews	Anteprime video
 	Video Previews:	Anteprime video:
 	Video Rendering and Playback	Rendering e riproduzione video
+	Video Scopes	Oscilloscopi video
 	Video Thumbnails	Miniature video
 	Video Tracks	Tracce video
 	Video Transition Default Duration	Durata predefinita transizione video
@@ -2966,6 +3061,7 @@
 	Waveform Type	Tipo di forma d'onda
 	Wavelength	Lunghezza d'onda
 	Web & Social	Web e social
+	Web Link	Collegamento web
 	WebVTT (.vtt)	WebVTT (.vtt)
 	Wet	Wet
 	Wet Out	Uscita wet
@@ -3022,6 +3118,7 @@
 	{active} (modified)	{active} (modificato)
 	{category} · My Template	{category} · Il mio modello
 	{codec} · {rate} Hz · {n} channel(s)	{codec} · {rate} Hz · {n} canali
+	{count} selected	{count} selezionati
 	{first} - Merged	{first} - Unita
 	{first} Multicam	{first} Multicamera
 	{fps} fps · {n} frames queued	{fps} fps · {n} fotogrammi in coda
@@ -3057,6 +3154,7 @@
 	{sel} of {total} items selected	{sel} di {total} elementi selezionati
 	{tc}  Chapter	{tc}  Capitolo
 	{total} items	{total} elementi
+	“{file}” already exists in “{folder}”. Do you want to replace it?	“{file}” esiste già in “{folder}”. Vuoi sostituirlo?
 	● Recording	● Registrazione
 	✓ Enable	✓ Abilita
 	✔ matches	✔ corrisponde
