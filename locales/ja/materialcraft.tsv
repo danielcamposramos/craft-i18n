@@ -25,3 +25,5 @@
 	The stereo view has invalid native dimensions.	ステレオ表示のネイティブ寸法が無効です。
 	The stereo window closed before the pair was shown.	画像ペアを表示する前にステレオウィンドウが閉じられました。
 	Use 3D view size	3Dビューのサイズを使う
+	Could not prepare the material scene.	マテリアルのシーンを準備できませんでした。
+	The stereo renderer stopped before completing its pair.	ステレオレンダラーは左右の画像を完成する前に停止しました。

@@ -24,3 +24,5 @@
 	The stereo view has invalid native dimensions.	La vue stéréo a des dimensions natives non valides.
 	The stereo window closed before the pair was shown.	La fenêtre stéréo a été fermée avant l’affichage de la paire.
 	Use 3D view size	Utiliser la taille de la vue 3D
+	Could not prepare the material scene.	Impossible de préparer la scène des matériaux.
+	The stereo renderer stopped before completing its pair.	Le moteur de rendu stéréo s’est arrêté avant de terminer la paire.

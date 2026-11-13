@@ -24,3 +24,5 @@
 	The stereo view has invalid native dimensions.	立體檢視的原生尺寸無效。
 	The stereo window closed before the pair was shown.	顯示影像對之前，立體視窗已關閉。
 	Use 3D view size	使用 3D 檢視大小
+	Could not prepare the material scene.	無法準備材質場景。
+	The stereo renderer stopped before completing its pair.	立體算繪器在完成影像對之前已停止。

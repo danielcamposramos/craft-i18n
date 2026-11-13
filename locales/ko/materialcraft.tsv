@@ -24,3 +24,5 @@
 	The stereo view has invalid native dimensions.	스테레오 보기의 기본 크기가 잘못되었습니다.
 	The stereo window closed before the pair was shown.	이미지 쌍이 표시되기 전에 스테레오 창이 닫혔습니다.
 	Use 3D view size	3D 보기 크기 사용
+	Could not prepare the material scene.	재질 장면을 준비할 수 없습니다.
+	The stereo renderer stopped before completing its pair.	스테레오 렌더러가 한 쌍의 영상을 완성하기 전에 중지되었습니다.

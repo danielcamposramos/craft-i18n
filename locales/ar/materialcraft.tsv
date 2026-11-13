@@ -24,3 +24,5 @@
 	The stereo view has invalid native dimensions.	أبعاد العرض المجسّم الأصلية غير صالحة.
 	The stereo window closed before the pair was shown.	أُغلقت نافذة العرض المجسّم قبل عرض الزوج.
 	Use 3D view size	استخدام حجم العرض ثلاثي الأبعاد
+	Could not prepare the material scene.	تعذر تجهيز مشهد المواد.
+	The stereo renderer stopped before completing its pair.	توقف العارض المجسم قبل إكمال زوج الصور.
