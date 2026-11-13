@@ -3238,6 +3238,7 @@ curves	Smooth	Leviga
 	Step Forward	Avanza di un passo
 	Step {step} ({id}) failed: {error}	Passaggio {step} ({id}) non riuscito: {error}
 	Step {step} is waiting for its dialog	Il passaggio {step} attende la sua finestra di dialogo
+	Stereo View	Vista stereo
 	Stop Color	Colore del punto
 	Stop For Errors	Interrompi in caso di errori
 	Stop playing/recording	Interrompi riproduzione/registrazione

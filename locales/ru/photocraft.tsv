@@ -3317,6 +3317,7 @@ curves	Smooth	Сгладить
 	Step Forward	Шаг вперёд
 	Step {step} ({id}) failed: {error}	Шаг {step} ({id}) не выполнен: {error}
 	Step {step} is waiting for its dialog	Шаг {step} ожидает своего диалога
+	Stereo View	Стереоскопический вид
 	Stippled	Крапчатый
 	Stop Color	Цвет контрольной точки
 	Stop For Errors	Останавливаться при ошибках

@@ -3287,6 +3287,7 @@ curves	Smooth	Lisser
 	Step Forward	Étape suivante
 	Step {step} ({id}) failed: {error}	Échec de l'étape {step} ({id}) : {error}
 	Step {step} is waiting for its dialog	L’étape {step} attend sa boîte de dialogue
+	Stereo View	Vue stéréo
 	Stop Color	Couleur du point
 	Stop For Errors	Arrêter en cas d'erreur
 	Stop playing/recording	Arrêter la lecture/l'enregistrement

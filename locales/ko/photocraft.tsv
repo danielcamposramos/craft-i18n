@@ -2926,6 +2926,7 @@ curves	Smooth	매끄럽게
 	Step Forward	한 단계 앞으로
 	Step {step} ({id}) failed: {error}	{step}단계({id}) 실패: {error}
 	Step {step} is waiting for its dialog	{step}단계가 대화 상자를 기다리고 있습니다
+	Stereo View	스테레오 보기
 	Stop	정지
 	Stop Color	정지점 색상
 	Stop playing/recording	재생/기록 중지

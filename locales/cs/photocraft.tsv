@@ -2948,6 +2948,7 @@ curves	Smooth	Vyhladit
 	Step Forward	Krok vpřed
 	Step {step} ({id}) failed: {error}	Krok {step} ({id}) selhal: {error}
 	Step {step} is waiting for its dialog	Krok {step} čeká na svůj dialog
+	Stereo View	Stereoskopické zobrazení
 	Stop Color	Barva zarážky
 	Stop playing/recording	Zastavit přehrávání/záznam
 	Stop Recording	Zastavit nahrávání

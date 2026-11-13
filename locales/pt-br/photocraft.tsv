@@ -3217,6 +3217,7 @@ curves	Smooth	Suavizar
 	Step Forward	Avançar um passo
 	Step {step} ({id}) failed: {error}	Falha na etapa {step} ({id}): {error}
 	Step {step} is waiting for its dialog	A etapa {step} está aguardando sua caixa de diálogo
+	Stereo View	Visualização estéreo
 	Stop Color	Cor da parada
 	Stop For Errors	Parar em caso de erros
 	Stop playing/recording	Parar reprodução/gravação

@@ -324,3 +324,9 @@ Original wording and contributor credits remain in the LightCraft source history
 No translations were newly authored or changed, and no additional native-speaker review was performed.
 The migration tooling and checker were AI-assisted; the original translations are unchanged.
 The native JSON format retains LightCraft’s compile-time-checked Rust format templates and its existing localized prose; these are not TSV catalogs.
+
+## PhotoCraft edition Stereo View title
+
+The twelve `Stereo View` rows were migrated from [PhotoCraft `5fbc36429856ed30ef9f2fe63e68dcc10cbac2ff`](https://github.com/danielcamposramos/photocraft/tree/5fbc36429856ed30ef9f2fe63e68dcc10cbac2ff/crates/ui-egui/src/i18n), MIT OR Apache-2.0.
+Daniel Campos Ramos’s existing translations and their wording are unchanged; the migration was AI-assisted and no additional native-speaker review was performed.
+The sync applies only the edition delta from `de7e1eec45eddbb434df2fdd27abba12aac24949`; newer shared catalog corrections remain intact.
