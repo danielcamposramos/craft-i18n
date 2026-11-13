@@ -3718,3 +3718,20 @@ document scrollbar width	Wide	寬
 	…or paste the raw text here; # headings, - bullets	…或在此貼上原始文字；# 標題，- 項目符號
 	− Page {p}	− 第 {p} 頁
 	−LOC	刪除行
+
+# Native model stereo view, contributor-original translations.
+	Enable 3D	啟用 3D
+	Render resolution per eye	每眼算繪解析度
+	Desktop Display Settings	桌面顯示設定
+	Stereo View	立體檢視
+	Could not open Display Settings: {error}	無法開啟顯示設定：{error}
+	Could not show the stereo view: {error}	無法顯示立體檢視：{error}
+	Stereo depth is unavailable on this desktop; showing the flat model.	此桌面不支援立體深度；將以平面顯示模型。
+	The stereo window closed before the pair was shown.	顯示影像對之前，立體視窗已關閉。
+	The stereo renderer stopped before completing its pair.	立體算繪器在完成影像對之前已停止。
+	The default is 512 × 512 pixels, matching the model renderer; the desktop scales once.	預設解析度為 512 × 512 像素，與模型算繪器相同；桌面僅縮放一次。
+	Use model renderer size	使用模型算繪器尺寸
+	Open a page with a PRC 3D model first.	請先開啟包含 PRC 3D 模型的頁面。
+	The active document was closed.	目前的文件已關閉。
+	The model snapshot was lost.	模型快照已遺失。
+	Only PRC models can be shown in this view.	此檢視只能顯示 PRC 模型。

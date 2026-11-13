@@ -3983,3 +3983,20 @@ document scrollbar width	Wide	Breit
 	…or paste the raw text here; # headings, - bullets	…oder Rohtext hier einfügen; # Überschriften, - Aufzählungen
 	− Page {p}	− Seite {p}
 	−LOC	−LOC
+
+# Native model stereo view, contributor-original translations.
+	Enable 3D	3D aktivieren
+	Render resolution per eye	Renderauflösung pro Auge
+	Desktop Display Settings	Anzeigeeinstellungen des Desktops
+	Stereo View	Stereoansicht
+	Could not open Display Settings: {error}	Die Anzeigeeinstellungen konnten nicht geöffnet werden: {error}
+	Could not show the stereo view: {error}	Die Stereoansicht konnte nicht angezeigt werden: {error}
+	Stereo depth is unavailable on this desktop; showing the flat model.	Auf diesem Desktop ist keine Stereotiefe verfügbar; das Modell wird flach angezeigt.
+	The stereo window closed before the pair was shown.	Das Stereofenster wurde vor der Anzeige des Bildpaars geschlossen.
+	The stereo renderer stopped before completing its pair.	Der Stereorenderer wurde vor Abschluss des Bildpaars angehalten.
+	The default is 512 × 512 pixels, matching the model renderer; the desktop scales once.	Standard sind 512 × 512 Pixel wie beim Modellrenderer; der Desktop skaliert einmal.
+	Use model renderer size	Größe des Modellrenderers verwenden
+	Open a page with a PRC 3D model first.	Öffnen Sie zuerst eine Seite mit einem PRC-3D-Modell.
+	The active document was closed.	Das aktive Dokument wurde geschlossen.
+	The model snapshot was lost.	Der erfasste Modellzustand ging verloren.
+	Only PRC models can be shown in this view.	In dieser Ansicht können nur PRC-Modelle angezeigt werden.

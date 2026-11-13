@@ -3819,3 +3819,20 @@ document scrollbar width	Wide	太い
 	…or paste the raw text here; # headings, - bullets	…または未整形テキストをここに貼り付け（# 見出し、- 箇条書き）
 	− Page {p}	− {p} ページ
 	−LOC	−LOC
+
+# Native model stereo view, contributor-original translations.
+	Enable 3D	3Dを有効にする
+	Render resolution per eye	片眼あたりの描画解像度
+	Desktop Display Settings	デスクトップのディスプレイ設定
+	Stereo View	ステレオ表示
+	Could not open Display Settings: {error}	ディスプレイ設定を開けませんでした: {error}
+	Could not show the stereo view: {error}	ステレオ表示を表示できませんでした: {error}
+	Stereo depth is unavailable on this desktop; showing the flat model.	このデスクトップではステレオ深度を利用できないため、モデルを平面表示します。
+	The stereo window closed before the pair was shown.	画像ペアを表示する前にステレオウィンドウが閉じられました。
+	The stereo renderer stopped before completing its pair.	ステレオレンダラーは左右の画像を完成する前に停止しました。
+	The default is 512 × 512 pixels, matching the model renderer; the desktop scales once.	既定はモデルレンダラーと同じ512 × 512ピクセルです。デスクトップで一度だけ拡大縮小します。
+	Use model renderer size	モデルレンダラーのサイズを使用
+	Open a page with a PRC 3D model first.	まずPRC形式の3Dモデルを含むページを開いてください。
+	The active document was closed.	現在の文書は閉じられました。
+	The model snapshot was lost.	モデルの保存状態が失われました。
+	Only PRC models can be shown in this view.	このビューで表示できるのはPRCモデルのみです。
