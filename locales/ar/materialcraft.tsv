@@ -1,0 +1,26 @@
+# العربية (ar) interface catalog for MaterialCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+# Partial: stereo preview labels only; ordinary Arabic remains in MaterialCraft’s original table.
+
+	Could not open Display Settings: {error}	تعذّر فتح إعدادات العرض: {error}
+	Could not show the stereo view: {error}	تعذّر إظهار العرض المجسّم: {error}
+	Desktop Display Settings	إعدادات عرض سطح المكتب
+	Enable 3D	تفعيل العرض المجسّم
+	Open the 3D View first.	افتح العرض ثلاثي الأبعاد أولاً.
+	Render resolution per eye	دقة التصيير لكل عين
+	Stereo View	عرض مجسّم
+	Stereo depth is unavailable on this desktop; showing the flat model.	عمق العرض المجسّم غير متاح على سطح المكتب هذا؛ يُعرض النموذج مسطّحاً.
+	The 3D view size preserves its current sampling; the desktop scales once.	يحافظ حجم العرض ثلاثي الأبعاد على أخذ العينات الحالي؛ يغيّر سطح المكتب الحجم مرة واحدة.
+	The stereo view has invalid native dimensions.	أبعاد العرض المجسّم الأصلية غير صالحة.
+	The stereo window closed before the pair was shown.	أُغلقت نافذة العرض المجسّم قبل عرض الزوج.
+	Use 3D view size	استخدام حجم العرض ثلاثي الأبعاد

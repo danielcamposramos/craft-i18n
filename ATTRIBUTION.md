@@ -337,3 +337,13 @@ Native-speaker review has not been performed.
 The Polish and Traditional Chinese TextureCraft catalogs are new partial catalogs, not a migration from another app.
 Existing common rows and existing app wording are retained.
 English is the source language; no English catalog is introduced.
+
+
+## MaterialCraft stereo preview catalogs (2026-11-13)
+
+`locales/{ar,de,es,fr,ja,ko,pl,pt-br,zh-hans,zh-hant}/materialcraft.tsv` are new, explicitly partial catalogs for MaterialCraft, not additions to another app’s source.
+Shared common rows remain in `common.tsv`; the original MaterialCraft Arabic table stays in its app and retains priority for its existing keys.
+The stereo labels common with TextureCraft reuse Daniel Campos Ramos’s previously contributed catalog rows at ada1c658; the sampling explanation, reset and first-view instruction are original translations from their English meaning.
+Arabic stereo rows are original translations from their English meaning.
+Prepared by Daniel Campos Ramos with AI assistance; no native-speaker review is claimed.
+These rows use this repository’s MIT OR Apache-2.0 license; no commercial localization or external asset was consulted.

@@ -1,0 +1,26 @@
+# Português (Brasil) (pt-br) interface catalog for MaterialCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+# Partial: stereo preview labels only; ordinary Arabic remains in MaterialCraft’s original table.
+
+	Could not open Display Settings: {error}	Não foi possível abrir as configurações de tela: {error}
+	Could not show the stereo view: {error}	Não foi possível mostrar a vista estéreo: {error}
+	Desktop Display Settings	Configurações de tela do ambiente de trabalho
+	Enable 3D	Ativar 3D
+	Open the 3D View first.	Abra primeiro a vista 3D.
+	Render resolution per eye	Resolução de renderização por olho
+	Stereo View	Vista estéreo
+	Stereo depth is unavailable on this desktop; showing the flat model.	A profundidade estéreo não está disponível neste ambiente de trabalho; mostrando o modelo plano.
+	The 3D view size preserves its current sampling; the desktop scales once.	O tamanho da vista 3D preserva a amostragem atual; a área de trabalho redimensiona uma vez.
+	The stereo view has invalid native dimensions.	A vista estéreo tem dimensões nativas inválidas.
+	The stereo window closed before the pair was shown.	A janela estéreo foi fechada antes de mostrar o par.
+	Use 3D view size	Usar o tamanho da vista 3D

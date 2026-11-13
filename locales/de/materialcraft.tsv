@@ -1,0 +1,26 @@
+# Deutsch (de) interface catalog for MaterialCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+# Partial: stereo preview labels only; ordinary Arabic remains in MaterialCraft’s original table.
+
+	Could not open Display Settings: {error}	Die Anzeigeeinstellungen konnten nicht geöffnet werden: {error}
+	Could not show the stereo view: {error}	Die Stereoansicht konnte nicht angezeigt werden: {error}
+	Desktop Display Settings	Anzeigeeinstellungen des Desktops
+	Enable 3D	3D aktivieren
+	Open the 3D View first.	Öffnen Sie zuerst die 3D-Ansicht.
+	Render resolution per eye	Renderauflösung pro Auge
+	Stereo View	Stereoansicht
+	Stereo depth is unavailable on this desktop; showing the flat model.	Auf diesem Desktop ist keine Stereotiefe verfügbar; das Modell wird flach angezeigt.
+	The 3D view size preserves its current sampling; the desktop scales once.	Die Größe der 3D-Ansicht erhält die aktuelle Abtastung; die Arbeitsumgebung skaliert einmal.
+	The stereo view has invalid native dimensions.	Die Stereoansicht hat ungültige native Abmessungen.
+	The stereo window closed before the pair was shown.	Das Stereofenster wurde vor der Anzeige des Bildpaars geschlossen.
+	Use 3D view size	Größe der 3D-Ansicht verwenden

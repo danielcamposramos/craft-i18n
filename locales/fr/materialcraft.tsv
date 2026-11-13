@@ -1,0 +1,26 @@
+# Français (fr) interface catalog for MaterialCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+# Partial: stereo preview labels only; ordinary Arabic remains in MaterialCraft’s original table.
+
+	Could not open Display Settings: {error}	Impossible d’ouvrir les paramètres d’affichage : {error}
+	Could not show the stereo view: {error}	Impossible d’afficher la vue stéréo : {error}
+	Desktop Display Settings	Paramètres d’affichage du bureau
+	Enable 3D	Activer la 3D
+	Open the 3D View first.	Ouvrez d’abord la vue 3D.
+	Render resolution per eye	Résolution de rendu par œil
+	Stereo View	Vue stéréo
+	Stereo depth is unavailable on this desktop; showing the flat model.	La profondeur stéréo n’est pas disponible sur ce bureau ; le modèle est affiché à plat.
+	The 3D view size preserves its current sampling; the desktop scales once.	La taille de la vue 3D conserve l’échantillonnage actuel ; le bureau ne redimensionne qu’une fois.
+	The stereo view has invalid native dimensions.	La vue stéréo a des dimensions natives non valides.
+	The stereo window closed before the pair was shown.	La fenêtre stéréo a été fermée avant l’affichage de la paire.
+	Use 3D view size	Utiliser la taille de la vue 3D
