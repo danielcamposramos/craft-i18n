@@ -2873,5 +2873,5 @@ smartSvg	Updates wait while another document or an editing dialog is active.	Akt
 	…and {n} more	…und {n} weitere
 	↑↓ navigate   {key} run   esc close	↑↓ Navigieren   {key} Ausführen   Esc Schließen
 	PDF page {page}: a color space could not be used; fallback colors were rendered	PDF-Seite {page}: Ein Farbraum konnte nicht verwendet werden; Ersatzfarben wurden dargestellt
-	PDF page {page}: an invalid indexed-color image was omitted	PDF-Seite {page}: Ein ungültiges Bild mit indizierten Farben wurde ausgelassen
+	PDF page {page}: an indexed-color image has invalid data	PDF-Seite {page}: Ein Bild mit indizierten Farben enthält ungültige Daten
 	PDF page {page}: a Type 3 font has no widths; glyph spacing was inferred	PDF-Seite {page}: Einer Type-3-Schrift fehlen die Zeichenbreiten; die Glyphenabstände wurden geschätzt

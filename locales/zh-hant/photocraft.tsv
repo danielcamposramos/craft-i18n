@@ -2558,5 +2558,5 @@ cameraRaw	Whites	白色色階
 	…and {n} more	…以及另外 {n} 項
 	↑↓ navigate   {key} run   esc close	↑↓ 瀏覽   {key} 執行   esc 關閉
 	PDF page {page}: a color space could not be used; fallback colors were rendered	PDF 第 {page} 頁：無法使用某個色彩空間，已使用替代顏色繪製
-	PDF page {page}: an invalid indexed-color image was omitted	PDF 第 {page} 頁：已省略無效的索引色影像
+	PDF page {page}: an indexed-color image has invalid data	PDF 第 {page} 頁：索引色影像含有無效資料
 	PDF page {page}: a Type 3 font has no widths; glyph spacing was inferred	PDF 第 {page} 頁：Type 3 字型缺少字寬，已推算字形間距

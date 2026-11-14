@@ -2623,5 +2623,5 @@ cameraRaw	Tint	色偏
 	↑↓ navigate   {key} run   esc close	↑↓ 导航   {key} 运行   esc 关闭
 	↑↓ navigate   ↵ run   esc close	↑↓ 导航   ↵ 运行   esc 关闭
 	PDF page {page}: a color space could not be used; fallback colors were rendered	PDF 第 {page} 页：无法使用某个色彩空间，已使用替代颜色渲染
-	PDF page {page}: an invalid indexed-color image was omitted	PDF 第 {page} 页：已省略无效的索引色图像
+	PDF page {page}: an indexed-color image has invalid data	PDF 第 {page} 页：索引色图像含有无效数据
 	PDF page {page}: a Type 3 font has no widths; glyph spacing was inferred	PDF 第 {page} 页：Type 3 字体缺少字宽，已推算字形间距

@@ -3578,5 +3578,5 @@ navigator	Zoom	Zoom
 	✓ Color Indicates Masked Areas	✓ El color indica áreas enmascaradas
 	✓ Color Indicates Selected Areas	✓ El color indica áreas seleccionadas
 	PDF page {page}: a color space could not be used; fallback colors were rendered	Página {page} del PDF: no se pudo utilizar un espacio de color; se representaron colores alternativos
-	PDF page {page}: an invalid indexed-color image was omitted	Página {page} del PDF: se omitió una imagen con colores indexados no válida
+	PDF page {page}: an indexed-color image has invalid data	Página {page} del PDF: una imagen con colores indexados contiene datos no válidos
 	PDF page {page}: a Type 3 font has no widths; glyph spacing was inferred	Página {page} del PDF: una fuente Type 3 no tiene anchos; se estimó el espaciado de los glifos

@@ -3391,5 +3391,5 @@ cameraRaw	Yellow	Żółty
 	↑↓ navigate   {key} run   esc close	↑↓ nawigacja   {key} uruchom   esc zamknij
 	↑↓ navigate   ↵ run   esc close	↑↓ nawigacja   ↵ uruchom   esc zamknij
 	PDF page {page}: a color space could not be used; fallback colors were rendered	Strona PDF {page}: nie można było użyć przestrzeni barw; użyto barw zastępczych
-	PDF page {page}: an invalid indexed-color image was omitted	Strona PDF {page}: pominięto nieprawidłowy obraz o kolorach indeksowanych
+	PDF page {page}: an indexed-color image has invalid data	Strona PDF {page}: obraz o kolorach indeksowanych zawiera nieprawidłowe dane
 	PDF page {page}: a Type 3 font has no widths; glyph spacing was inferred	Strona PDF {page}: czcionka Type 3 nie ma szerokości znaków; odstępy między glifami oszacowano

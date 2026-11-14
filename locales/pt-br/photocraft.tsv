@@ -3672,5 +3672,5 @@ cameraRaw	Yellow	Amarelo
 	↑↓ navigate   {key} run   esc close	↑↓ navegar   {key} executar   esc fechar
 	↑↓ navigate   ↵ run   esc close	↑↓ navegar   ↵ executar   esc fechar
 	PDF page {page}: a color space could not be used; fallback colors were rendered	Página {page} do PDF: não foi possível usar um espaço de cores; foram usadas cores alternativas
-	PDF page {page}: an invalid indexed-color image was omitted	Página {page} do PDF: uma imagem com cores indexadas inválida foi omitida
+	PDF page {page}: an indexed-color image has invalid data	Página {page} do PDF: uma imagem com cores indexadas contém dados inválidos
 	PDF page {page}: a Type 3 font has no widths; glyph spacing was inferred	Página {page} do PDF: uma fonte Type 3 não tem larguras; o espaçamento dos glifos foi estimado
