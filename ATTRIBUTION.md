@@ -375,3 +375,10 @@ The original wording and contributor credits remain in FilmCraft’s source hist
 The official sync applies only the app delta and leaves untouched shared corrections intact; all 55,697 eligible source rows are reproduced.
 This includes the previously absent Czech, Polish, Swedish and Turkish app catalogs.
 Migration tooling was AI-assisted; no new translations were authored and no additional native-speaker review was performed.
+
+## PhotoCraft: shared PDF recovery diagnostics
+
+Daniel Campos Ramos added three diagnostic messages in pl, pt-br, fr, de, es, ja, ko, zh-hans and zh-hant.
+They describe alternate colours, an omitted invalid indexed-colour image and inferred Type 3 glyph spacing.
+Written with AI assistance from the English meanings; no other product localisation was consulted.
+No native-speaker review is recorded.

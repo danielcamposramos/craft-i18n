@@ -3770,3 +3770,6 @@ navigator	Zoom	Zoom
 	↑↓ navigate   ↵ run   esc close	↑↓ naviguer   ↵ exécuter   échap fermer
 	✓ Color Indicates Masked Areas	✓ La couleur indique les zones masquées
 	✓ Color Indicates Selected Areas	✓ La couleur indique les zones sélectionnées
+	PDF page {page}: a color space could not be used; fallback colors were rendered	Page PDF {page} : un espace colorimétrique n’a pas pu être utilisé ; des couleurs de remplacement ont été rendues
+	PDF page {page}: an invalid indexed-color image was omitted	Page PDF {page} : une image à couleurs indexées non valide a été omise
+	PDF page {page}: a Type 3 font has no widths; glyph spacing was inferred	Page PDF {page} : une police Type 3 ne contient pas de largeurs ; l’espacement des glyphes a été estimé

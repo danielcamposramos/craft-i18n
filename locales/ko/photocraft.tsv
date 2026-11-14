@@ -3371,3 +3371,6 @@ navigator	Zoom	확대/축소
 	“{name}” already exists. Replace it?	“{name}”이(가) 이미 있습니다. 대치하시겠습니까?
 	…and {n} more	…외 {n}개
 	↑↓ navigate   {key} run   esc close	↑↓ 이동   {key} 실행   esc 닫기
+	PDF page {page}: a color space could not be used; fallback colors were rendered	PDF {page}페이지: 색 공간을 사용할 수 없어 대체 색상으로 렌더링했습니다
+	PDF page {page}: an invalid indexed-color image was omitted	PDF {page}페이지: 잘못된 인덱스 색상 이미지를 생략했습니다
+	PDF page {page}: a Type 3 font has no widths; glyph spacing was inferred	PDF {page}페이지: Type 3 글꼴에 문자 너비가 없어 글리프 간격을 추정했습니다

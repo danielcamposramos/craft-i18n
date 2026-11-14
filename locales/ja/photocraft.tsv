@@ -3394,3 +3394,6 @@ fontWeight	Thin	極細
 	…and {n} more	…ほか {n} 件
 	↑↓ navigate   {key} run   esc close	↑↓ 移動   {key} 実行   esc 閉じる
 	↑↓ navigate   ↵ run   esc close	↑↓ 移動   ↵ 実行   esc 閉じる
+	PDF page {page}: a color space could not be used; fallback colors were rendered	PDF の {page} ページ：色空間を使用できなかったため、代替色で描画しました
+	PDF page {page}: an invalid indexed-color image was omitted	PDF の {page} ページ：無効なインデックスカラー画像を省略しました
+	PDF page {page}: a Type 3 font has no widths; glyph spacing was inferred	PDF の {page} ページ：Type 3 フォントに文字幅がないため、グリフの間隔を推定しました
