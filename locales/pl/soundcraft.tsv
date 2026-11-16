@@ -1,0 +1,55 @@
+# pl partial interface catalog for SoundCraft stereo video.
+# Columns, separated by a TAB: context <TAB> English source text <TAB> translation
+# A missing entry shows in English. Ordinary UI retains its original catalogs.
+# Clean room: every entry was written from the plain meaning of the English text.
+# No other product's localisation, string table or translated UI was consulted or copied.
+# Partial catalog: stereo controls only. No native-speaker review.
+	Stereo Video	Wideo stereoskopowe
+	Enable 3D	Włącz 3D
+	Render resolution per eye	Rozdzielczość renderowania na oko
+	Native film samples; the desktop scales once.	Natywne próbki filmu; pulpit skaluje tylko raz.
+	Display Settings	Ustawienia ekranu
+	Input packing	Układ wejściowy
+	Swap left and right eyes	Zamień lewe i prawe oko
+	No movie at the audio playhead.	Brak filmu w pozycji odtwarzania dźwięku.
+	Automatic packing reads MP4 st3d. Choose the packing for other marks.	Automatyczne wykrywanie odczytuje MP4 st3d. Wybierz układ dla innych oznaczeń.
+	This host has no stereo video window.	To środowisko nie udostępnia okna wideo stereoskopowego.
+	The desktop has no stereo declaration; showing the left eye only.	Pulpit nie deklaruje stereo; wyświetlane jest tylko lewe oko.
+	From file	Z pliku
+	2D	2D
+	Side by side, left first	Obok siebie, lewe pierwsze
+	Side by side, right first	Obok siebie, prawe pierwsze
+	Half side by side, left first	Połowa szerokości obok siebie, lewe pierwsze
+	Half side by side, right first	Połowa szerokości obok siebie, prawe pierwsze
+	Top and bottom, left first	Góra i dół, lewe pierwsze
+	Top and bottom, right first	Góra i dół, prawe pierwsze
+	Half top and bottom, left first	Połowa wysokości góra i dół, lewe pierwsze
+	Half top and bottom, right first	Połowa wysokości góra i dół, prawe pierwsze
+	Rows, left first	Wiersze, lewe pierwsze
+	Rows, right first	Wiersze, prawe pierwsze
+	Columns, left first	Kolumny, lewe pierwsze
+	Columns, right first	Kolumny, prawe pierwsze
+	Checkerboard, left first	Szachownica, lewe pierwsze
+	Checkerboard, right first	Szachownica, prawe pierwsze
+	This file declares a stereo layout SoundCraft cannot reconstruct; choose its input packing.	Ten plik deklaruje układ stereo, którego SoundCraft nie może odtworzyć; wybierz układ wejściowy.
+	The decoded picture does not match its native grid.	Zdekodowany obraz nie odpowiada swojej natywnej siatce.
+	The stereo picture exceeds the output byte limit.	Obraz stereo przekracza limit bajtów wyjściowych.
+	The sample aspect ratio is too large.	Proporcje piksela są zbyt duże.
+	The sample aspect ratio is invalid.	Proporcje piksela są nieprawidłowe.
+	Could not allocate the stereo picture.	Nie można przydzielić pamięci na obraz stereo.
+	The stereo video window did not open.	Okno wideo stereoskopowego nie zostało otwarte.
+	The stereo video window closed before the complete picture was shown.	Okno wideo stereoskopowego zamknięto przed wyświetleniem całego obrazu.
+	Could not open Display Settings: {error}	Nie można otworzyć ustawień ekranu: {error}
+	invalid stereo sample-grid geometry	nieprawidłowa geometria siatki próbek stereo
+	stereo sample buffer does not match its dimensions	bufor próbek stereo nie odpowiada swoim wymiarom
+	stereo sample copy exceeds its output byte limit	kopia próbek stereo przekracza limit bajtów wyjściowych
+	cannot allocate stereo sample grids	nie można przydzielić pamięci na siatki próbek stereo
+	Polish (stereo controls)	Polski (sterowanie stereo)
+	French (stereo controls)	Francuski (sterowanie stereo)
+	German (stereo controls)	Niemiecki (sterowanie stereo)
+	Spanish (stereo controls)	Hiszpański (sterowanie stereo)
+	Japanese (stereo controls)	Japoński (sterowanie stereo)
+	Korean (stereo controls)	Koreański (sterowanie stereo)
+	Chinese (Simplified) (stereo controls)	Chiński uproszczony (sterowanie stereo)
+	Chinese (Traditional) (stereo controls)	Chiński tradycyjny (sterowanie stereo)
+	Automatic H.264 stereo needs codec metadata; choose this file's input packing.	Automatyczne stereo H.264 wymaga metadanych kodeka; wybierz układ wejściowy tego pliku.

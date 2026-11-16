@@ -1,0 +1,55 @@
+# zh-hans partial interface catalog for SoundCraft stereo video.
+# Columns, separated by a TAB: context <TAB> English source text <TAB> translation
+# A missing entry shows in English. Ordinary UI retains its original catalogs.
+# Clean room: every entry was written from the plain meaning of the English text.
+# No other product's localisation, string table or translated UI was consulted or copied.
+# Partial catalog: stereo controls only. No native-speaker review.
+	Stereo Video	立体视频
+	Enable 3D	启用3D
+	Render resolution per eye	每眼渲染分辨率
+	Native film samples; the desktop scales once.	保留影片原始采样，仅由桌面缩放一次。
+	Display Settings	显示设置
+	Input packing	输入排列
+	Swap left and right eyes	交换左右眼
+	No movie at the audio playhead.	音频播放位置没有影片。
+	Automatic packing reads MP4 st3d. Choose the packing for other marks.	自动检测读取MP4 st3d。其他标记请选择输入排列。
+	This host has no stereo video window.	此环境不提供立体视频窗口。
+	The desktop has no stereo declaration; showing the left eye only.	桌面未声明立体支持，仅显示左眼。
+	From file	从文件读取
+	2D	2D
+	Side by side, left first	左右排列，左眼优先
+	Side by side, right first	左右排列，右眼优先
+	Half side by side, left first	半宽左右排列，左眼优先
+	Half side by side, right first	半宽左右排列，右眼优先
+	Top and bottom, left first	上下排列，左眼优先
+	Top and bottom, right first	上下排列，右眼优先
+	Half top and bottom, left first	半高上下排列，左眼优先
+	Half top and bottom, right first	半高上下排列，右眼优先
+	Rows, left first	交错行，左眼优先
+	Rows, right first	交错行，右眼优先
+	Columns, left first	交错列，左眼优先
+	Columns, right first	交错列，右眼优先
+	Checkerboard, left first	棋盘格，左眼优先
+	Checkerboard, right first	棋盘格，右眼优先
+	This file declares a stereo layout SoundCraft cannot reconstruct; choose its input packing.	此文件声明的立体排列无法由SoundCraft重建；请选择输入排列。
+	The decoded picture does not match its native grid.	解码图像与原始网格不匹配。
+	The stereo picture exceeds the output byte limit.	立体图像超过输出字节限制。
+	The sample aspect ratio is too large.	像素宽高比过大。
+	The sample aspect ratio is invalid.	像素宽高比无效。
+	Could not allocate the stereo picture.	无法为立体图像分配内存。
+	The stereo video window did not open.	立体视频窗口未打开。
+	The stereo video window closed before the complete picture was shown.	完整图像显示前，立体视频窗口已关闭。
+	Could not open Display Settings: {error}	无法打开显示设置：{error}
+	invalid stereo sample-grid geometry	立体采样网格几何无效
+	stereo sample buffer does not match its dimensions	立体采样缓冲区与尺寸不匹配
+	stereo sample copy exceeds its output byte limit	立体采样复制超过输出字节限制
+	cannot allocate stereo sample grids	无法为立体采样网格分配内存
+	Polish (stereo controls)	波兰语（立体控制）
+	French (stereo controls)	法语（立体控制）
+	German (stereo controls)	德语（立体控制）
+	Spanish (stereo controls)	西班牙语（立体控制）
+	Japanese (stereo controls)	日语（立体控制）
+	Korean (stereo controls)	韩语（立体控制）
+	Chinese (Simplified) (stereo controls)	简体中文（立体控制）
+	Chinese (Traditional) (stereo controls)	繁体中文（立体控制）
+	Automatic H.264 stereo needs codec metadata; choose this file's input packing.	H.264立体自动判断需要编解码器元数据；请选择此文件的输入排列。

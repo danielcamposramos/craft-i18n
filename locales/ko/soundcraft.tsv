@@ -1,0 +1,55 @@
+# ko partial interface catalog for SoundCraft stereo video.
+# Columns, separated by a TAB: context <TAB> English source text <TAB> translation
+# A missing entry shows in English. Ordinary UI retains its original catalogs.
+# Clean room: every entry was written from the plain meaning of the English text.
+# No other product's localisation, string table or translated UI was consulted or copied.
+# Partial catalog: stereo controls only. No native-speaker review.
+	Stereo Video	스테레오 동영상
+	Enable 3D	3D 켜기
+	Render resolution per eye	눈별 렌더링 해상도
+	Native film samples; the desktop scales once.	영상의 원본 샘플을 유지하고 데스크톱에서 한 번만 크기를 조정합니다.
+	Display Settings	디스플레이 설정
+	Input packing	입력 배치
+	Swap left and right eyes	왼쪽 눈과 오른쪽 눈 바꾸기
+	No movie at the audio playhead.	오디오 재생 위치에 동영상이 없습니다.
+	Automatic packing reads MP4 st3d. Choose the packing for other marks.	자동 감지는 MP4 st3d를 읽습니다. 다른 표시는 입력 배치를 선택하세요.
+	This host has no stereo video window.	이 환경에는 스테레오 동영상 창이 없습니다.
+	The desktop has no stereo declaration; showing the left eye only.	데스크톱이 스테레오를 선언하지 않아 왼쪽 눈만 표시합니다.
+	From file	파일에서 읽기
+	2D	2D
+	Side by side, left first	좌우 배치, 왼쪽 먼저
+	Side by side, right first	좌우 배치, 오른쪽 먼저
+	Half side by side, left first	절반 너비 좌우 배치, 왼쪽 먼저
+	Half side by side, right first	절반 너비 좌우 배치, 오른쪽 먼저
+	Top and bottom, left first	상하 배치, 왼쪽 먼저
+	Top and bottom, right first	상하 배치, 오른쪽 먼저
+	Half top and bottom, left first	절반 높이 상하 배치, 왼쪽 먼저
+	Half top and bottom, right first	절반 높이 상하 배치, 오른쪽 먼저
+	Rows, left first	교차 행, 왼쪽 먼저
+	Rows, right first	교차 행, 오른쪽 먼저
+	Columns, left first	교차 열, 왼쪽 먼저
+	Columns, right first	교차 열, 오른쪽 먼저
+	Checkerboard, left first	체커보드, 왼쪽 먼저
+	Checkerboard, right first	체커보드, 오른쪽 먼저
+	This file declares a stereo layout SoundCraft cannot reconstruct; choose its input packing.	이 파일에 선언된 스테레오 배치를 SoundCraft가 재구성할 수 없습니다. 입력 배치를 선택하세요.
+	The decoded picture does not match its native grid.	디코딩된 이미지가 원본 격자와 일치하지 않습니다.
+	The stereo picture exceeds the output byte limit.	스테레오 이미지가 출력 바이트 제한을 초과합니다.
+	The sample aspect ratio is too large.	픽셀 종횡비가 너무 큽니다.
+	The sample aspect ratio is invalid.	픽셀 종횡비가 잘못되었습니다.
+	Could not allocate the stereo picture.	스테레오 이미지 메모리를 할당할 수 없습니다.
+	The stereo video window did not open.	스테레오 동영상 창이 열리지 않았습니다.
+	The stereo video window closed before the complete picture was shown.	전체 이미지가 표시되기 전에 스테레오 동영상 창이 닫혔습니다.
+	Could not open Display Settings: {error}	디스플레이 설정을 열 수 없습니다: {error}
+	invalid stereo sample-grid geometry	스테레오 샘플 격자의 모양이 잘못되었습니다
+	stereo sample buffer does not match its dimensions	스테레오 샘플 버퍼가 크기와 일치하지 않습니다
+	stereo sample copy exceeds its output byte limit	스테레오 샘플 복사가 출력 바이트 제한을 초과합니다
+	cannot allocate stereo sample grids	스테레오 샘플 격자 메모리를 할당할 수 없습니다
+	Polish (stereo controls)	폴란드어 (스테레오 제어)
+	French (stereo controls)	프랑스어 (스테레오 제어)
+	German (stereo controls)	독일어 (스테레오 제어)
+	Spanish (stereo controls)	스페인어 (스테레오 제어)
+	Japanese (stereo controls)	일본어 (스테레오 제어)
+	Korean (stereo controls)	한국어 (스테레오 제어)
+	Chinese (Simplified) (stereo controls)	중국어 간체 (스테레오 제어)
+	Chinese (Traditional) (stereo controls)	중국어 번체 (스테레오 제어)
+	Automatic H.264 stereo needs codec metadata; choose this file's input packing.	H.264 스테레오 자동 판정에는 코덱 메타데이터가 필요합니다. 이 파일의 입력 배치를 선택하세요.

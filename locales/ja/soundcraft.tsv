@@ -1,0 +1,55 @@
+# ja partial interface catalog for SoundCraft stereo video.
+# Columns, separated by a TAB: context <TAB> English source text <TAB> translation
+# A missing entry shows in English. Ordinary UI retains its original catalogs.
+# Clean room: every entry was written from the plain meaning of the English text.
+# No other product's localisation, string table or translated UI was consulted or copied.
+# Partial catalog: stereo controls only. No native-speaker review.
+	Stereo Video	ステレオ動画
+	Enable 3D	3Dを有効にする
+	Render resolution per eye	片目あたりの描画解像度
+	Native film samples; the desktop scales once.	動画の元のサンプルを保持し、デスクトップで一度だけ拡大縮小します。
+	Display Settings	ディスプレイ設定
+	Input packing	入力の配置
+	Swap left and right eyes	左右の目を入れ替える
+	No movie at the audio playhead.	音声の再生位置に動画がありません。
+	Automatic packing reads MP4 st3d. Choose the packing for other marks.	自動検出はMP4 st3dを読み取ります。他の標識では配置を選択してください。
+	This host has no stereo video window.	この環境にはステレオ動画ウィンドウがありません。
+	The desktop has no stereo declaration; showing the left eye only.	デスクトップがステレオを宣言していないため、左目のみ表示します。
+	From file	ファイルから
+	2D	2D
+	Side by side, left first	左右並列、左目が先
+	Side by side, right first	左右並列、右目が先
+	Half side by side, left first	半幅の左右並列、左目が先
+	Half side by side, right first	半幅の左右並列、右目が先
+	Top and bottom, left first	上下配置、左目が先
+	Top and bottom, right first	上下配置、右目が先
+	Half top and bottom, left first	半高の上下配置、左目が先
+	Half top and bottom, right first	半高の上下配置、右目が先
+	Rows, left first	行交互、左目が先
+	Rows, right first	行交互、右目が先
+	Columns, left first	列交互、左目が先
+	Columns, right first	列交互、右目が先
+	Checkerboard, left first	市松模様、左目が先
+	Checkerboard, right first	市松模様、右目が先
+	This file declares a stereo layout SoundCraft cannot reconstruct; choose its input packing.	このファイルのステレオ配置をSoundCraftは再構成できません。入力の配置を選択してください。
+	The decoded picture does not match its native grid.	デコードされた画像が元のグリッドと一致しません。
+	The stereo picture exceeds the output byte limit.	ステレオ画像が出力バイト数の上限を超えています。
+	The sample aspect ratio is too large.	画素のアスペクト比が大きすぎます。
+	The sample aspect ratio is invalid.	画素のアスペクト比が無効です。
+	Could not allocate the stereo picture.	ステレオ画像のメモリを確保できませんでした。
+	The stereo video window did not open.	ステレオ動画ウィンドウが開きませんでした。
+	The stereo video window closed before the complete picture was shown.	画像全体が表示される前にステレオ動画ウィンドウが閉じました。
+	Could not open Display Settings: {error}	ディスプレイ設定を開けませんでした: {error}
+	invalid stereo sample-grid geometry	ステレオサンプルグリッドの形状が無効です
+	stereo sample buffer does not match its dimensions	ステレオサンプルバッファのサイズが寸法と一致しません
+	stereo sample copy exceeds its output byte limit	ステレオサンプルのコピーが出力バイト数の上限を超えています
+	cannot allocate stereo sample grids	ステレオサンプルグリッドのメモリを確保できません
+	Polish (stereo controls)	ポーランド語（ステレオ操作）
+	French (stereo controls)	フランス語（ステレオ操作）
+	German (stereo controls)	ドイツ語（ステレオ操作）
+	Spanish (stereo controls)	スペイン語（ステレオ操作）
+	Japanese (stereo controls)	日本語（ステレオ操作）
+	Korean (stereo controls)	韓国語（ステレオ操作）
+	Chinese (Simplified) (stereo controls)	簡体字中国語（ステレオ操作）
+	Chinese (Traditional) (stereo controls)	繁体字中国語（ステレオ操作）
+	Automatic H.264 stereo needs codec metadata; choose this file's input packing.	H.264のステレオ自動判定にはコーデックのメタデータが必要です。このファイルの入力配置を選択してください。

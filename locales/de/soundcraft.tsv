@@ -1,0 +1,55 @@
+# de partial interface catalog for SoundCraft stereo video.
+# Columns, separated by a TAB: context <TAB> English source text <TAB> translation
+# A missing entry shows in English. Ordinary UI retains its original catalogs.
+# Clean room: every entry was written from the plain meaning of the English text.
+# No other product's localisation, string table or translated UI was consulted or copied.
+# Partial catalog: stereo controls only. No native-speaker review.
+	Stereo Video	Stereovideo
+	Enable 3D	3D aktivieren
+	Render resolution per eye	Renderauflösung pro Auge
+	Native film samples; the desktop scales once.	Native Filmabtastwerte; der Desktop skaliert nur einmal.
+	Display Settings	Anzeigeeinstellungen
+	Input packing	Eingangsanordnung
+	Swap left and right eyes	Linkes und rechtes Auge tauschen
+	No movie at the audio playhead.	Kein Film an der Audiowiedergabeposition.
+	Automatic packing reads MP4 st3d. Choose the packing for other marks.	Die Automatik liest MP4 st3d. Wählen Sie die Anordnung für andere Kennzeichnungen.
+	This host has no stereo video window.	Diese Umgebung bietet kein Stereovideofenster.
+	The desktop has no stereo declaration; showing the left eye only.	Der Desktop meldet kein Stereo; nur das linke Auge wird angezeigt.
+	From file	Aus der Datei
+	2D	2D
+	Side by side, left first	Nebeneinander, links zuerst
+	Side by side, right first	Nebeneinander, rechts zuerst
+	Half side by side, left first	Halbe Breite nebeneinander, links zuerst
+	Half side by side, right first	Halbe Breite nebeneinander, rechts zuerst
+	Top and bottom, left first	Übereinander, links zuerst
+	Top and bottom, right first	Übereinander, rechts zuerst
+	Half top and bottom, left first	Halbe Höhe übereinander, links zuerst
+	Half top and bottom, right first	Halbe Höhe übereinander, rechts zuerst
+	Rows, left first	Zeilen, links zuerst
+	Rows, right first	Zeilen, rechts zuerst
+	Columns, left first	Spalten, links zuerst
+	Columns, right first	Spalten, rechts zuerst
+	Checkerboard, left first	Schachbrett, links zuerst
+	Checkerboard, right first	Schachbrett, rechts zuerst
+	This file declares a stereo layout SoundCraft cannot reconstruct; choose its input packing.	Diese Datei meldet eine Stereoanordnung, die SoundCraft nicht rekonstruieren kann; wählen Sie ihre Eingangsanordnung.
+	The decoded picture does not match its native grid.	Das dekodierte Bild entspricht nicht seinem nativen Raster.
+	The stereo picture exceeds the output byte limit.	Das Stereobild überschreitet die zulässige Ausgabedatenmenge.
+	The sample aspect ratio is too large.	Das Pixel-Seitenverhältnis ist zu groß.
+	The sample aspect ratio is invalid.	Das Pixel-Seitenverhältnis ist ungültig.
+	Could not allocate the stereo picture.	Das Stereobild konnte nicht im Speicher angelegt werden.
+	The stereo video window did not open.	Das Stereovideofenster wurde nicht geöffnet.
+	The stereo video window closed before the complete picture was shown.	Das Stereovideofenster wurde geschlossen, bevor das vollständige Bild angezeigt wurde.
+	Could not open Display Settings: {error}	Anzeigeeinstellungen konnten nicht geöffnet werden: {error}
+	invalid stereo sample-grid geometry	ungültige Geometrie des Stereo-Abtastrasters
+	stereo sample buffer does not match its dimensions	der Stereo-Abtastpuffer entspricht nicht seinen Abmessungen
+	stereo sample copy exceeds its output byte limit	die Stereo-Abtastkopie überschreitet die zulässige Ausgabedatenmenge
+	cannot allocate stereo sample grids	die Stereo-Abtastraster konnten nicht im Speicher angelegt werden
+	Polish (stereo controls)	Polnisch (Stereosteuerung)
+	French (stereo controls)	Französisch (Stereosteuerung)
+	German (stereo controls)	Deutsch (Stereosteuerung)
+	Spanish (stereo controls)	Spanisch (Stereosteuerung)
+	Japanese (stereo controls)	Japanisch (Stereosteuerung)
+	Korean (stereo controls)	Koreanisch (Stereosteuerung)
+	Chinese (Simplified) (stereo controls)	Chinesisch vereinfacht (Stereosteuerung)
+	Chinese (Traditional) (stereo controls)	Chinesisch traditionell (Stereosteuerung)
+	Automatic H.264 stereo needs codec metadata; choose this file's input packing.	Automatisches H.264-Stereo benötigt Codec-Metadaten; wählen Sie die Eingangsanordnung dieser Datei.

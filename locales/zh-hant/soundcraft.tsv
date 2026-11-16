@@ -1,0 +1,55 @@
+# zh-hant partial interface catalog for SoundCraft stereo video.
+# Columns, separated by a TAB: context <TAB> English source text <TAB> translation
+# A missing entry shows in English. Ordinary UI retains its original catalogs.
+# Clean room: every entry was written from the plain meaning of the English text.
+# No other product's localisation, string table or translated UI was consulted or copied.
+# Partial catalog: stereo controls only. No native-speaker review.
+	Stereo Video	立體影片
+	Enable 3D	啟用3D
+	Render resolution per eye	每眼算繪解析度
+	Native film samples; the desktop scales once.	保留影片原始取樣，僅由桌面縮放一次。
+	Display Settings	顯示設定
+	Input packing	輸入排列
+	Swap left and right eyes	交換左右眼
+	No movie at the audio playhead.	音訊播放位置沒有影片。
+	Automatic packing reads MP4 st3d. Choose the packing for other marks.	自動偵測讀取MP4 st3d。其他標記請選擇輸入排列。
+	This host has no stereo video window.	此環境不提供立體影片視窗。
+	The desktop has no stereo declaration; showing the left eye only.	桌面未宣告立體支援，僅顯示左眼。
+	From file	從檔案讀取
+	2D	2D
+	Side by side, left first	左右排列，左眼優先
+	Side by side, right first	左右排列，右眼優先
+	Half side by side, left first	半寬左右排列，左眼優先
+	Half side by side, right first	半寬左右排列，右眼優先
+	Top and bottom, left first	上下排列，左眼優先
+	Top and bottom, right first	上下排列，右眼優先
+	Half top and bottom, left first	半高上下排列，左眼優先
+	Half top and bottom, right first	半高上下排列，右眼優先
+	Rows, left first	交錯列，左眼優先
+	Rows, right first	交錯列，右眼優先
+	Columns, left first	交錯欄，左眼優先
+	Columns, right first	交錯欄，右眼優先
+	Checkerboard, left first	棋盤格，左眼優先
+	Checkerboard, right first	棋盤格，右眼優先
+	This file declares a stereo layout SoundCraft cannot reconstruct; choose its input packing.	此檔案宣告的立體排列無法由SoundCraft重建；請選擇輸入排列。
+	The decoded picture does not match its native grid.	解碼影像與原始網格不符。
+	The stereo picture exceeds the output byte limit.	立體影像超過輸出位元組限制。
+	The sample aspect ratio is too large.	像素長寬比過大。
+	The sample aspect ratio is invalid.	像素長寬比無效。
+	Could not allocate the stereo picture.	無法為立體影像配置記憶體。
+	The stereo video window did not open.	立體影片視窗未開啟。
+	The stereo video window closed before the complete picture was shown.	完整影像顯示前，立體影片視窗已關閉。
+	Could not open Display Settings: {error}	無法開啟顯示設定：{error}
+	invalid stereo sample-grid geometry	立體取樣網格幾何無效
+	stereo sample buffer does not match its dimensions	立體取樣緩衝區與尺寸不符
+	stereo sample copy exceeds its output byte limit	立體取樣複製超過輸出位元組限制
+	cannot allocate stereo sample grids	無法為立體取樣網格配置記憶體
+	Polish (stereo controls)	波蘭語（立體控制）
+	French (stereo controls)	法語（立體控制）
+	German (stereo controls)	德語（立體控制）
+	Spanish (stereo controls)	西班牙語（立體控制）
+	Japanese (stereo controls)	日語（立體控制）
+	Korean (stereo controls)	韓語（立體控制）
+	Chinese (Simplified) (stereo controls)	簡體中文（立體控制）
+	Chinese (Traditional) (stereo controls)	繁體中文（立體控制）
+	Automatic H.264 stereo needs codec metadata; choose this file's input packing.	H.264立體自動判斷需要編解碼器中繼資料；請選擇此檔案的輸入排列。

@@ -1,0 +1,55 @@
+# fr partial interface catalog for SoundCraft stereo video.
+# Columns, separated by a TAB: context <TAB> English source text <TAB> translation
+# A missing entry shows in English. Ordinary UI retains its original catalogs.
+# Clean room: every entry was written from the plain meaning of the English text.
+# No other product's localisation, string table or translated UI was consulted or copied.
+# Partial catalog: stereo controls only. No native-speaker review.
+	Stereo Video	Vidéo stéréo
+	Enable 3D	Activer la 3D
+	Render resolution per eye	Résolution du rendu par œil
+	Native film samples; the desktop scales once.	Échantillons natifs du film ; le bureau redimensionne une seule fois.
+	Display Settings	Paramètres d’affichage
+	Input packing	Disposition d’entrée
+	Swap left and right eyes	Permuter les yeux gauche et droit
+	No movie at the audio playhead.	Aucun film à la position de lecture audio.
+	Automatic packing reads MP4 st3d. Choose the packing for other marks.	La détection automatique lit MP4 st3d. Choisissez la disposition pour les autres marques.
+	This host has no stereo video window.	Cet environnement ne propose pas de fenêtre vidéo stéréo.
+	The desktop has no stereo declaration; showing the left eye only.	Le bureau ne déclare pas la stéréo ; seul l’œil gauche est affiché.
+	From file	Depuis le fichier
+	2D	2D
+	Side by side, left first	Côte à côte, gauche en premier
+	Side by side, right first	Côte à côte, droite en premier
+	Half side by side, left first	Demi-largeur côte à côte, gauche en premier
+	Half side by side, right first	Demi-largeur côte à côte, droite en premier
+	Top and bottom, left first	Dessus-dessous, gauche en premier
+	Top and bottom, right first	Dessus-dessous, droite en premier
+	Half top and bottom, left first	Demi-hauteur dessus-dessous, gauche en premier
+	Half top and bottom, right first	Demi-hauteur dessus-dessous, droite en premier
+	Rows, left first	Lignes, gauche en premier
+	Rows, right first	Lignes, droite en premier
+	Columns, left first	Colonnes, gauche en premier
+	Columns, right first	Colonnes, droite en premier
+	Checkerboard, left first	Damier, gauche en premier
+	Checkerboard, right first	Damier, droite en premier
+	This file declares a stereo layout SoundCraft cannot reconstruct; choose its input packing.	Ce fichier déclare une disposition stéréo que SoundCraft ne peut pas reconstruire ; choisissez sa disposition d’entrée.
+	The decoded picture does not match its native grid.	L’image décodée ne correspond pas à sa grille native.
+	The stereo picture exceeds the output byte limit.	L’image stéréo dépasse la limite d’octets de sortie.
+	The sample aspect ratio is too large.	Le rapport de forme des pixels est trop grand.
+	The sample aspect ratio is invalid.	Le rapport de forme des pixels est invalide.
+	Could not allocate the stereo picture.	Impossible d’allouer l’image stéréo.
+	The stereo video window did not open.	La fenêtre vidéo stéréo ne s’est pas ouverte.
+	The stereo video window closed before the complete picture was shown.	La fenêtre vidéo stéréo s’est fermée avant l’affichage de l’image complète.
+	Could not open Display Settings: {error}	Impossible d’ouvrir les paramètres d’affichage : {error}
+	invalid stereo sample-grid geometry	géométrie invalide de la grille d’échantillons stéréo
+	stereo sample buffer does not match its dimensions	le tampon d’échantillons stéréo ne correspond pas à ses dimensions
+	stereo sample copy exceeds its output byte limit	la copie d’échantillons stéréo dépasse la limite d’octets de sortie
+	cannot allocate stereo sample grids	impossible d’allouer les grilles d’échantillons stéréo
+	Polish (stereo controls)	Polonais (commandes stéréo)
+	French (stereo controls)	Français (commandes stéréo)
+	German (stereo controls)	Allemand (commandes stéréo)
+	Spanish (stereo controls)	Espagnol (commandes stéréo)
+	Japanese (stereo controls)	Japonais (commandes stéréo)
+	Korean (stereo controls)	Coréen (commandes stéréo)
+	Chinese (Simplified) (stereo controls)	Chinois simplifié (commandes stéréo)
+	Chinese (Traditional) (stereo controls)	Chinois traditionnel (commandes stéréo)
+	Automatic H.264 stereo needs codec metadata; choose this file's input packing.	La stéréo H.264 automatique nécessite les métadonnées du codec ; choisissez la disposition d’entrée de ce fichier.

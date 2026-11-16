@@ -1,0 +1,55 @@
+# pt-br partial interface catalog for SoundCraft stereo video.
+# Columns, separated by a TAB: context <TAB> English source text <TAB> translation
+# A missing entry shows in English. Ordinary UI retains its original catalogs.
+# Clean room: every entry was written from the plain meaning of the English text.
+# No other product's localisation, string table or translated UI was consulted or copied.
+# Partial catalog: stereo controls only. No native-speaker review.
+	Stereo Video	Vídeo estéreo
+	Enable 3D	Ativar 3D
+	Render resolution per eye	Resolução de renderização por olho
+	Native film samples; the desktop scales once.	Amostras nativas do filme; o ambiente de trabalho redimensiona uma só vez.
+	Display Settings	Configurações de tela
+	Input packing	Disposição de entrada
+	Swap left and right eyes	Trocar os olhos esquerdo e direito
+	No movie at the audio playhead.	Nenhum filme na posição de reprodução do áudio.
+	Automatic packing reads MP4 st3d. Choose the packing for other marks.	A detecção automática lê MP4 st3d. Escolha a disposição para outras marcações.
+	This host has no stereo video window.	Este ambiente não oferece uma janela de vídeo estéreo.
+	The desktop has no stereo declaration; showing the left eye only.	O ambiente de trabalho não declara estéreo; mostrando apenas o olho esquerdo.
+	From file	Do arquivo
+	2D	2D
+	Side by side, left first	Lado a lado, esquerdo primeiro
+	Side by side, right first	Lado a lado, direito primeiro
+	Half side by side, left first	Meia largura lado a lado, esquerdo primeiro
+	Half side by side, right first	Meia largura lado a lado, direito primeiro
+	Top and bottom, left first	Em cima e embaixo, esquerdo primeiro
+	Top and bottom, right first	Em cima e embaixo, direito primeiro
+	Half top and bottom, left first	Meia altura em cima e embaixo, esquerdo primeiro
+	Half top and bottom, right first	Meia altura em cima e embaixo, direito primeiro
+	Rows, left first	Linhas, esquerdo primeiro
+	Rows, right first	Linhas, direito primeiro
+	Columns, left first	Colunas, esquerdo primeiro
+	Columns, right first	Colunas, direito primeiro
+	Checkerboard, left first	Tabuleiro, esquerdo primeiro
+	Checkerboard, right first	Tabuleiro, direito primeiro
+	This file declares a stereo layout SoundCraft cannot reconstruct; choose its input packing.	Este arquivo declara uma disposição estéreo que o SoundCraft não consegue reconstruir; escolha a disposição de entrada.
+	The decoded picture does not match its native grid.	A imagem decodificada não corresponde à sua grade nativa.
+	The stereo picture exceeds the output byte limit.	A imagem estéreo excede o limite de bytes de saída.
+	The sample aspect ratio is too large.	A proporção dos pixels é grande demais.
+	The sample aspect ratio is invalid.	A proporção dos pixels é inválida.
+	Could not allocate the stereo picture.	Não foi possível alocar a imagem estéreo.
+	The stereo video window did not open.	A janela de vídeo estéreo não abriu.
+	The stereo video window closed before the complete picture was shown.	A janela de vídeo estéreo fechou antes de mostrar a imagem completa.
+	Could not open Display Settings: {error}	Não foi possível abrir as configurações de tela: {error}
+	invalid stereo sample-grid geometry	geometria inválida da grade de amostras estéreo
+	stereo sample buffer does not match its dimensions	o buffer de amostras estéreo não corresponde às suas dimensões
+	stereo sample copy exceeds its output byte limit	a cópia das amostras estéreo excede o limite de bytes de saída
+	cannot allocate stereo sample grids	não foi possível alocar as grades de amostras estéreo
+	Polish (stereo controls)	Polonês (controles estéreo)
+	French (stereo controls)	Francês (controles estéreo)
+	German (stereo controls)	Alemão (controles estéreo)
+	Spanish (stereo controls)	Espanhol (controles estéreo)
+	Japanese (stereo controls)	Japonês (controles estéreo)
+	Korean (stereo controls)	Coreano (controles estéreo)
+	Chinese (Simplified) (stereo controls)	Chinês simplificado (controles estéreo)
+	Chinese (Traditional) (stereo controls)	Chinês tradicional (controles estéreo)
+	Automatic H.264 stereo needs codec metadata; choose this file's input packing.	O estéreo H.264 automático precisa dos metadados do codec; escolha a disposição de entrada deste arquivo.

@@ -383,3 +383,8 @@ They describe alternate colours, invalid indexed-colour image data and inferred 
 The indexed-colour diagnostic covers both recovered entries and an image that could not be recovered; it does not claim every image was omitted.
 Written with AI assistance from the English meanings; no other product localisation was consulted.
 No native-speaker review is recorded.
+
+## SoundCraft stereo controls
+
+`locales/{de,es,fr,ja,ko,pl,pt-br,zh-hans,zh-hant}/soundcraft.tsv`: new partial catalogs by Daniel Campos Ramos, written with AI assistance from the English meaning; no other product’s translations consulted, no native-speaker review.
+English remains the source language; common rows are reused without duplicate overrides.
